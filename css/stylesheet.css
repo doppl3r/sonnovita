@@ -1,0 +1,7 @@
+body {
+  text-align: center; }
+
+@font-face {
+  font-family: 'helvetica-light';
+  src: url("../fonts/helvetica-light-webfont.eot");
+  src: url("../fonts/helvetica-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica-light-webfont.woff") format("woff"), url("../fonts/helvetica-light-webfont.ttf") format("truetype"), url("../fonts/helvetica-light-webfont.svg") format("svg"); }
