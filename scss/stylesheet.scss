@@ -1,4 +1,29 @@
-body { text-align: center; }
+body {
+    background-color: #37312d;
+    text-align: center;
+
+    header {
+        .owl-carousel {
+            &.home {
+                .owl-item {
+                    div {
+                        background-size: cover;
+                        background-position: center;
+                        color: transparent;
+                        height: 80vh;
+
+                        &.slide-1 { background-image: url('../img/home-1.jpg'); }
+                        &.slide-2 { background-image: url('../img/home-2.jpg'); }
+                        &.slide-3 { background-image: url('../img/home-3.jpg'); }
+                        &.slide-4 { background-image: url('../img/home-4.jpg'); }
+                        &.slide-5 { background-image: url('../img/home-5.jpg'); }
+                        &.slide-6 { background-image: url('../img/home-6.jpg'); }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 @media(max-width:800px){ 
