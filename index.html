@@ -11,6 +11,7 @@
         <link href="css/normalize.css" rel="stylesheet" type="text/css" />
         <link href="css/lity.min.css" rel="stylesheet" type="text/css" />
         <link href="css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="css/textures.css" rel="stylesheet" type="text/css" />
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
@@ -24,7 +25,13 @@
                 </div>
                 <img src="img/logo-text.svg"/>
             </a>
+            <ul>
+                <li><a href="solutions.html">The Solution</a></li>
+                <li><a href="solutions.html">Color Schemes</a></li>
+                <li><a href="solutions.html">Contact Us</a></li>
+            </ul>
         </nav>
+
         <header>
             <div class="owl-carousel owl-theme home">
                 <div class="slide-1"></div>
@@ -48,6 +55,35 @@
             </div>
         </header>
 
+        <section id="mainwrap" class="create">
+            <div class="headline">
+                <p>Choose from dozens of color schemes</p>
+                <em>Melted Chocolate</em>
+            </div>
+            <div class="owl-carousel owl-theme palette">
+                <div class="item">
+                    <div class="tile texture serengeti"><span class="name">Serengeti</span></div>
+                    <span class="category">Panel A</span>
+                </div>
+                <div class="item">
+                    <div class="tile texture sunset-brown"><span class="name">Sunset Brown</span></div>
+                    <span class="category">Panel B</span>
+                </div>
+                <div class="item">
+                    <div class="tile texture saddle"><span class="name">Saddle</span></div>
+                    <span class="category">Couch</span>
+                </div>
+                <div class="item">
+                    <div class="tile texture mahogany"><span class="name">Mahogany</span></div>
+                    <span class="category">Cabinet Interior</span>
+                </div>
+                <div class="item">
+                    <div class="tile texture mica"><span class="name">Mica</span></div>
+                    <span class="category">Headboard</span>
+                </div>
+            </div>
+        </section>
+
         <!--construct pages with js-->
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/lity.min.js"></script>
@@ -56,14 +92,25 @@
 		<script>
             //new Glide('.glide').mount()
             $(document).ready(function(){
-                $('.owl-carousel').owlCarousel({
+                /* header carousel */
+                $('.owl-carousel.home').owlCarousel({
                     animateOut: 'fadeOut',
                     autoplay: true,
                     autoplayTimeout: 750,
                     items: 1,
                     loop: true,
                     mouseDrag: false,
-                    touchDrag: false
+                    touchDrag: false,
+                    dots: false
+                });
+                /* palette carousel */
+                $('.owl-carousel.palette').owlCarousel({
+                    responsive:{
+                        0: { items:1, nav: true },
+                        540: { items:3, nav: false },
+                        960: { items:5, nav: false }
+                    },
+                    loop: true
                 });
 
                 //animate logo on load

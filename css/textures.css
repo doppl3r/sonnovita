@@ -1,0 +1,331 @@
+/* panels, cabinets, leather, */
+.texture {
+  background-size: cover;
+  background-position: center; }
+
+.ascott {
+  background-image: url("../img/textures/ascott.jpg"); }
+
+.glacier {
+  background-image: url("../img/textures/glacier.jpg"); }
+
+.ravenwood {
+  background-image: url("../img/textures/ravenwood.jpg"); }
+
+.bankers-gray {
+  background-image: url("../img/textures/bankers-gray.jpg"); }
+
+.glass-drift {
+  background-image: url("../img/textures/glass-drift.jpg"); }
+
+.raw-dusk {
+  background-image: url("../img/textures/raw-dusk.jpg"); }
+
+.black-hole {
+  background-image: url("../img/textures/black-hole.jpg"); }
+
+.glass-wenge {
+  background-image: url("../img/textures/glass-wenge.jpg"); }
+
+.sahara {
+  background-image: url("../img/textures/sahara.jpg"); }
+
+.black-on-black {
+  background-image: url("../img/textures/black-on-black.jpg"); }
+
+.gotham-gray {
+  background-image: url("../img/textures/gotham-gray.jpg"); }
+
+.serengeti {
+  background-image: url("../img/textures/serengeti.jpg"); }
+
+.black-tie {
+  background-image: url("../img/textures/black-tie.jpg"); }
+
+.graphite-reign {
+  background-image: url("../img/textures/graphite-reign.jpg"); }
+
+.shades-of-gray {
+  background-image: url("../img/textures/shades-of-gray.jpg"); }
+
+.bronze-linen {
+  background-image: url("../img/textures/bronze-linen.jpg"); }
+
+.gray-flannel {
+  background-image: url("../img/textures/gray-flannel.jpg"); }
+
+.silky-putty {
+  background-image: url("../img/textures/silky-putty.jpg"); }
+
+.brushed-steel {
+  background-image: url("../img/textures/brushed-steel.jpg"); }
+
+.gray-mist {
+  background-image: url("../img/textures/gray-mist.jpg"); }
+
+.snow-crok {
+  background-image: url("../img/textures/snow-crok.jpg"); }
+
+.carbon {
+  background-image: url("../img/textures/carbon.jpg"); }
+
+.latte-trees {
+  background-image: url("../img/textures/latte-trees.jpg"); }
+
+.snow-trees {
+  background-image: url("../img/textures/snow-trees.jpg"); }
+
+.carbon-black {
+  background-image: url("../img/textures/carbon-black.jpg"); }
+
+.linnen-sail {
+  background-image: url("../img/textures/linnen-sail.jpg"); }
+
+.stainless-twist {
+  background-image: url("../img/textures/stainless-twist.jpg"); }
+
+.carbon-new {
+  background-image: url("../img/textures/carbon-new.jpg"); }
+
+.melted-chocolate {
+  background-image: url("../img/textures/melted-chocolate.jpg"); }
+
+.stardust {
+  background-image: url("../img/textures/stardust.jpg"); }
+
+.chantilly-gray {
+  background-image: url("../img/textures/chantilly-gray.jpg"); }
+
+.midnight-crok {
+  background-image: url("../img/textures/midnight-crok.jpg"); }
+
+.stealth {
+  background-image: url("../img/textures/stealth.jpg"); }
+
+.cottage {
+  background-image: url("../img/textures/cottage.jpg"); }
+
+.parchment {
+  background-image: url("../img/textures/parchment.jpg"); }
+
+.sunset-brown {
+  background-image: url("../img/textures/sunset-brown.jpg"); }
+
+.drift-cloth {
+  background-image: url("../img/textures/drift-cloth.jpg"); }
+
+.pearl-stardust {
+  background-image: url("../img/textures/pearl-stardust.jpg"); }
+
+.twisted-steel {
+  background-image: url("../img/textures/twisted-steel.jpg"); }
+
+.dune {
+  background-image: url("../img/textures/dune.jpg"); }
+
+.pewter-rain {
+  background-image: url("../img/textures/pewter-rain.jpg"); }
+
+.urban-cowboy {
+  background-image: url("../img/textures/urban-cowboy.jpg"); }
+
+.earth {
+  background-image: url("../img/textures/earth.jpg"); }
+
+.pure-snow {
+  background-image: url("../img/textures/pure-snow.jpg"); }
+
+.white-prism {
+  background-image: url("../img/textures/white-prism.jpg"); }
+
+.french-roast {
+  background-image: url("../img/textures/french-roast.jpg"); }
+
+.purple-reign {
+  background-image: url("../img/textures/purple-reign.jpg"); }
+
+.alabama-cherry {
+  background-image: url("../img/textures/alabama-cherry.jpg"); }
+
+.cognac {
+  background-image: url("../img/textures/cognac.jpg"); }
+
+.rainier-white {
+  background-image: url("../img/textures/rainier-white.jpg"); }
+
+.almond {
+  background-image: url("../img/textures/almond.jpg"); }
+
+.cordoba-pint {
+  background-image: url("../img/textures/cordoba-pint.jpg"); }
+
+.silver-frost {
+  background-image: url("../img/textures/silver-frost.jpg"); }
+
+.antique-white {
+  background-image: url("../img/textures/antique-white.jpg"); }
+
+.dove-gray {
+  background-image: url("../img/textures/dove-gray.jpg"); }
+
+.slate {
+  background-image: url("../img/textures/slate.jpg"); }
+
+.black {
+  background-image: url("../img/textures/black.jpg"); }
+
+.folkstone {
+  background-image: url("../img/textures/folkstone.jpg"); }
+
+.summit {
+  background-image: url("../img/textures/summit.jpg"); }
+
+.blond-echo {
+  background-image: url("../img/textures/blond-echo.jpg"); }
+
+.hardrock-maple {
+  background-image: url("../img/textures/hardrock-maple.jpg"); }
+
+.wild-apple {
+  background-image: url("../img/textures/wild-apple.jpg"); }
+
+.charcoal {
+  background-image: url("../img/textures/charcoal.jpg"); }
+
+.italien-walnut {
+  background-image: url("../img/textures/italien-walnut.jpg"); }
+
+.wilsonart-designer-white {
+  background-image: url("../img/textures/wilsonart-designer-white.jpg"); }
+
+.chocolate-pear {
+  background-image: url("../img/textures/chocolate-pear.jpg"); }
+
+.mahogany {
+  background-image: url("../img/textures/mahogany.jpg"); }
+
+.wilsonart-shaker-cherry {
+  background-image: url("../img/textures/wilsonart-shaker-cherry.jpg"); }
+
+.cinnamon-myrtle {
+  background-image: url("../img/textures/cinnamon-myrtle.jpg"); }
+
+.natural-maple {
+  background-image: url("../img/textures/natural-maple.jpg"); }
+
+.clacier-white {
+  background-image: url("../img/textures/clacier-white.jpg"); }
+
+.norwegian {
+  background-image: url("../img/textures/norwegian.jpg"); }
+
+.black {
+  background-image: url("../img/textures/black.jpg"); }
+
+.charlott {
+  background-image: url("../img/textures/charlott.jpg"); }
+
+.maxima-pewter {
+  background-image: url("../img/textures/maxima-pewter.jpg"); }
+
+.bourbon {
+  background-image: url("../img/textures/bourbon.jpg"); }
+
+.chocolate {
+  background-image: url("../img/textures/chocolate.jpg"); }
+
+.off-the-grid {
+  background-image: url("../img/textures/off-the-grid.jpg"); }
+
+.brixk {
+  background-image: url("../img/textures/brixk.jpg"); }
+
+.clowd {
+  background-image: url("../img/textures/clowd.jpg"); }
+
+.optical-white {
+  background-image: url("../img/textures/optical-white.jpg"); }
+
+.bronx-moon-dust {
+  background-image: url("../img/textures/bronx-moon-dust.jpg"); }
+
+.dante-spice {
+  background-image: url("../img/textures/dante-spice.jpg"); }
+
+.pink-elmanordic {
+  background-image: url("../img/textures/pink-elmanordic.jpg"); }
+
+.brooklyn-creme-brulee {
+  background-image: url("../img/textures/brooklyn-creme-brulee.jpg"); }
+
+.deer-run {
+  background-image: url("../img/textures/deer-run.jpg"); }
+
+.rasberry-elmanordic-III {
+  background-image: url("../img/textures/rasberry-elmanordic-III.jpg"); }
+
+.brooklyn-fog {
+  background-image: url("../img/textures/brooklyn-fog.jpg"); }
+
+.elmanordic-III {
+  background-image: url("../img/textures/elmanordic-III.jpg"); }
+
+.regent-modern-gray {
+  background-image: url("../img/textures/regent-modern-gray.jpg"); }
+
+.casablanca-smoke {
+  background-image: url("../img/textures/casablanca-smoke.jpg"); }
+
+.eugene-sabia {
+  background-image: url("../img/textures/eugene-sabia.jpg"); }
+
+.regent-sand {
+  background-image: url("../img/textures/regent-sand.jpg"); }
+
+.cetus-cielo {
+  background-image: url("../img/textures/cetus-cielo.jpg"); }
+
+.eugene-slate {
+  background-image: url("../img/textures/eugene-slate.jpg"); }
+
+.saddle {
+  background-image: url("../img/textures/saddle.jpg"); }
+
+.cetus-granite {
+  background-image: url("../img/textures/cetus-granite.jpg"); }
+
+.holiday-lace {
+  background-image: url("../img/textures/holiday-lace.jpg"); }
+
+.samca-ivory {
+  background-image: url("../img/textures/samca-ivory.jpg"); }
+
+.cetus-nuvolo {
+  background-image: url("../img/textures/cetus-nuvolo.jpg"); }
+
+.holiday-mink {
+  background-image: url("../img/textures/holiday-mink.jpg"); }
+
+.slate {
+  background-image: url("../img/textures/slate.jpg"); }
+
+.cetus-pebble {
+  background-image: url("../img/textures/cetus-pebble.jpg"); }
+
+.lipstick {
+  background-image: url("../img/textures/lipstick.jpg"); }
+
+.tumbleweed {
+  background-image: url("../img/textures/tumbleweed.jpg"); }
+
+.cetus-smoke {
+  background-image: url("../img/textures/cetus-smoke.jpg"); }
+
+.maxima-coffee {
+  background-image: url("../img/textures/maxima-coffee.jpg"); }
+
+.chalk {
+  background-image: url("../img/textures/chalk.jpg"); }
+
+.maxima-onyx {
+  background-image: url("../img/textures/maxima-onyx.jpg"); }
