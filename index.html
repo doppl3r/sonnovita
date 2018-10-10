@@ -14,14 +14,37 @@
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
+        <nav>
+            <a class="logo">
+                <div class="icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <img src="img/logo-text.svg"/>
+            </a>
+        </nav>
         <header>
             <div class="owl-carousel owl-theme home">
-                <div class="slide-1">1</div>
-                <div class="slide-2">2</div>
-                <div class="slide-3">3</div>
-                <div class="slide-4">4</div>
-                <div class="slide-5">5</div>
-                <div class="slide-6">6</div>
+                <div class="slide-1"></div>
+                <div class="slide-2"></div>
+                <div class="slide-3"></div>
+                <div class="slide-4"></div>
+                <div class="slide-5"></div>
+                <div class="slide-6"></div>
+                <div class="slide-7"></div>
+                <div class="slide-8"></div>
+                <div class="slide-9"></div>
+                <div class="slide-10"></div>
+                <div class="slide-9"></div>
+                <div class="slide-8"></div>
+                <div class="slide-7"></div>
+                <div class="slide-6"></div>
+                <div class="slide-5"></div>
+                <div class="slide-4"></div>
+                <div class="slide-3"></div>
+                <div class="slide-2"></div>
             </div>
         </header>
 
@@ -36,12 +59,15 @@
                 $('.owl-carousel').owlCarousel({
                     animateOut: 'fadeOut',
                     autoplay: true,
-                    autoplayTimeout: 1000,
+                    autoplayTimeout: 750,
                     items: 1,
                     loop: true,
                     mouseDrag: false,
                     touchDrag: false
                 });
+
+                //animate logo on load
+                $('nav .logo .icon').addClass('animate');
             });
 		</script>
 	</body>
