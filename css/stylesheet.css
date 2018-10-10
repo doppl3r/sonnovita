@@ -84,6 +84,14 @@ body {
       body nav .logo img {
         height: 23px;
         padding-left: 6px; }
+    body nav #toggle-menu {
+      display: none;
+      /* default hidden */
+      opacity: 0.8;
+      position: absolute;
+      right: 24px;
+      top: 32px;
+      width: 30px; }
     body nav ul {
       color: #fff;
       display: flex;
@@ -106,7 +114,8 @@ body {
       background-size: cover;
       background-position: center;
       color: transparent;
-      height: calc(100vh - 192px); }
+      height: calc(100vh - 180px);
+      min-height: 480px; }
       body header .owl-carousel.home .owl-item div.slide-1 {
         background-image: url("../img/home/home-1.jpg"); }
       body header .owl-carousel.home .owl-item div.slide-2 {
@@ -127,6 +136,14 @@ body {
         background-image: url("../img/home/home-9.jpg"); }
       body header .owl-carousel.home .owl-item div.slide-10 {
         background-image: url("../img/home/home-10.jpg"); }
+    body header h2 {
+      color: #37312d;
+      font-size: 2vw;
+      left: 20%;
+      max-width: 15%;
+      position: absolute;
+      top: 20%;
+      z-index: 1; }
   body section.create {
     color: #ffffff;
     text-align: center;
@@ -161,6 +178,97 @@ body {
           font-size: 12px;
           padding: 16px 0;
           text-transform: uppercase; }
+      body section.create .owl-carousel.palette .owl-nav {
+        position: absolute;
+        top: calc(50% - 36px);
+        width: 100%; }
+        body section.create .owl-carousel.palette .owl-nav button {
+          color: transparent;
+          height: 48px;
+          opacity: 0.8;
+          position: absolute;
+          width: 16px; }
+          body section.create .owl-carousel.palette .owl-nav button.owl-prev {
+            left: 12px;
+            background-image: url("../img/left-arrow.svg"); }
+          body section.create .owl-carousel.palette .owl-nav button.owl-next {
+            right: 12px;
+            background-image: url("../img/right-arrow.svg"); }
+    body section.create .cta {
+      padding: 32px 0 80px; }
+  body footer {
+    color: #fff;
+    text-align: center;
+    padding: 0 0 240px; }
+    body footer .links {
+      border-top: 1px solid #878381;
+      display: inline-block; }
+      body footer .links .logo {
+        display: inline-block;
+        padding: 64px 0; }
+        body footer .links .logo img {
+          height: 23px; }
+      body footer .links ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0 0 0 auto;
+        padding: 0; }
+        body footer .links ul li {
+          border-right: 1px solid #fff;
+          padding: 0 16px; }
+          body footer .links ul li:last-of-type {
+            border: none; }
+          body footer .links ul li a {
+            color: inherit;
+            font-size: 15px;
+            text-decoration: none; }
+      body footer .links p {
+        font-size: 12px; }
+  body .btn {
+    background-color: #55504c;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 18px 24px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out; }
+    body .btn:hover, body .btn:focus {
+      box-shadow: 0 0 16px #1d1a18;
+      color: #1d1a18; }
+
+@media (max-width: 800px) {
+  body nav #toggle-menu {
+    display: block; }
+  body nav ul {
+    right: 0;
+    padding: 6px 0;
+    position: absolute;
+    text-align: right;
+    top: 80px; }
+    body nav ul[aria-expanded="false"] {
+      display: none; }
+    body nav ul[aria-expanded="true"] {
+      display: block; }
+    body nav ul li {
+      border: none;
+      padding: 0; }
+      body nav ul li a {
+        background-color: #55504c;
+        border-top-left-radius: 999px;
+        border-bottom-left-radius: 999px;
+        display: block;
+        margin-bottom: 12px;
+        padding: 12px 12px 12px 32px;
+        transition: all 0.25s ease-in-out; }
+        body nav ul li a:hover, body nav ul li a:focus {
+          box-shadow: 0 0 16px #1d1a18;
+          color: #1d1a18; }
+  body header h2 {
+    font-size: 18px;
+    left: 5%;
+    max-width: 30%; } }
 
 @font-face {
   font-family: 'helvetica-light';

@@ -25,7 +25,10 @@
                 </div>
                 <img src="img/logo-text.svg"/>
             </a>
-            <ul>
+            <a id="toggle-menu" aria-controls="main-nav" aria-expanded="false" aria-label="open menu" href="#">
+                <img alt="menu icon" src="img/menu-icon.svg">
+            </a>
+            <ul id="main-nav" aria-expanded="false" role="navigation" aria-label="main nav">
                 <li><a href="solutions.html">The Solution</a></li>
                 <li><a href="solutions.html">Color Schemes</a></li>
                 <li><a href="solutions.html">Contact Us</a></li>
@@ -53,6 +56,7 @@
                 <div class="slide-3"></div>
                 <div class="slide-2"></div>
             </div>
+            <h2>Transformative Solutions for a Deep Sleep & Sylish Life</h2>
         </header>
 
         <section id="mainwrap" class="create">
@@ -82,7 +86,24 @@
                     <span class="category">Headboard</span>
                 </div>
             </div>
+            <div class="cta">
+                <a class="btn" href="create.html">create your own color scheme</a>
+            </div>
         </section>
+
+        <footer>
+            <div class="links">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" />
+                </a>
+                <ul>
+                    <li><a href="solutions.html">The Solution</a></li>
+                    <li><a href="solutions.html">Color Schemes</a></li>
+                    <li><a href="solutions.html">Contact Us</a></li>
+                </ul>
+                <p>Copyright, Sonnovita, Scottsdale, AZ. All rights reserved.</p>
+            </div>
+        </footer>
 
         <!--construct pages with js-->
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -107,10 +128,20 @@
                 $('.owl-carousel.palette').owlCarousel({
                     responsive:{
                         0: { items:1, nav: true },
-                        540: { items:3, nav: false },
-                        960: { items:5, nav: false }
+                        540: { items:3, nav: true },
+                        960: { items:5, nav: true }
                     },
-                    loop: true
+                    loop: true,
+                    dots: false
+                });
+
+                //toggle mobile menu
+                $('#toggle-menu').on('click', function(e){
+                    e.preventDefault();
+                    var attr = 'aria-expanded';
+                    var toggle = $(this).attr(attr) == "true" ? true : false;
+                    $(this).attr(attr, !toggle);
+                    $(this).next('ul').attr(attr, !toggle)
                 });
 
                 //animate logo on load
