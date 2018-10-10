@@ -106,7 +106,7 @@ body {
                         background-position: center;
                         color: transparent;
                         height: calc(100vh - 180px);
-                        min-height: 480px;
+                        min-height: 360px;
 
                         &.slide-1 { background-image: url('../img/home/home-1.jpg'); }
                         &.slide-2 { background-image: url('../img/home/home-2.jpg'); }
@@ -295,7 +295,7 @@ body {
 
         header {
             h2 {
-                font-size: 18px;
+                font-size: 12px;
                 left: 5%;
                 max-width: 30%;
             }
