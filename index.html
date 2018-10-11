@@ -23,7 +23,9 @@
                     <div class="bar"></div>
                     <div class="bar"></div>
                 </div>
-                <img src="img/logo-text.svg"/>
+                <div class="text">
+                    <img src="img/logo-text.svg"/>
+                </div>
             </a>
             <a id="toggle-menu" aria-controls="main-nav" aria-expanded="false" aria-label="open menu" href="#">
                 <img alt="menu icon" src="img/menu-icon.svg">
@@ -45,6 +47,9 @@
                 <div class="slide-6"></div>
                 <div class="slide-7"></div>
                 <div class="slide-8"></div>
+                <div class="slide-8"></div>
+                <div class="slide-8"></div>
+                <div class="slide-8"></div>
                 <div class="slide-9"></div>
                 <div class="slide-10"></div>
                 <div class="slide-9"></div>
@@ -55,35 +60,100 @@
                 <div class="slide-4"></div>
                 <div class="slide-3"></div>
                 <div class="slide-2"></div>
+                <div class="slide-1"></div>
+                <div class="slide-1"></div>
+                <div class="slide-1"></div>
+                <div class="slide-1"></div>
+                <div class="slide-1"></div>
             </div>
             <h2>Transformative Solutions for a Deep Sleep & Sylish Life</h2>
         </header>
 
         <section id="mainwrap" class="create">
-            <div class="headline">
-                <p>Choose from dozens of color schemes</p>
-                <em>Melted Chocolate</em>
-            </div>
             <div class="owl-carousel owl-theme palette">
-                <div class="item">
-                    <div class="tile texture serengeti"><span class="name">Serengeti</span></div>
-                    <span class="category">Panel A</span>
+                <div class="group">
+                    <div class="headline">
+                        <p>Choose from dozens of color schemes</p>
+                        <em>Serengeti (pictured)</em>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="tile texture serengeti-panel"><span class="name">Serengeti</span></div>
+                            <span class="category">Panel A</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture sunset-brown-panel"><span class="name">Sunset Brown</span></div>
+                            <span class="category">Panel B</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture saddle-couch"><span class="name">Saddle</span></div>
+                            <span class="category">Couch</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture mahogany-cabinet"><span class="name">Mahogany</span></div>
+                            <span class="category">Cabinet Interior</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture mica-headboard"><span class="name">Mica</span></div>
+                            <span class="category">Headboard</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="tile texture sunset-brown"><span class="name">Sunset Brown</span></div>
-                    <span class="category">Panel B</span>
+                <div class="group">
+                    <div class="headline">
+                        <p>Choose from dozens of color schemes</p>
+                        <em>Black Hole (pictured)</em>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="tile texture black-hole-panel"><span class="name">Black Hole</span></div>
+                            <span class="category">Panel A</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture carbon-panel"><span class="name">Carbon</span></div>
+                            <span class="category">Panel B</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture chocolate-couch"><span class="name">Chocolate</span></div>
+                            <span class="category">Couch</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture charcoal-cabinet"><span class="name">Charcoal</span></div>
+                            <span class="category">Cabinet Interior</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture aubergine-headboard"><span class="name">Aubergine</span></div>
+                            <span class="category">Headboard</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="tile texture saddle"><span class="name">Saddle</span></div>
-                    <span class="category">Couch</span>
-                </div>
-                <div class="item">
-                    <div class="tile texture mahogany"><span class="name">Mahogany</span></div>
-                    <span class="category">Cabinet Interior</span>
-                </div>
-                <div class="item">
-                    <div class="tile texture mica"><span class="name">Mica</span></div>
-                    <span class="category">Headboard</span>
+                <div class="group">
+                    <div class="headline">
+                        <p>Choose from dozens of color schemes</p>
+                        <em>Graphite (pictured)</em>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="tile texture graphite-reign-panel"><span class="name">Graphite Reign</span></div>
+                            <span class="category">Panel A</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture carbon-black-panel"><span class="name">Carbon Black</span></div>
+                            <span class="category">Panel B</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture slate-couch"><span class="name">Slate</span></div>
+                            <span class="category">Couch</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture charcoal-cabinet"><span class="name">Charcoal</span></div>
+                            <span class="category">Cabinet Interior</span>
+                        </div>
+                        <div class="item">
+                            <div class="tile texture ultraviolet-headboard"><span class="name">Ultraviolet</span></div>
+                            <span class="category">Headboard</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="cta">
@@ -126,13 +196,10 @@
                 });
                 /* palette carousel */
                 $('.owl-carousel.palette').owlCarousel({
-                    responsive:{
-                        0: { items:1, nav: true },
-                        540: { items:3, nav: true },
-                        960: { items:5, nav: true }
-                    },
+                    items: 1,
                     loop: true,
-                    dots: false
+                    dots: false,
+                    nav: true
                 });
 
                 //toggle mobile menu
@@ -145,7 +212,7 @@
                 });
 
                 //animate logo on load
-                $('nav .logo .icon').addClass('animate');
+                $('nav .logo').addClass('animate');
             });
 		</script>
 	</body>
