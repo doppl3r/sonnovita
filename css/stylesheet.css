@@ -229,7 +229,7 @@ body {
     color: #ffffff;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 96px 0 270px; }
+    padding: 96px 0; }
     body article.create h1 {
       font-size: 44px;
       font-weight: normal;
@@ -282,6 +282,15 @@ body {
     body article.create .email {
       padding: 36px 0;
       text-align: center; }
+  body article.schemes {
+    color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 96px 0; }
+    body article.schemes h1 {
+      font-size: 44px;
+      font-weight: normal;
+      margin: 0; }
   body footer {
     color: #fff;
     text-align: center;

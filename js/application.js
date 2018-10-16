@@ -28,6 +28,7 @@ function init(){
 function updatePage(){
     var href = window.location.href;
     if (href.indexOf('?create') > 0){ updateCreatePage(); }
+    else if (href.indexOf('schemes.html') > 0){ updateSchemesPage(); }
     else { updateHomePage(); }
 }
 
@@ -63,6 +64,17 @@ function updateCreatePage(){
             window.textureData = data;
             window.parsedURL = parseURL();
             updateScheme();
+        });
+    });
+}
+
+function updateSchemesPage(){
+    //load schemes page content
+    $('#main-content').load('./includes/page-schemes.html', function(){
+        //Import texture data from JSON file
+        $.getJSON('./texture-data.json', function(data){
+            window.textureData = data;
+            addSchemes()
         });
     });
 }
@@ -111,4 +123,35 @@ function updateScheme(){
     $('.create #couch').attr('class', 'texture '+couch+'-couch');
     $('.create #cabinet').attr('class', 'texture '+cabinet+'-cabinet');
     $('.create #headboard').attr('class', 'texture '+headboard+'-headboard');
+}
+
+function addSchemes(){
+    //add all schemes from global texture JSON
+    var t = window.textureData['textures'];
+    var s = $.map(window.textureData['schemes'], function(el) { return el });
+    var row = $('.schemes .row');
+
+    //loop through each scheme
+    for (var i = 0; i < s.length; i++){
+        var title = s[i]['displayName'];
+        var panel_a = s[i]['panel-a'];
+        var panel_b = s[i]['panel-b'];
+        var couch = s[i]['couch'];
+        var cabinet = s[i]['cabinet'];
+        var headboard = s[i]['headboard'];
+        
+        //append column html
+        row.append(
+            '<div class="col-4">'+
+                '<h2 class="title">'+title+'</h2>'+
+                '<div class="grid">'+
+                    '<div class="panel-a texture '+panel_a+'-panel"></div>'+
+                    '<div class="panel-b texture '+panel_b+'-panel"></div>'+
+                    '<div class="couch texture '+couch+'-couch"></div>'+
+                    '<div class="cabinet texture '+cabinet+'-cabinet"></div>'+
+                    '<div class="headboard texture '+headboard+'-headboard"></div>'+
+                '</div>'+
+            '</div>'
+        );
+    }
 }

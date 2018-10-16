@@ -691,6 +691,7 @@
     },
     "schemes": {
         "serengeti" : {
+            "displayName": "Serengeti",
             "panel-a": "serengeti",
             "panel-b": "sunset-brown",
             "couch": "saddle",
@@ -698,8 +699,9 @@
             "headboard": "camel"
         },
         "aged-french" : {
-            "panel-a": "aged-french-oak",
-            "panel-b": "aged-french-oak",
+            "displayName": "Aged French",
+            "panel-a": "french-roast",
+            "panel-b": "french-roast",
             "couch": "summit",
             "cabinet": "regent-sand",
             "headboard": "doeskin"
