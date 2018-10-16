@@ -56,8 +56,14 @@ function updateHomePage(){
 }
 
 function updateCreatePage(){
+    //load create page content
     $('#main-content').load('/includes/create-content.html', function(){
-        importTextureData();
+        //Import texture data from JSON file
+        $.getJSON('/texture-data.json', function(data){
+            window.textureData = data;
+            window.parsedURL = parseURL();
+            updateScheme();
+        });
     });
 }
 
@@ -77,23 +83,23 @@ function parseURL(){
     return paramList;
 }
 
-function importTextureData(){
-    $.getJSON('/texture-data.json', function(data){
-        window.textureData = data;
-        updateGrid(parseURL());
-    });
-}
-
-function updateGrid(list){
-    //use list or default value
+function updateScheme(){
+    //use list or default value from global parsed URL
+    var list = window.parsedURL;
     var panel_a =   list["panel-a"]     || "serengeti";
     var panel_b =   list["panel-b"]     || "sunset-brown";
     var couch =     list["couch"]       || "saddle";
     var cabinet =   list["cabinet"]     || "mahogany";
     var headboard = list["headboard"]   || "camel";
-    var scheme =    list["scheme"]      || "serengeti";
-    var scheme_title = window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined";
-    var description = window.textureData["textures"]["panels"][panel_a]["description"] || "undefined";
+    var scheme =    list["scheme"]      || "none";
+    var scheme_title = "Custom Color Scheme";
+    var description = "The color panel you chose does not exist."
+
+    //update title & description if it matches an existing panel
+    if (window.textureData["textures"]["panels"][panel_a] != null){
+        scheme_title = window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined";
+        description = window.textureData["textures"]["panels"][panel_a]["description"] || "undefined";
+    }
 
     //update page content
     $('#scheme-title').text(scheme_title);

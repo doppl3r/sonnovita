@@ -3,47 +3,47 @@
         "panels": {
             "ascott": {
                 "displayName": "Ascott",
-                "description": ""
+                "description": "description coming soon"
             }, 
             "glacier": {
                 "displayName": "Glacier",
-                "description": ""
+                "description": "description coming soon"
             }, 
             "ravenwood": {
                 "displayName": "Ravenwood",
-                "description": ""
+                "description": "description coming soon"
             }, 
             "bankers-gray": {
                 "displayName": "Bankers Gray",
-                "description": ""
+                "description": "description coming soon"
             },
             "glass-drift": {
                 "displayName": "Glass Drift",
-                "description": ""
+                "description": "description coming soon"
             },
             "raw-dusk": {
                 "displayName": "Raw Dusk",
-                "description": ""
+                "description": "description coming soon"
             },
             "black-hole": {
                 "displayName": "Black Hole",
-                "description": ""
+                "description": "description coming soon"
             },
             "glass-wenge": {
                 "displayName": "Glass Wenge",
-                "description": ""
+                "description": "description coming soon"
             },
             "sahara": {
                 "displayName": "Sahara",
-                "description": ""
+                "description": "description coming soon"
             },
             "black-on-black": {
                 "displayName": "Black on Black",
-                "description": ""
+                "description": "description coming soon"
             },
             "gotham-gray": {
                 "displayName": "Gotham Gray",
-                "description": ""
+                "description": "description coming soon"
             },
             "serengeti": {
                 "displayName": "Serengeti",
@@ -51,401 +51,641 @@
             },
             "black-tie": {
                 "displayName": "Black Tie",
-                "description": ""
+                "description": "description coming soon"
             },
             "graphite-reign": {
                 "displayName": "Graphite Reign",
-                "description": ""
+                "description": "description coming soon"
             },
             "shades-of-gray": {
                 "displayName": "Shades of Gray",
-                "description": ""
+                "description": "description coming soon"
             },
             "bronze-linen": {
                 "displayName": "Bronze Linen",
-                "description": ""
+                "description": "description coming soon"
             },
             "gray-flannel": {
                 "displayName": "Gray Flannel",
-                "description": ""
+                "description": "description coming soon"
             },
             "silky-putty": {
                 "displayName": "Silky Putty",
-                "description": ""
+                "description": "description coming soon"
             },
             "brushed-steel": {
                 "displayName": "Brushed Steel",
-                "description": ""
+                "description": "description coming soon"
             },
             "gray-mist": {
                 "displayName": "Gray Mist",
-                "description": ""
+                "description": "description coming soon"
             },
             "snow-crok": {
                 "displayName": "Snow Crok",
-                "description": ""
+                "description": "description coming soon"
             },
             "carbon": {
                 "displayName": "Carbon",
-                "description": ""
+                "description": "description coming soon"
             },
             "latte-trees": {
                 "displayName": "Latte Trees",
-                "description": ""
+                "description": "description coming soon"
             },
             "snow-trees": {
                 "displayName": "Snow Trees",
-                "description": ""
+                "description": "description coming soon"
             },
             "carbon-black": {
                 "displayName": "Carbon Black",
-                "description": ""
+                "description": "description coming soon"
             },
             "linnen-sail": {
                 "displayName": "Linnen Sail",
-                "description": ""
+                "description": "description coming soon"
             },
             "stainless-twist": {
                 "displayName": "Stainless Twist",
-                "description": ""
+                "description": "description coming soon"
             },
             "carbon-new": {
                 "displayName": "Carbon New",
-                "description": ""
+                "description": "description coming soon"
             },
             "melted-chocolate": {
                 "displayName": "Melted Chocolate",
-                "description": ""
+                "description": "description coming soon"
             },
             "stardust": {
                 "displayName": "Stardust",
-                "description": ""
+                "description": "description coming soon"
             },
             "chantilly-gray": {
                 "displayName": "Chantilly Gray",
-                "description": ""
+                "description": "description coming soon"
             },
             "midnight-crok": {
                 "displayName": "Midnight Crok",
-                "description": ""
+                "description": "description coming soon"
             },
             "stealth": {
                 "displayName": "Stealth",
-                "description": ""
+                "description": "description coming soon"
             },
             "cottage": {
                 "displayName": "Cottage",
-                "description": ""
+                "description": "description coming soon"
             },
             "parchment": {
                 "displayName": "Parchment",
-                "description": ""
+                "description": "description coming soon"
             },
             "sunset-brown": {
                 "displayName": "Sunset Brown",
-                "description": ""
+                "description": "description coming soon"
             },
             "drift-cloth": {
                 "displayName": "Drift Cloth",
-                "description": ""
+                "description": "description coming soon"
             },
             "pearl-stardust": {
                 "displayName": "Pearl Stardust",
-                "description": ""
+                "description": "description coming soon"
             },
             "twisted-steel": {
                 "displayName": "Twisted Steel",
-                "description": ""
+                "description": "description coming soon"
             },
             "dune": {
                 "displayName": "Dune",
-                "description": ""
+                "description": "description coming soon"
             },
             "pewter-rain": {
                 "displayName": "Pewter Rain",
-                "description": ""
+                "description": "description coming soon"
             },
             "urban-cowboy": {
                 "displayName": "Urban Cowboy",
-                "description": ""
+                "description": "description coming soon"
             },
             "earth": {
                 "displayName": "Earth",
-                "description": ""
+                "description": "description coming soon"
             },
             "pure-snow": {
                 "displayName": "Pure Snow",
-                "description": ""
+                "description": "description coming soon"
             },
             "white-prism": {
                 "displayName": "White Prism",
-                "description": ""
+                "description": "description coming soon"
             },
             "french-roast": {
                 "displayName": "French Roast",
-                "description": ""
+                "description": "description coming soon"
             },
             "purple-reign": {
                 "displayName": "Purple Reign",
-                "description": ""
+                "description": "description coming soon"
             }
         },
         "couches": {
+            "black": {
+                "displayName": "Black",
+                "description": "description coming soon"
+            },
+            "charlott": {
+                "displayName": "Charlott",
+                "description": "description coming soon"
+            },
+            "maxima-pewter": {
+                "displayName": "Maxima Pewter",
+                "description": "description coming soon"
+            },
+            "bourbon": {
+                "displayName": "Bourbon",
+                "description": "description coming soon"
+            },
+            "chocolate": {
+                "displayName": "Chocolate",
+                "description": "description coming soon"
+            },
+            "off-the-grid": {
+                "displayName": "Off The Grid",
+                "description": "description coming soon"
+            },
+            "brixk": {
+                "displayName": "Brixk",
+                "description": "description coming soon"
+            },
+            "clowd": {
+                "displayName": "Clowd",
+                "description": "description coming soon"
+            },
+            "optical-white": {
+                "displayName": "Optical White",
+                "description": "description coming soon"
+            },
+            "bronx-moon-dust": {
+                "displayName": "Bronx Moon Dust",
+                "description": "description coming soon"
+            },
+            "dante-spice": {
+                "displayName": "Dante Spice",
+                "description": "description coming soon"
+            },
+            "pink-elmanordic": {
+                "displayName": "Pink Elmanordic",
+                "description": "description coming soon"
+            },
+            "brooklyn-creme-brulee": {
+                "displayName": "Brooklyn Creme Brulee",
+                "description": "description coming soon"
+            },
+            "deer-run": {
+                "displayName": "Deer Run",
+                "description": "description coming soon"
+            },
+            "rasberry-elmanordic-III": {
+                "displayName": "Rasberry Elmanordic III",
+                "description": "description coming soon"
+            },
+            "brooklyn-fog": {
+                "displayName": "Brooklyn Fog",
+                "description": "description coming soon"
+            },
+            "elmanordic-III": {
+                "displayName": "Elmanordic III",
+                "description": "description coming soon"
+            },
+            "regent-modern-gray": {
+                "displayName": "Regent Modern Gray",
+                "description": "description coming soon"
+            },
+            "casablanca-smoke": {
+                "displayName": "Casablanca Smoke",
+                "description": "description coming soon"
+            },
+            "eugene-sabia": {
+                "displayName": "Eugene Sabia",
+                "description": "description coming soon"
+            },
+            "regent-sand": {
+                "displayName": "Regent Sand",
+                "description": "description coming soon"
+            },
+            "cetus-cielo": {
+                "displayName": "Cetus Cielo",
+                "description": "description coming soon"
+            },
+            "eugene-slate": {
+                "displayName": "Eugene Slate",
+                "description": "description coming soon"
+            },
             "saddle": {
                 "displayName": "Saddle",
-                "description": ""
+                "description": "description coming soon"
+            },
+            "cetus-granite": {
+                "displayName": "Cetus Granite",
+                "description": "description coming soon"
+            },
+            "holiday-lace": {
+                "displayName": "Holiday Lace",
+                "description": "description coming soon"
+            },
+            "samca-ivory": {
+                "displayName": "Samca Ivory",
+                "description": "description coming soon"
+            },
+            "cetus-nuvolo": {
+                "displayName": "Cetus Nuvolo",
+                "description": "description coming soon"
+            },
+            "holiday-mink": {
+                "displayName": "Holiday Mink",
+                "description": "description coming soon"
+            },
+            "slate": {
+                "displayName": "Slate",
+                "description": "description coming soon"
+            },
+            "cetus-pebble": {
+                "displayName": "Cetus Pebble",
+                "description": "description coming soon"
+            },
+            "lipstick": {
+                "displayName": "Lipstick",
+                "description": "description coming soon"
+            },
+            "tumbleweed": {
+                "displayName": "Tumbleweed",
+                "description": "description coming soon"
+            },
+            "cetus-smoke": {
+                "displayName": "Cetus Smoke",
+                "description": "description coming soon"
+            },
+            "maxima-coffee": {
+                "displayName": "Maxima Coffee",
+                "description": "description coming soon"
+            },
+            "chalk": {
+                "displayName": "Chalk",
+                "description": "description coming soon"
+            },
+            "maxima-onyx": {
+                "displayName": "Maxima Onyx",
+                "description": "description coming soon"
             }
         },
         "cabinets": {
+            "alabama-cherry": {
+                "displayName": "Alabama Cherry",
+                "description": "description coming soon"
+            },
+            "cognac": {
+                "displayName": "Cognac",
+                "description": "description coming soon"
+            },
+            "rainier-white": {
+                "displayName": "Rainier White",
+                "description": "description coming soon"
+            },
+            "almond": {
+                "displayName": "Almond",
+                "description": "description coming soon"
+            },
+            "cordoba-pint": {
+                "displayName": "Cordoba Pint",
+                "description": "description coming soon"
+            },
+            "silver-frost": {
+                "displayName": "Silver Frost",
+                "description": "description coming soon"
+            },
+            "antique-white": {
+                "displayName": "Antique White",
+                "description": "description coming soon"
+            },
+            "dove-gray": {
+                "displayName": "Dove Gray",
+                "description": "description coming soon"
+            },
+            "slate": {
+                "displayName": "Slate",
+                "description": "description coming soon"
+            },
+            "black": {
+                "displayName": "Black",
+                "description": "description coming soon"
+            },
+            "folkstone": {
+                "displayName": "Folkstone",
+                "description": "description coming soon"
+            },
+            "summit": {
+                "displayName": "Summit",
+                "description": "description coming soon"
+            },
+            "blond-echo": {
+                "displayName": "Blond Echo",
+                "description": "description coming soon"
+            },
+            "hardrock-maple": {
+                "displayName": "Hardrock Maple",
+                "description": "description coming soon"
+            },
+            "wild-apple": {
+                "displayName": "White Apple",
+                "description": "description coming soon"
+            },
+            "charcoal": {
+                "displayName": "Charcoal",
+                "description": "description coming soon"
+            },
+            "italian-walnut": {
+                "displayName": "Italian Walnut",
+                "description": "description coming soon"
+            },
+            "wilsonart-designer-white": {
+                "displayName": "Wilsonart Designer White",
+                "description": "description coming soon"
+            },
+            "chocolate-pear": {
+                "displayName": "Chocolate Pear",
+                "description": "description coming soon"
+            },
             "mahogany": {
                 "displayName": "Mahogany",
-                "description": ""
+                "description": "description coming soon"
+            },
+            "wilsonart-shaker-cherry": {
+                "displayName": "Wilsonart Shaker Cherry",
+                "description": "description coming soon"
+            },
+            "cinnamon-myrtle": {
+                "displayName": "Cinnamon Myrtle",
+                "description": "description coming soon"
+            },
+            "natural-maple": {
+                "displayName": "Natural Maple",
+                "description": "description coming soon"
+            },
+            "glacier-white": {
+                "displayName": "Glacier White",
+                "description": "description coming soon"
+            },
+            "norwegian": {
+                "displayName": "Norwegian",
+                "description": "description coming soon"
             }
         },
         "headboards": {
             "aubergine": {
                 "displayName": "Aubergine",
-                "description": ""
+                "description": "description coming soon"
             },
             "citron": {
                 "displayName": "Citron",
-                "description": ""
+                "description": "description coming soon"
             },
             "gunmetal": {
                 "displayName": "Gunmetal",
-                "description": ""
+                "description": "description coming soon"
             },
             "olive": {
                 "displayName": "Olive",
-                "description": ""
+                "description": "description coming soon"
             },
             "stone": {
                 "displayName": "Stone",
-                "description": ""
+                "description": "description coming soon"
             },
             "bittersweet": {
                 "displayName": "Bittersweet",
-                "description": ""
+                "description": "description coming soon"
             },
             "cloud": {
                 "displayName": "Cloud",
-                "description": ""
+                "description": "description coming soon"
             },
             "hunter": {
                 "displayName": "Hunter",
-                "description": ""
+                "description": "description coming soon"
             },
             "orangeade": {
                 "displayName": "Orangeade",
-                "description": ""
+                "description": "description coming soon"
             },
             "sunshine": {
                 "displayName": "Sunshine",
-                "description": ""
+                "description": "description coming soon"
             },
             "black": {
                 "displayName": "Black",
-                "description": ""
+                "description": "description coming soon"
             },
             "coffee": {
                 "displayName": "Coffee",
-                "description": ""
+                "description": "description coming soon"
             },
             "indigo": {
                 "displayName": "Indigo",
-                "description": ""
+                "description": "description coming soon"
             },
             "oyster": {
                 "displayName": "Oyster",
-                "description": ""
+                "description": "description coming soon"
             },
             "tidepool": {
                 "displayName": "Tidepool",
-                "description": ""
+                "description": "description coming soon"
             },
             "brick": {
                 "displayName": "Brick",
-                "description": ""
+                "description": "description coming soon"
             },
             "copper": {
                 "displayName": "Copper",
-                "description": ""
+                "description": "description coming soon"
             },
             "khaki": {
                 "displayName": "Khaki",
-                "description": ""
+                "description": "description coming soon"
             },
             "parchment": {
                 "displayName": "Parchment",
-                "description": ""
+                "description": "description coming soon"
             },
             "toast": {
                 "displayName": "Toast",
-                "description": ""
+                "description": "description coming soon"
             },
             "buckskin": {
                 "displayName": "Buckskin",
-                "description": ""
+                "description": "description coming soon"
             },
             "cream": {
                 "displayName": "Cream",
-                "description": ""
+                "description": "description coming soon"
             },
             "kiwi": {
                 "displayName": "Kiwi",
-                "description": ""
+                "description": "description coming soon"
             },
             "peat": {
                 "displayName": "Peat",
-                "description": ""
+                "description": "description coming soon"
             },
             "tomato": {
                 "displayName": "Tomato",
-                "description": ""
+                "description": "description coming soon"
             },
             "camel": {
                 "displayName": "Camel",
-                "description": ""
+                "description": "description coming soon"
             },
             "dandelion": {
                 "displayName": "Dandelion",
-                "description": ""
+                "description": "description coming soon"
             },
             "lichen": {
                 "displayName": "Lichen",
-                "description": ""
+                "description": "description coming soon"
             },
             "platinum": {
                 "displayName": "Platinum",
-                "description": ""
+                "description": "description coming soon"
             },
             "turquoise": {
                 "displayName": "Turquoise",
-                "description": ""
+                "description": "description coming soon"
             },
             "canary": {
                 "displayName": "Canary",
-                "description": ""
+                "description": "description coming soon"
             },
             "doeskin": {
                 "displayName": "Doeskin",
-                "description": ""
+                "description": "description coming soon"
             },
             "lilac": {
                 "displayName": "Lilac",
-                "description": ""
+                "description": "description coming soon"
             },
             "pumpkin": {
                 "displayName": "Pumpkin",
-                "description": ""
+                "description": "description coming soon"
             },
             "ultraviolet": {
                 "displayName": "Ultraviolet",
-                "description": ""
+                "description": "description coming soon"
             },
             "celery": {
                 "displayName": "Celery",
-                "description": ""
+                "description": "description coming soon"
             },
             "dove": {
                 "displayName": "Dove",
-                "description": ""
+                "description": "description coming soon"
             },
             "lipstick": {
                 "displayName": "Lipstick",
-                "description": ""
+                "description": "description coming soon"
             },
             "purple": {
                 "displayName": "Purple",
-                "description": ""
+                "description": "description coming soon"
             },
             "white": {
                 "displayName": "White",
-                "description": ""
+                "description": "description coming soon"
             },
             "cement": {
                 "displayName": "Cement",
-                "description": ""
+                "description": "description coming soon"
             },
             "dustyrose": {
                 "displayName": "Dustyrose",
-                "description": ""
+                "description": "description coming soon"
             },
             "mica": {
                 "displayName": "Mica",
-                "description": ""
+                "description": "description coming soon"
             },
             "rust": {
                 "displayName": "Rust",
-                "description": ""
+                "description": "description coming soon"
             },
             "wine": {
                 "displayName": "Wine",
-                "description": ""
+                "description": "description coming soon"
             },
             "charcoal": {
                 "displayName": "Charcoal",
-                "description": ""
+                "description": "description coming soon"
             },
             "earth": {
                 "displayName": "Earth",
-                "description": ""
+                "description": "description coming soon"
             },
             "midi": {
                 "displayName": "Midi",
-                "description": ""
+                "description": "description coming soon"
             },
             "sage": {
                 "displayName": "Sage",
-                "description": ""
+                "description": "description coming soon"
             },
             "chestnut": {
                 "displayName": "Chestnut",
-                "description": ""
+                "description": "description coming soon"
             },
             "espresso": {
                 "displayName": "Espresso",
-                "description": ""
+                "description": "description coming soon"
             },
             "mustard": {
                 "displayName": "Mustard",
-                "description": ""
+                "description": "description coming soon"
             },
             "sea": {
                 "displayName": "Sea",
-                "description": ""
+                "description": "description coming soon"
             },
             "chocolate": {
                 "displayName": "Chocolate",
-                "description": ""
+                "description": "description coming soon"
             },
             "fawn": {
                 "displayName": "Fawn",
-                "description": ""
+                "description": "description coming soon"
             },
             "navy": {
                 "displayName": "Navy",
-                "description": ""
+                "description": "description coming soon"
             },
             "seafoam": {
                 "displayName": "Seafoam",
-                "description": ""
+                "description": "description coming soon"
             },
             "cinnabar": {
                 "displayName": "Cinnabar",
-                "description": ""
+                "description": "description coming soon"
             },
             "godiva": {
                 "displayName": "Godiva",
-                "description": ""
+                "description": "description coming soon"
             },
             "newmocha": {
                 "displayName": "Newmocha",
-                "description": ""
+                "description": "description coming soon"
             },
             "sky": {
                 "displayName": "Sky",
-                "description": ""
+                "description": "description coming soon"
             }
         }
     },
