@@ -1,0 +1,468 @@
+{
+    "textures": {
+        "panels": {
+            "ascott": {
+                "displayName": "Ascott",
+                "description": ""
+            }, 
+            "glacier": {
+                "displayName": "Glacier",
+                "description": ""
+            }, 
+            "ravenwood": {
+                "displayName": "Ravenwood",
+                "description": ""
+            }, 
+            "bankers-gray": {
+                "displayName": "Bankers Gray",
+                "description": ""
+            },
+            "glass-drift": {
+                "displayName": "Glass Drift",
+                "description": ""
+            },
+            "raw-dusk": {
+                "displayName": "Raw Dusk",
+                "description": ""
+            },
+            "black-hole": {
+                "displayName": "Black Hole",
+                "description": ""
+            },
+            "glass-wenge": {
+                "displayName": "Glass Wenge",
+                "description": ""
+            },
+            "sahara": {
+                "displayName": "Sahara",
+                "description": ""
+            },
+            "black-on-black": {
+                "displayName": "Black on Black",
+                "description": ""
+            },
+            "gotham-gray": {
+                "displayName": "Gotham Gray",
+                "description": ""
+            },
+            "serengeti": {
+                "displayName": "Serengeti",
+                "description": "Serengeti is a high gloss reflection of the warm sunset tones of the African plains. Brown, red, orange and black striations"
+            },
+            "black-tie": {
+                "displayName": "Black Tie",
+                "description": ""
+            },
+            "graphite-reign": {
+                "displayName": "Graphite Reign",
+                "description": ""
+            },
+            "shades-of-gray": {
+                "displayName": "Shades of Gray",
+                "description": ""
+            },
+            "bronze-linen": {
+                "displayName": "Bronze Linen",
+                "description": ""
+            },
+            "gray-flannel": {
+                "displayName": "Gray Flannel",
+                "description": ""
+            },
+            "silky-putty": {
+                "displayName": "Silky Putty",
+                "description": ""
+            },
+            "brushed-steel": {
+                "displayName": "Brushed Steel",
+                "description": ""
+            },
+            "gray-mist": {
+                "displayName": "Gray Mist",
+                "description": ""
+            },
+            "snow-crok": {
+                "displayName": "Snow Crok",
+                "description": ""
+            },
+            "carbon": {
+                "displayName": "Carbon",
+                "description": ""
+            },
+            "latte-trees": {
+                "displayName": "Latte Trees",
+                "description": ""
+            },
+            "snow-trees": {
+                "displayName": "Snow Trees",
+                "description": ""
+            },
+            "carbon-black": {
+                "displayName": "Carbon Black",
+                "description": ""
+            },
+            "linnen-sail": {
+                "displayName": "Linnen Sail",
+                "description": ""
+            },
+            "stainless-twist": {
+                "displayName": "Stainless Twist",
+                "description": ""
+            },
+            "carbon-new": {
+                "displayName": "Carbon New",
+                "description": ""
+            },
+            "melted-chocolate": {
+                "displayName": "Melted Chocolate",
+                "description": ""
+            },
+            "stardust": {
+                "displayName": "Stardust",
+                "description": ""
+            },
+            "chantilly-gray": {
+                "displayName": "Chantilly Gray",
+                "description": ""
+            },
+            "midnight-crok": {
+                "displayName": "Midnight Crok",
+                "description": ""
+            },
+            "stealth": {
+                "displayName": "Stealth",
+                "description": ""
+            },
+            "cottage": {
+                "displayName": "Cottage",
+                "description": ""
+            },
+            "parchment": {
+                "displayName": "Parchment",
+                "description": ""
+            },
+            "sunset-brown": {
+                "displayName": "Sunset Brown",
+                "description": ""
+            },
+            "drift-cloth": {
+                "displayName": "Drift Cloth",
+                "description": ""
+            },
+            "pearl-stardust": {
+                "displayName": "Pearl Stardust",
+                "description": ""
+            },
+            "twisted-steel": {
+                "displayName": "Twisted Steel",
+                "description": ""
+            },
+            "dune": {
+                "displayName": "Dune",
+                "description": ""
+            },
+            "pewter-rain": {
+                "displayName": "Pewter Rain",
+                "description": ""
+            },
+            "urban-cowboy": {
+                "displayName": "Urban Cowboy",
+                "description": ""
+            },
+            "earth": {
+                "displayName": "Earth",
+                "description": ""
+            },
+            "pure-snow": {
+                "displayName": "Pure Snow",
+                "description": ""
+            },
+            "white-prism": {
+                "displayName": "White Prism",
+                "description": ""
+            },
+            "french-roast": {
+                "displayName": "French Roast",
+                "description": ""
+            },
+            "purple-reign": {
+                "displayName": "Purple Reign",
+                "description": ""
+            }
+        },
+        "couches": {
+            "saddle": {
+                "displayName": "Saddle",
+                "description": ""
+            }
+        },
+        "cabinets": {
+            "mahogany": {
+                "displayName": "Mahogany",
+                "description": ""
+            }
+        },
+        "headboards": {
+            "aubergine": {
+                "displayName": "Aubergine",
+                "description": ""
+            },
+            "citron": {
+                "displayName": "Citron",
+                "description": ""
+            },
+            "gunmetal": {
+                "displayName": "Gunmetal",
+                "description": ""
+            },
+            "olive": {
+                "displayName": "Olive",
+                "description": ""
+            },
+            "stone": {
+                "displayName": "Stone",
+                "description": ""
+            },
+            "bittersweet": {
+                "displayName": "Bittersweet",
+                "description": ""
+            },
+            "cloud": {
+                "displayName": "Cloud",
+                "description": ""
+            },
+            "hunter": {
+                "displayName": "Hunter",
+                "description": ""
+            },
+            "orangeade": {
+                "displayName": "Orangeade",
+                "description": ""
+            },
+            "sunshine": {
+                "displayName": "Sunshine",
+                "description": ""
+            },
+            "black": {
+                "displayName": "Black",
+                "description": ""
+            },
+            "coffee": {
+                "displayName": "Coffee",
+                "description": ""
+            },
+            "indigo": {
+                "displayName": "Indigo",
+                "description": ""
+            },
+            "oyster": {
+                "displayName": "Oyster",
+                "description": ""
+            },
+            "tidepool": {
+                "displayName": "Tidepool",
+                "description": ""
+            },
+            "brick": {
+                "displayName": "Brick",
+                "description": ""
+            },
+            "copper": {
+                "displayName": "Copper",
+                "description": ""
+            },
+            "khaki": {
+                "displayName": "Khaki",
+                "description": ""
+            },
+            "parchment": {
+                "displayName": "Parchment",
+                "description": ""
+            },
+            "toast": {
+                "displayName": "Toast",
+                "description": ""
+            },
+            "buckskin": {
+                "displayName": "Buckskin",
+                "description": ""
+            },
+            "cream": {
+                "displayName": "Cream",
+                "description": ""
+            },
+            "kiwi": {
+                "displayName": "Kiwi",
+                "description": ""
+            },
+            "peat": {
+                "displayName": "Peat",
+                "description": ""
+            },
+            "tomato": {
+                "displayName": "Tomato",
+                "description": ""
+            },
+            "camel": {
+                "displayName": "Camel",
+                "description": ""
+            },
+            "dandelion": {
+                "displayName": "Dandelion",
+                "description": ""
+            },
+            "lichen": {
+                "displayName": "Lichen",
+                "description": ""
+            },
+            "platinum": {
+                "displayName": "Platinum",
+                "description": ""
+            },
+            "turquoise": {
+                "displayName": "Turquoise",
+                "description": ""
+            },
+            "canary": {
+                "displayName": "Canary",
+                "description": ""
+            },
+            "doeskin": {
+                "displayName": "Doeskin",
+                "description": ""
+            },
+            "lilac": {
+                "displayName": "Lilac",
+                "description": ""
+            },
+            "pumpkin": {
+                "displayName": "Pumpkin",
+                "description": ""
+            },
+            "ultraviolet": {
+                "displayName": "Ultraviolet",
+                "description": ""
+            },
+            "celery": {
+                "displayName": "Celery",
+                "description": ""
+            },
+            "dove": {
+                "displayName": "Dove",
+                "description": ""
+            },
+            "lipstick": {
+                "displayName": "Lipstick",
+                "description": ""
+            },
+            "purple": {
+                "displayName": "Purple",
+                "description": ""
+            },
+            "white": {
+                "displayName": "White",
+                "description": ""
+            },
+            "cement": {
+                "displayName": "Cement",
+                "description": ""
+            },
+            "dustyrose": {
+                "displayName": "Dustyrose",
+                "description": ""
+            },
+            "mica": {
+                "displayName": "Mica",
+                "description": ""
+            },
+            "rust": {
+                "displayName": "Rust",
+                "description": ""
+            },
+            "wine": {
+                "displayName": "Wine",
+                "description": ""
+            },
+            "charcoal": {
+                "displayName": "Charcoal",
+                "description": ""
+            },
+            "earth": {
+                "displayName": "Earth",
+                "description": ""
+            },
+            "midi": {
+                "displayName": "Midi",
+                "description": ""
+            },
+            "sage": {
+                "displayName": "Sage",
+                "description": ""
+            },
+            "chestnut": {
+                "displayName": "Chestnut",
+                "description": ""
+            },
+            "espresso": {
+                "displayName": "Espresso",
+                "description": ""
+            },
+            "mustard": {
+                "displayName": "Mustard",
+                "description": ""
+            },
+            "sea": {
+                "displayName": "Sea",
+                "description": ""
+            },
+            "chocolate": {
+                "displayName": "Chocolate",
+                "description": ""
+            },
+            "fawn": {
+                "displayName": "Fawn",
+                "description": ""
+            },
+            "navy": {
+                "displayName": "Navy",
+                "description": ""
+            },
+            "seafoam": {
+                "displayName": "Seafoam",
+                "description": ""
+            },
+            "cinnabar": {
+                "displayName": "Cinnabar",
+                "description": ""
+            },
+            "godiva": {
+                "displayName": "Godiva",
+                "description": ""
+            },
+            "newmocha": {
+                "displayName": "Newmocha",
+                "description": ""
+            },
+            "sky": {
+                "displayName": "Sky",
+                "description": ""
+            }
+        }
+    },
+    "schemes": {
+        "serengeti" : {
+            "panel-a": "serengeti",
+            "panel-b": "sunset-brown",
+            "couch": "saddle",
+            "cabinet": "mahogany",
+            "headboard": "camel"
+        },
+        "aged-french" : {
+            "panel-a": "aged-french-oak",
+            "panel-b": "aged-french-oak",
+            "couch": "summit",
+            "cabinet": "regent-sand",
+            "headboard": "doeskin"
+        }
+    }
+}

@@ -54,22 +54,22 @@ body {
                 padding-left: 6px;
             }
             &.animate {
-                $time: 2s;
+                $time: 1s;
                 .bar {
-                    &:nth-of-type(1) { animation: $time ease-in-out anim-bar-1; }
-                    &:nth-of-type(2) { animation: $time ease-in-out anim-bar-2; }
-                    &:nth-of-type(3) { animation: $time ease-in-out anim-bar-3; }
-                    &:nth-of-type(4) { animation: $time ease-in-out anim-bar-4; }
+                    &:nth-of-type(1) { animation: $time ease-in anim-bar-1; }
+                    &:nth-of-type(2) { animation: $time ease-in anim-bar-2; }
+                    &:nth-of-type(3) { animation: $time ease-in anim-bar-3; }
+                    &:nth-of-type(4) { animation: $time ease-in anim-bar-4; }
                 }
                 .text {
                     animation: $time*1.5 ease-out anim-text;
                 }
                 /* only animate when animate class is applies */
-                @keyframes anim-bar-1 { 0% { opacity: 0; } 25% { opacity: 0.4; } }
-                @keyframes anim-bar-2 { 0% { opacity: 0; } 30% { opacity: 0; } 50% { opacity: 0.6; } }
-                @keyframes anim-bar-3 { 0% { opacity: 0; } 55% { opacity: 0; } 75% { opacity: 0.8; } }
+                @keyframes anim-bar-1 { 0% { opacity: 0; } 35% { opacity: 0.4; } }
+                @keyframes anim-bar-2 { 0% { opacity: 0; } 45% { opacity: 0; } 55% { opacity: 0.6; } }
+                @keyframes anim-bar-3 { 0% { opacity: 0; } 75% { opacity: 0; } 85% { opacity: 0.8; } }
                 @keyframes anim-bar-4 { 0% { transform: rotate(0deg); } 100% { transform: rotate(90deg); } }
-                @keyframes anim-text { 0% { width: 0; } 50% { width: 0; } 100% { width: $height*6; } }
+                @keyframes anim-text { 0% { width: 0; } 60% { width: 0; } 100% { width: $height*6; } }
             }
         }
         #toggle-menu {
@@ -217,7 +217,9 @@ body {
         }
         &.create {
             color: #ffffff;
-            padding-top: 96px;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 96px 0 270px;
 
             h1 { 
                 font-size: 44px;
@@ -225,28 +227,46 @@ body {
                 margin: 0;
             }
             .palette {
-                height: 100%;
-                padding-bottom: 110%; /* ratio */
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: 300;
+                padding-bottom: 110%; /* grid ratio */
                 position: relative;
                 width: 100%;
-
+                
                 .grid {
                     background-color: #55504c;
                     display: -ms-grid;
                     display: grid;
-                    height: 100%;
                     -ms-grid-columns: 2fr 1fr;
                     -ms-grid-rows: 2fr 1fr 1fr;
                     grid-template-columns: 2fr 1fr;
                     grid-template-rows: 2fr 1fr 1fr;
+                    height: 100%;
+                    position: absolute;
                     width: 100%;
-    
+
+                    > div { position: relative; }
+
                     #panel-a    { grid-column: 1 / 2; grid-row: 1 / 1; }
                     #panel-b    { grid-column: 2 / 3; grid-row: 1 / 1; }
                     #couch      { grid-column: 1 / 2; grid-row: 2 / 4; }
                     #cabinet    { grid-column: 2 / 3; grid-row: 2 / 3; }
                     #headboard  { grid-column: 2 / 3; grid-row: 3 / 4; }
+
+                    .caption {
+                        bottom: 8px;
+                        font-size: 16px;
+                        left: 8px;
+                        position: absolute;
+
+                        .label { text-transform: uppercase; display: block; }
+                        .title { display: block; }
+                    }
                 }
+            }
+            .email {
+                padding: 36px 0;
+                text-align: center;
             }
         }
     }
@@ -296,10 +316,7 @@ body {
         display: flex;
         flex-wrap: wrap;
 
-        [class*="col-"] {
-            box-sizing: border-box;
-            padding: 0 12px;
-        }
+        [class*="col-"] { box-sizing: border-box; padding: 0 40px; }
         @for $i from 1 through 12 {
             .col-#{$i} { width: percentage($i / 12); }
         }
@@ -308,6 +325,7 @@ body {
     .btn {
         background-color: #55504c;
         border-radius: 999px;
+        box-sizing: border-box;
         color: #fff;
         display: inline-block;
         font-size: 18px;
@@ -315,9 +333,32 @@ body {
         text-decoration: none;
         transition: all 0.25s ease-in-out;
 
-        &:hover, &:focus {
-            box-shadow: 0 0 8px #1d1a18;
-            color: #1d1a18;
+        &:hover, &:focus { box-shadow: 0 0 8px #1d1a18; color: #1d1a18; }
+        &#customize-scheme {
+            background-color: #433d39;
+            border-radius: 0;
+            line-height: 30px;
+            padding: 20px 0;
+            margin-bottom: 24px;
+            text-align: center;
+            width: 100%;
+
+            .icon {  background-image: url('../img/color-icon.png'); }
+        }
+        &#email-scheme {
+            line-height: 30px;
+            text-align: center;
+            width: 100%;
+
+            .icon {  background-image: url('../img/send-icon.png'); }
+        }
+        .icon { 
+            background-image: url('');
+            content: '';
+            display: inline-block;
+            height: 30px;
+            vertical-align: top;
+            width: 30px;
         }
     }
 }

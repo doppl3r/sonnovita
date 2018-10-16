@@ -57,6 +57,52 @@ function updateHomePage(){
 
 function updateCreatePage(){
     $('#main-content').load('/includes/create-content.html', function(){
-
+        importTextureData();
     });
+}
+
+function parseURL(){
+    //convert url into keys
+    var href = window.location.href;
+    var parameters = href.substring(href.indexOf('?')+1).split('&');
+    paramList = [];
+    for (var i=0; i < parameters.length; i++){
+        var result = parameters[i].split("=");
+        if (result.length > 1){
+            var key = result[0];
+            var val = result[1];
+            paramList[key] = val;
+        }
+    }
+    return paramList;
+}
+
+function importTextureData(){
+    $.getJSON('/texture-data.json', function(data){
+        window.textureData = data;
+        updateGrid(parseURL());
+    });
+}
+
+function updateGrid(list){
+    //use list or default value
+    var panel_a =   list["panel-a"]     || "serengeti";
+    var panel_b =   list["panel-b"]     || "sunset-brown";
+    var couch =     list["couch"]       || "saddle";
+    var cabinet =   list["cabinet"]     || "mahogany";
+    var headboard = list["headboard"]   || "camel";
+    var scheme =    list["scheme"]      || "serengeti";
+    var scheme_title = window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined";
+    var description = window.textureData["textures"]["panels"][panel_a]["description"] || "undefined";
+
+    //update page content
+    $('#scheme-title').text(scheme_title);
+    $('#description').text(description);
+    
+    //apply classes with to unique texture ids
+    $('.create #panel-a').attr('class', 'texture '+panel_a+'-panel');
+    $('.create #panel-b').attr('class', 'texture '+panel_b+'-panel');
+    $('.create #couch').attr('class', 'texture '+couch+'-couch');
+    $('.create #cabinet').attr('class', 'texture '+cabinet+'-cabinet');
+    $('.create #headboard').attr('class', 'texture '+headboard+'-headboard');
 }
