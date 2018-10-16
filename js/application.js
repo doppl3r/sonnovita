@@ -33,7 +33,7 @@ function updatePage(){
 
 function updateHomePage(){
     //load home page content
-    $('#main-content').load('./includes/home-content.html', function(){
+    $('#main-content').load('./includes/page-home.html', function(){
         /* header carousel */
         $('.owl-carousel.home').owlCarousel({
             animateOut: 'fadeOut',
@@ -57,7 +57,7 @@ function updateHomePage(){
 
 function updateCreatePage(){
     //load create page content
-    $('#main-content').load('./includes/create-content.html', function(){
+    $('#main-content').load('./includes/page-create.html', function(){
         //Import texture data from JSON file
         $.getJSON('./texture-data.json', function(data){
             window.textureData = data;
