@@ -1,6 +1,7 @@
 body {
   background-color: #37312d;
-  font-family: 'helvetica-light'; }
+  font-family: 'helvetica-light';
+  /* 12-grid system */ }
   body nav {
     align-items: center;
     display: flex;
@@ -120,36 +121,36 @@ body {
           color: inherit;
           font-size: 15px;
           text-decoration: none; }
-  body header {
+  body header.home {
     position: relative;
     z-index: 0; }
-    body header .owl-carousel.home .owl-item div {
+    body header.home .owl-carousel.home .owl-item div {
       background-size: cover;
       background-position: center;
       color: transparent;
       height: calc(100vh - 180px);
       min-height: 360px; }
-      body header .owl-carousel.home .owl-item div.slide-1 {
+      body header.home .owl-carousel.home .owl-item div.slide-1 {
         background-image: url("../img/home/home-1.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-2 {
+      body header.home .owl-carousel.home .owl-item div.slide-2 {
         background-image: url("../img/home/home-2.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-3 {
+      body header.home .owl-carousel.home .owl-item div.slide-3 {
         background-image: url("../img/home/home-3.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-4 {
+      body header.home .owl-carousel.home .owl-item div.slide-4 {
         background-image: url("../img/home/home-4.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-5 {
+      body header.home .owl-carousel.home .owl-item div.slide-5 {
         background-image: url("../img/home/home-5.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-6 {
+      body header.home .owl-carousel.home .owl-item div.slide-6 {
         background-image: url("../img/home/home-6.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-7 {
+      body header.home .owl-carousel.home .owl-item div.slide-7 {
         background-image: url("../img/home/home-7.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-8 {
+      body header.home .owl-carousel.home .owl-item div.slide-8 {
         background-image: url("../img/home/home-8.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-9 {
+      body header.home .owl-carousel.home .owl-item div.slide-9 {
         background-image: url("../img/home/home-9.jpg"); }
-      body header .owl-carousel.home .owl-item div.slide-10 {
+      body header.home .owl-carousel.home .owl-item div.slide-10 {
         background-image: url("../img/home/home-10.jpg"); }
-    body header h2 {
+    body header.home h2 {
       color: #37312d;
       font-size: 2vw;
       left: 20%;
@@ -157,30 +158,30 @@ body {
       position: absolute;
       top: 20%;
       z-index: 1; }
-  body section.create {
+  body article.home {
     color: #ffffff;
     text-align: center;
     margin-top: -128px;
     overflow: hidden; }
-    body section.create .owl-carousel.palette {
+    body article.home .owl-carousel.palette {
       margin: auto;
       max-width: 960px; }
-      body section.create .owl-carousel.palette .headline {
+      body article.home .owl-carousel.palette .headline {
         padding: 12px 0;
         position: relative;
         z-index: 1;
         width: 100%; }
-        body section.create .owl-carousel.palette .headline p {
+        body article.home .owl-carousel.palette .headline p {
           font-size: 18px;
           margin: 0; }
-        body section.create .owl-carousel.palette .headline em {
+        body article.home .owl-carousel.palette .headline em {
           font-size: 12px; }
-      body section.create .owl-carousel.palette .items {
+      body article.home .owl-carousel.palette .items {
         display: flex; }
-        body section.create .owl-carousel.palette .items .item {
+        body article.home .owl-carousel.palette .items .item {
           padding: 2%;
           width: 20%; }
-          body section.create .owl-carousel.palette .items .item .tile {
+          body article.home .owl-carousel.palette .items .item .tile {
             align-items: center;
             border-radius: 7px;
             box-shadow: 0 0 8px #1d1a18;
@@ -189,32 +190,70 @@ body {
             justify-content: center;
             margin: auto;
             width: 100%; }
-            body section.create .owl-carousel.palette .items .item .tile .name {
+            body article.home .owl-carousel.palette .items .item .tile .name {
               font-size: 16px; }
-          body section.create .owl-carousel.palette .items .item .category {
+          body article.home .owl-carousel.palette .items .item .category {
             display: block;
             font-size: 12px;
             padding: 16px 0;
             text-transform: uppercase; }
-      body section.create .owl-carousel.palette .owl-nav {
+      body article.home .owl-carousel.palette .owl-nav {
         position: absolute;
         bottom: calc(60% - 36px);
         width: calc(120%);
         left: -10%; }
-        body section.create .owl-carousel.palette .owl-nav button {
+        body article.home .owl-carousel.palette .owl-nav button {
           color: transparent;
           height: 48px;
           opacity: 0.8;
           position: absolute;
           width: 16px; }
-          body section.create .owl-carousel.palette .owl-nav button.owl-prev {
+          body article.home .owl-carousel.palette .owl-nav button.owl-prev {
             left: 12px;
             background-image: url("../img/left-arrow.svg"); }
-          body section.create .owl-carousel.palette .owl-nav button.owl-next {
+          body article.home .owl-carousel.palette .owl-nav button.owl-next {
             right: 12px;
             background-image: url("../img/right-arrow.svg"); }
-    body section.create .cta {
+    body article.home .cta {
       padding: 32px 0 80px; }
+  body article.create {
+    color: #ffffff;
+    padding-top: 96px; }
+    body article.create h1 {
+      font-size: 44px;
+      font-weight: normal;
+      margin: 0; }
+    body article.create .palette {
+      height: 100%;
+      padding-bottom: 110%;
+      /* ratio */
+      position: relative;
+      width: 100%; }
+      body article.create .palette .grid {
+        background-color: #55504c;
+        display: -ms-grid;
+        display: grid;
+        height: 100%;
+        -ms-grid-columns: 2fr 1fr;
+        -ms-grid-rows: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        width: 100%; }
+        body article.create .palette .grid #panel-a {
+          grid-column: 1 / 2;
+          grid-row: 1 / 1; }
+        body article.create .palette .grid #panel-b {
+          grid-column: 2 / 3;
+          grid-row: 1 / 1; }
+        body article.create .palette .grid #couch {
+          grid-column: 1 / 2;
+          grid-row: 2 / 4; }
+        body article.create .palette .grid #cabinet {
+          grid-column: 2 / 3;
+          grid-row: 2 / 3; }
+        body article.create .palette .grid #headboard {
+          grid-column: 2 / 3;
+          grid-row: 3 / 4; }
   body footer {
     color: #fff;
     text-align: center;
@@ -244,6 +283,36 @@ body {
             text-decoration: none; }
       body footer .links p {
         font-size: 12px; }
+  body .row {
+    display: flex;
+    flex-wrap: wrap; }
+    body .row [class*="col-"] {
+      box-sizing: border-box;
+      padding: 0 12px; }
+    body .row .col-1 {
+      width: 8.33333%; }
+    body .row .col-2 {
+      width: 16.66667%; }
+    body .row .col-3 {
+      width: 25%; }
+    body .row .col-4 {
+      width: 33.33333%; }
+    body .row .col-5 {
+      width: 41.66667%; }
+    body .row .col-6 {
+      width: 50%; }
+    body .row .col-7 {
+      width: 58.33333%; }
+    body .row .col-8 {
+      width: 66.66667%; }
+    body .row .col-9 {
+      width: 75%; }
+    body .row .col-10 {
+      width: 83.33333%; }
+    body .row .col-11 {
+      width: 91.66667%; }
+    body .row .col-12 {
+      width: 100%; }
   body .btn {
     background-color: #55504c;
     border-radius: 999px;
@@ -288,12 +357,14 @@ body {
     font-size: 12px;
     left: 5%;
     max-width: 30%; }
-  body section.create {
+  body article.home {
     padding: 0 10%; }
-    body section.create .owl-carousel.palette .items .item .tile .name {
+    body article.home .owl-carousel.palette .items .item .tile .name {
       display: none; }
-    body section.create .owl-carousel.palette .items .item .category {
-      display: none; } }
+    body article.home .owl-carousel.palette .items .item .category {
+      display: none; }
+  body .row [class*="col-"] {
+    width: 100%; } }
 
 @font-face {
   font-family: 'helvetica-light';

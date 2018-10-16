@@ -103,46 +103,48 @@ body {
     }
 
     header {
-        position: relative;
-        z-index: 0;
+        &.home {
+            position: relative;
+            z-index: 0;
 
-        .owl-carousel {
-            &.home {
-                .owl-item {
-                    div {
-                        background-size: cover;
-                        background-position: center;
-                        color: transparent;
-                        height: calc(100vh - 180px);
-                        min-height: 360px;
+            .owl-carousel {
+                &.home {
+                    .owl-item {
+                        div {
+                            background-size: cover;
+                            background-position: center;
+                            color: transparent;
+                            height: calc(100vh - 180px);
+                            min-height: 360px;
 
-                        &.slide-1 { background-image: url('../img/home/home-1.jpg'); }
-                        &.slide-2 { background-image: url('../img/home/home-2.jpg'); }
-                        &.slide-3 { background-image: url('../img/home/home-3.jpg'); }
-                        &.slide-4 { background-image: url('../img/home/home-4.jpg'); }
-                        &.slide-5 { background-image: url('../img/home/home-5.jpg'); }
-                        &.slide-6 { background-image: url('../img/home/home-6.jpg'); }
-                        &.slide-7 { background-image: url('../img/home/home-7.jpg'); }
-                        &.slide-8 { background-image: url('../img/home/home-8.jpg'); }
-                        &.slide-9 { background-image: url('../img/home/home-9.jpg'); }
-                        &.slide-10 { background-image: url('../img/home/home-10.jpg'); }
+                            &.slide-1 { background-image: url('../img/home/home-1.jpg'); }
+                            &.slide-2 { background-image: url('../img/home/home-2.jpg'); }
+                            &.slide-3 { background-image: url('../img/home/home-3.jpg'); }
+                            &.slide-4 { background-image: url('../img/home/home-4.jpg'); }
+                            &.slide-5 { background-image: url('../img/home/home-5.jpg'); }
+                            &.slide-6 { background-image: url('../img/home/home-6.jpg'); }
+                            &.slide-7 { background-image: url('../img/home/home-7.jpg'); }
+                            &.slide-8 { background-image: url('../img/home/home-8.jpg'); }
+                            &.slide-9 { background-image: url('../img/home/home-9.jpg'); }
+                            &.slide-10 { background-image: url('../img/home/home-10.jpg'); }
+                        }
                     }
                 }
             }
-        }
-        h2 {
-            color: #37312d;
-            font-size: 2vw;
-            left: 20%;
-            max-width: 15%;
-            position: absolute;
-            top: 20%;
-            z-index: 1;
+            h2 {
+                color: #37312d;
+                font-size: 2vw;
+                left: 20%;
+                max-width: 15%;
+                position: absolute;
+                top: 20%;
+                z-index: 1;
+            }
         }
     }
 
-    section {
-        &.create {
+    article {
+        &.home {
             color: #ffffff;
             text-align: center;
             margin-top: -128px;
@@ -213,6 +215,40 @@ body {
                 padding: 32px 0 80px;
             }
         }
+        &.create {
+            color: #ffffff;
+            padding-top: 96px;
+
+            h1 { 
+                font-size: 44px;
+                font-weight: normal;
+                margin: 0;
+            }
+            .palette {
+                height: 100%;
+                padding-bottom: 110%; /* ratio */
+                position: relative;
+                width: 100%;
+
+                .grid {
+                    background-color: #55504c;
+                    display: -ms-grid;
+                    display: grid;
+                    height: 100%;
+                    -ms-grid-columns: 2fr 1fr;
+                    -ms-grid-rows: 2fr 1fr 1fr;
+                    grid-template-columns: 2fr 1fr;
+                    grid-template-rows: 2fr 1fr 1fr;
+                    width: 100%;
+    
+                    #panel-a    { grid-column: 1 / 2; grid-row: 1 / 1; }
+                    #panel-b    { grid-column: 2 / 3; grid-row: 1 / 1; }
+                    #couch      { grid-column: 1 / 2; grid-row: 2 / 4; }
+                    #cabinet    { grid-column: 2 / 3; grid-row: 2 / 3; }
+                    #headboard  { grid-column: 2 / 3; grid-row: 3 / 4; }
+                }
+            }
+        }
     }
 
     footer {
@@ -252,6 +288,20 @@ body {
                 }
             }
             p { font-size: 12px; }
+        }
+    }
+
+    /* 12-grid system */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+        [class*="col-"] {
+            box-sizing: border-box;
+            padding: 0 12px;
+        }
+        @for $i from 1 through 12 {
+            .col-#{$i} { width: percentage($i / 12); }
         }
     }
 
@@ -317,8 +367,8 @@ body {
             }
         }
 
-        section {
-            &.create {
+        article {
+            &.home {
                 padding: 0 10%;
                 
                 .owl-carousel {
@@ -334,6 +384,9 @@ body {
                     }
                 }
             }
+        }
+        .row {
+            [class*="col-"] { width: 100%; }
         }
     }
 }
