@@ -59,7 +59,7 @@ function updateCreatePage(){
     //load create page content
     $('#main-content').load('./includes/create-content.html', function(){
         //Import texture data from JSON file
-        $.getJSON('/texture-data.json', function(data){
+        $.getJSON('./texture-data.json', function(data){
             window.textureData = data;
             window.parsedURL = parseURL();
             updateScheme();
