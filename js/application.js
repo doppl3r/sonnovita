@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 function init(){
     //load global navigation
-    $('#main-nav').load('../includes/nav.html', function(){
+    $('#main-nav').load('./includes/nav.html', function(){
         //toggle mobile menu
         $('#toggle-menu').on('click', function(e){
             e.preventDefault();
@@ -18,7 +18,7 @@ function init(){
         $('nav .logo').addClass('animate');
     });
     //load global footer
-    $('footer').load('../includes/footer.html', function(){
+    $('footer').load('./includes/footer.html', function(){
         $('.currentYear').text((new Date()).getFullYear());
     });
     //update page
@@ -33,7 +33,7 @@ function updatePage(){
 
 function updateHomePage(){
     //load home page content
-    $('#main-content').load('../includes/home-content.html', function(){
+    $('#main-content').load('./includes/home-content.html', function(){
         /* header carousel */
         $('.owl-carousel.home').owlCarousel({
             animateOut: 'fadeOut',
@@ -57,7 +57,7 @@ function updateHomePage(){
 
 function updateCreatePage(){
     //load create page content
-    $('#main-content').load('../includes/create-content.html', function(){
+    $('#main-content').load('./includes/create-content.html', function(){
         //Import texture data from JSON file
         $.getJSON('/texture-data.json', function(data){
             window.textureData = data;
