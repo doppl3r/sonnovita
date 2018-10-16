@@ -62,14 +62,14 @@ body {
                     &:nth-of-type(4) { animation: $time ease-in anim-bar-4; }
                 }
                 .text {
-                    animation: $time*1.5 ease-out anim-text;
+                    animation: $time*3 ease-out anim-text;
                 }
                 /* only animate when animate class is applies */
                 @keyframes anim-bar-1 { 0% { opacity: 0; } 35% { opacity: 0.4; } }
                 @keyframes anim-bar-2 { 0% { opacity: 0; } 45% { opacity: 0; } 55% { opacity: 0.6; } }
                 @keyframes anim-bar-3 { 0% { opacity: 0; } 75% { opacity: 0; } 85% { opacity: 0.8; } }
                 @keyframes anim-bar-4 { 0% { transform: rotate(0deg); } 100% { transform: rotate(90deg); } }
-                @keyframes anim-text { 0% { width: 0; } 60% { width: 0; } 100% { width: $height*6; } }
+                @keyframes anim-text { 0% { width: 0; } 30% { width: 0; } 100% { width: $height*6; } }
             }
         }
         #toggle-menu {
