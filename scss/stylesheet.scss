@@ -79,6 +79,17 @@ body {
             right: 24px;
             top: 32px;
             width: 30px;
+
+            &[aria-expanded="true"]:before {
+                background-color: rgba(0, 0, 0, 0.75);
+                bottom: 0;
+                content: '';
+                left: 0;
+                position: fixed;
+                right: 0;
+                top: 0;
+                z-index: -1;
+            }
         }
         ul {
             color: #fff;
