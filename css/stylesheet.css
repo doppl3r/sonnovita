@@ -234,51 +234,6 @@ body {
       font-size: 44px;
       font-weight: normal;
       margin: 0; }
-    body article.create .palette {
-      font-family: 'Roboto Condensed', sans-serif;
-      font-weight: 300;
-      padding-bottom: 110%;
-      /* grid ratio */
-      position: relative;
-      width: 100%; }
-      body article.create .palette .grid {
-        background-color: #55504c;
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 2fr 1fr;
-        -ms-grid-rows: 2fr 1fr 1fr;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
-        height: 100%;
-        position: absolute;
-        width: 100%; }
-        body article.create .palette .grid > div {
-          position: relative; }
-        body article.create .palette .grid #panel-a {
-          grid-column: 1 / 2;
-          grid-row: 1 / 1; }
-        body article.create .palette .grid #panel-b {
-          grid-column: 2 / 3;
-          grid-row: 1 / 1; }
-        body article.create .palette .grid #couch {
-          grid-column: 1 / 2;
-          grid-row: 2 / 4; }
-        body article.create .palette .grid #cabinet {
-          grid-column: 2 / 3;
-          grid-row: 2 / 3; }
-        body article.create .palette .grid #headboard {
-          grid-column: 2 / 3;
-          grid-row: 3 / 4; }
-        body article.create .palette .grid .caption {
-          bottom: 8px;
-          font-size: 16px;
-          left: 8px;
-          position: absolute; }
-          body article.create .palette .grid .caption .label {
-            text-transform: uppercase;
-            display: block; }
-          body article.create .palette .grid .caption .title {
-            display: block; }
     body article.create .email {
       padding: 36px 0;
       text-align: center; }
@@ -287,6 +242,39 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     padding: 96px 0; }
+    body article.schemes h1 {
+      padding: 12px 0; }
+    body article.schemes .row [class*="col-"] {
+      padding: 0 24px; }
+    body article.schemes .cta {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 14px;
+      padding: 6px 0;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      body article.schemes .cta a {
+        color: inherit;
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 12px 12px 36px;
+        position: relative; }
+        body article.schemes .cta a:before {
+          background-size: contain;
+          content: '';
+          display: inline-block;
+          height: 30px;
+          width: 30px;
+          position: absolute;
+          left: 4px;
+          top: 4px; }
+        body article.schemes .cta a.view:before {
+          background-image: url("../img/view-icon.png"); }
+        body article.schemes .cta a.customize:before {
+          background-image: url("../img/color-icon.png"); }
     body article.schemes h1 {
       font-size: 44px;
       font-weight: normal;
@@ -325,7 +313,7 @@ body {
     flex-wrap: wrap; }
     body .row [class*="col-"] {
       box-sizing: border-box;
-      padding: 0 40px; }
+      padding: 0 24px; }
     body .row .col-1 {
       width: 8.33333%; }
     body .row .col-2 {
@@ -350,6 +338,66 @@ body {
       width: 91.66667%; }
     body .row .col-12 {
       width: 100%; }
+  body .palette {
+    background-color: #55504c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-bottom: 24px;
+    padding-bottom: 110%;
+    /* grid ratio */
+    position: relative;
+    width: 100%; }
+    body .palette.small {
+      box-sizing: border-box;
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 100%; }
+      body .palette.small .grid {
+        width: 90%;
+        height: calc(100% - 92px);
+        /* subtract h2 height */ }
+      body .palette.small h2 {
+        font-weight: 300;
+        margin: 0;
+        line-height: 16px;
+        padding: 16px 0 8px; }
+    body .palette .grid {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 2fr 1fr;
+      -ms-grid-rows: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 2fr 1fr 1fr;
+      height: 100%;
+      position: absolute;
+      width: 100%; }
+      body .palette .grid > div {
+        position: relative; }
+      body .palette .grid .panel-a {
+        grid-column: 1 / 2;
+        grid-row: 1 / 1; }
+      body .palette .grid .panel-b {
+        grid-column: 2 / 3;
+        grid-row: 1 / 1; }
+      body .palette .grid .couch {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4; }
+      body .palette .grid .cabinet {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3; }
+      body .palette .grid .headboard {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4; }
+      body .palette .grid .caption {
+        bottom: 8px;
+        font-size: 16px;
+        left: 8px;
+        position: absolute; }
+        body .palette .grid .caption .label {
+          text-transform: uppercase;
+          display: block; }
+        body .palette .grid .caption .title {
+          display: block; }
   body .btn {
     background-color: #55504c;
     border-radius: 999px;

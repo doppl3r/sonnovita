@@ -118,40 +118,59 @@ function updateScheme(){
     $('#description').text(description);
     
     //apply classes with to unique texture ids
-    $('.create #panel-a').attr('class', 'texture '+panel_a+'-panel');
-    $('.create #panel-b').attr('class', 'texture '+panel_b+'-panel');
-    $('.create #couch').attr('class', 'texture '+couch+'-couch');
-    $('.create #cabinet').attr('class', 'texture '+cabinet+'-cabinet');
-    $('.create #headboard').attr('class', 'texture '+headboard+'-headboard');
+    $('.create .panel-a').attr('class', 'panel-a texture '+panel_a+'-panel');
+    $('.create .panel-b').attr('class', 'panel-b texture '+panel_b+'-panel');
+    $('.create .couch').attr('class', 'couch texture '+couch+'-couch');
+    $('.create .cabinet').attr('class', 'cabinet texture '+cabinet+'-cabinet');
+    $('.create .headboard').attr('class', 'headboard texture '+headboard+'-headboard');
 }
 
 function addSchemes(){
     //add all schemes from global texture JSON
     var t = window.textureData['textures'];
-    var s = $.map(window.textureData['schemes'], function(el) { return el });
-    var row = $('.schemes .row');
-
-    //loop through each scheme
-    for (var i = 0; i < s.length; i++){
-        var title = s[i]['displayName'];
-        var panel_a = s[i]['panel-a'];
-        var panel_b = s[i]['panel-b'];
-        var couch = s[i]['couch'];
-        var cabinet = s[i]['cabinet'];
-        var headboard = s[i]['headboard'];
-        
-        //append column html
-        row.append(
-            '<div class="col-4">'+
-                '<h2 class="title">'+title+'</h2>'+
-                '<div class="grid">'+
-                    '<div class="panel-a texture '+panel_a+'-panel"></div>'+
-                    '<div class="panel-b texture '+panel_b+'-panel"></div>'+
-                    '<div class="couch texture '+couch+'-couch"></div>'+
-                    '<div class="cabinet texture '+cabinet+'-cabinet"></div>'+
-                    '<div class="headboard texture '+headboard+'-headboard"></div>'+
-                '</div>'+
-            '</div>'
-        );
+    var s = window.textureData['schemes'];
+    var row = $('.schemes .row.container');
+    
+    for (var key in s) {
+        if (s.hasOwnProperty(key)) {
+            var scheme = key;
+            var title = s[key]["displayName"];
+            var panel_a = s[key]["panel-a"];
+            var panel_b = s[key]["panel-b"];
+            var couch = s[key]["couch"];
+            var cabinet = s[key]["cabinet"];
+            var headboard = s[key]["headboard"];
+            var href = createURL(panel_a, panel_b, couch, cabinet, headboard, scheme)
+            
+            //append column html
+            row.append(
+                '<div class="col-4">'+
+                    '<div class="palette small">'+
+                        '<h2 class="title">'+title+'</h2>'+
+                        '<div class="grid">'+
+                            '<div class="panel-a texture '+panel_a+'-panel"></div>'+
+                            '<div class="panel-b texture '+panel_b+'-panel"></div>'+
+                            '<div class="couch texture '+couch+'-couch"></div>'+
+                            '<div class="cabinet texture '+cabinet+'-cabinet"></div>'+
+                            '<div class="headboard texture '+headboard+'-headboard"></div>'+
+                        '</div>'+
+                        '<div class="cta">'+
+                            '<a class="view" href="'+href+'"> view colors</a>'+
+                            '<a class="customize" href="'+href+'"> customize</a>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'
+            );
+        }
     }
+}
+
+function createURL(panel_a, panel_b, couch, cabinet, headboard, scheme){
+    return "index.html?create"+
+        "&panel-a="+panel_a+
+        "&panel-b="+panel_b+
+        "&couch="+couch+
+        "&cabinet="+cabinet+
+        "&headboard="+headboard+
+        "&scheme="+scheme;
 }
