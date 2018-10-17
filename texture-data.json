@@ -11,19 +11,19 @@
             }, 
             "ravenwood": {
                 "displayName": "Ravenwood",
-                "description": ""
+                "description": "Ravenwood features thick striations of black, white and multiple shades of gray. A slight shimmer brings the strands alive under a gloss finish."
             }, 
             "bankers-gray": {
                 "displayName": "Bankers Gray",
-                "description": ""
+                "description": "Banker’s Gray is a rich textued gray color in a matte finish. This panel harkins images of the fine mens suit that grace board rooms, investment baks, and stock exchanges."
             },
             "glass-drift": {
                 "displayName": "Glass Drift",
-                "description": ""
+                "description": "Glass Drift has the feel of a weatherd piece of gray driftwood but with a formal high gloss finish. Dark, medium, and light gray tones defined by delicate black wood grain markings."
             },
             "raw-dusk": {
                 "displayName": "Raw Dusk",
-                "description": ""
+                "description": "Raw Dusk features a super matte finish with wood grain texture with suble horizontal waves. This presents as a raw, aged plank of rich walnut in mauve and brown tones."
             },
             "black-hole": {
                 "displayName": "Black Hole",
@@ -35,7 +35,7 @@
             },
             "sahara": {
                 "displayName": "Sahara",
-                "description": ""
+                "description": "Sahara is a high gloss reflection of an exotic blond wood featuring layers of butterscotch, rich brown molassas earth tones, and gentle black striations."
             },
             "black-on-black": {
                 "displayName": "Black on Black",
@@ -43,7 +43,7 @@
             },
             "gotham-gray": {
                 "displayName": "Gotham Gray",
-                "description": ""
+                "description": "Gotham Stone has the look and feel of a chisled piece of flat textured gray stone. "
             },
             "serengeti": {
                 "displayName": "Serengeti",
@@ -55,39 +55,39 @@
             },
             "graphite-reign": {
                 "displayName": "Graphite Reign",
-                "description": ""
+                "description": "Graphite Reign  is a deep, cool shade of metalic charcoal gray with a high gloss finish."
             },
             "shades-of-gray": {
                 "displayName": "Shades of Gray",
-                "description": ""
+                "description": "Shades Of Gray  is craeted with a series of of wide high gloss lines of various shades of gray to black."
             },
             "bronze-linen": {
                 "displayName": "Bronze Linen",
-                "description": ""
+                "description": "Bronze Linen features a textured cross hatch face that gives the appearance of a fabric delicately woven with bronze and gold strands of thread."
             },
             "gray-flannel": {
                 "displayName": "Gray Flannel",
-                "description": ""
+                "description": "Gray Flannel is a rich smooth high gloss gray color. This panel reveals perfectly defined cross hatching similar to those found in the finest gray flanel suits."
             },
             "silky-putty": {
                 "displayName": "Silky Putty",
-                "description": ""
+                "description": "Silky Putty is a smooth super matte finish that carries a beautiful taupe with a warm buff tone."
             },
             "brushed-steel": {
                 "displayName": "Brushed Steel",
-                "description": ""
+                "description": "Brushed Steel has a high gloss finish over subtle metallic silver brush strokes."
             },
             "gray-mist": {
                 "displayName": "Gray Mist",
-                "description": ""
+                "description": "Silver Mist has a high gloss silver finish over faint  metalic specs and etched lines."
             },
             "snow-crok": {
                 "displayName": "Snow Crok",
-                "description": ""
+                "description": "Snow Crok presents as a crocadile pattern with in a pure white patent leather sheen."
             },
             "carbon": {
                 "displayName": "Carbon",
-                "description": ""
+                "description": "Carbon is a rich matte black finish with subtle texturing to create depth along with highs and lows along the black spectrum."
             },
             "latte-trees": {
                 "displayName": "Latte Trees",
@@ -95,19 +95,19 @@
             },
             "snow-trees": {
                 "displayName": "Snow Trees",
-                "description": ""
+                "description": "Snow Trees carries clean tones of pure white. The tone-on-tone design features a matte textured background with a gloss overlay of a web of branches."
             },
             "carbon-black": {
                 "displayName": "Carbon Black",
                 "description": ""
             },
-            "linnen-sail": {
-                "displayName": "Linnen Sail",
+            "linen-sail": {
+                "displayName": "Linen Sail",
                 "description": ""
             },
             "stainless-twist": {
                 "displayName": "Stainless Twist",
-                "description": ""
+                "description": "Stainless Twist is textured panel with rich streams of matte grays and high sheen silver hues with a thread of perrywinkle."
             },
             "carbon-new": {
                 "displayName": "Carbon New",
@@ -115,11 +115,11 @@
             },
             "melted-chocolate": {
                 "displayName": "Melted Chocolate",
-                "description": ""
+                "description": "Melted Chocolate is a high gloss reflection of an exotic wood. Its warm milk chocolate tones with light highlights are contrasted by dark striations of esprersso."
             },
             "stardust": {
                 "displayName": "Stardust",
-                "description": ""
+                "description": "Stardust has a gloss finish that carries a series of charcoal, silver and black lines that appear to cover a field of shimmer diamonds."
             },
             "chantilly-gray": {
                 "displayName": "Chantilly Gray",
@@ -127,55 +127,55 @@
             },
             "midnight-crok": {
                 "displayName": "Midnight Crok",
-                "description": ""
+                "description": "Midnight Crok presents as a crocadile pattern with a patent leather sheen."
             },
             "stealth": {
                 "displayName": "Stealth",
-                "description": ""
+                "description": "Stealth has a smooth super matte finish that carries a bold and soothing solid gray tone."
             },
             "cottage": {
                 "displayName": "Cottage",
-                "description": ""
+                "description": "Cottage features a super matte finish with wood grain texture. It presents as a raw, plank of rich French oak in a creamy natural blond color with white highlights in the soft grain."
             },
             "parchment": {
                 "displayName": "Parchment",
-                "description": ""
+                "description": "Parchment has a high gloss finish over a licht creamy white color with faint taup and grey lines that take the finish to a warmer tan feel."
             },
             "sunset-brown": {
                 "displayName": "Sunset Brown",
-                "description": ""
+                "description": "Sunset Brown carries a flat finish with a textured face. The warm brown tones include an undercurrent of copper, red and orange."
             },
             "drift-cloth": {
                 "displayName": "Drift Cloth",
-                "description": ""
+                "description": "Drift Cloth has a high gloss finish over a pattern reminiscent of a faded canvas sail or light linen pants. The breezy bone color given depth by a light gray stitch."
             },
             "pearl-stardust": {
                 "displayName": "Pearl Stardust",
-                "description": ""
+                "description": "Pearl Stardust a  bright white, metalic finish provides a shimmer and spakle under a high gloss finish."
             },
             "twisted-steel": {
                 "displayName": "Twisted Steel",
-                "description": ""
+                "description": "Twisted Steel is highgloss panel with wide tristed strandss of grays with hint of white shadows."
             },
-            "dune": {
-                "displayName": "Dune",
-                "description": ""
+            "sand-dune": {
+                "displayName": "Sand Dune",
+                "description": "Sand Dune is a high gloss reflection of warm blond, sun soaked sands that meet the ocean.  "
             },
             "pewter-rain": {
                 "displayName": "Pewter Rain",
-                "description": ""
+                "description": "Pewter Rain has a high gloss finish over a field of fine metalic silver lines and periodic burn thriugh to reveal slight contrast."
             },
             "urban-cowboy": {
                 "displayName": "Urban Cowboy",
-                "description": ""
+                "description": "Urban Cowboy is a rich high gloss finish with subtle figuring reminicent of a supple worn leather. The warm brown tones carry a light and pleasing value with a slight sparkle to provide a faint metalic feel."
             },
             "earth": {
                 "displayName": "Earth",
-                "description": ""
+                "description": "Earth is compilation of high gloss slices of earth tone wood grains. The soothing palett includes warm browns, chestnut,taupe, carmel, drift wood, dark espresso, camel and blond tones."
             },
             "pure-snow": {
                 "displayName": "Pure Snow",
-                "description": ""
+                "description": "Pure Snow has a soft, smooth, matte finish in pure white."
             },
             "white-prism": {
                 "displayName": "White Prism",
@@ -183,81 +183,81 @@
             },
             "french-roast": {
                 "displayName": "French Roast",
-                "description": ""
+                "description": "French Roast  has a high gloss brazilian walnut appearance with the rich, warm tones of Columbian coffee beans and contrasting dark espresso striations."
             },
             "purple-reign": {
                 "displayName": "Purple Reign",
-                "description": ""
+                "description": "Purple Reign is a deep, rich and soothing shade of metalic purple with a high gloss finish."
             }
         },
         "couches": {
             "black": {
                 "displayName": "Black",
-                "description": ""
+                "description": "Black an elegant and bold stament to define your room."
             },
             "charlott": {
                 "displayName": "Charlott",
-                "description": ""
+                "description": "Charlott a rich dark brown."
             },
             "maxima-pewter": {
                 "displayName": "Maxima Pewter",
-                "description": ""
+                "description": "Maxima Pewter a dark matte gray."
             },
             "bourbon": {
                 "displayName": "Bourbon",
-                "description": ""
+                "description": "Burbon a deep brown with warm undertones."
             },
             "chocolate": {
                 "displayName": "Chocolate",
-                "description": ""
+                "description": "Chocolate a rich, dark chocolate brown"
             },
             "off-the-grid": {
                 "displayName": "Off The Grid",
-                "description": ""
+                "description": "A light parchment tone that straddles tan and gray."
             },
-            "brixk": {
-                "displayName": "Brixk",
-                "description": ""
+            "brick": {
+                "displayName": "Brick",
+                "description": "Brick a deep burnt red."
             },
             "clowd": {
-                "displayName": "Clowd",
-                "description": ""
+                "displayName": "Cloud",
+                "description": "Cloud  the misty white color of a cumulus cloud."
             },
             "optical-white": {
                 "displayName": "Optical White",
-                "description": ""
+                "description": "Optical White a bright clean white."
             },
             "bronx-moon-dust": {
                 "displayName": "Bronx Moon Dust",
-                "description": ""
+                "description": "Bronk Moon dust  a frosty tope."
             },
             "dante-spice": {
                 "displayName": "Dante Spice",
-                "description": ""
+                "description": "Dante Spice a a rich tabacco brown."
             },
             "pink-elmanordic": {
                 "displayName": "Pink Elmanordic",
-                "description": ""
+                "description": "Elmanoric Pink is a deep, dark pink tone."
             },
             "brooklyn-creme-brulee": {
-                "displayName": "Brooklyn Creme Brulee",
-                "description": ""
+                "displayName": "Brooklyn Crème Brulee",
+                "description": "Brooklyn Crème Brulee a soft sandy beige."
             },
             "deer-run": {
-                "displayName": "Deer Run",
-                "description": ""
+                "displayName": "Deer Run Lilac",
+                "description": "Deer Run Lilac a soothing light purple shade."
             },
-            "rasberry-elmanordic-III": {
-                "displayName": "Rasberry Elmanordic III",
-                "description": ""
+            "rasberry": {
+                "displayName": "Rasberry",
+                "description": "A vibrant pure rasberry color."
             },
             "brooklyn-fog": {
                 "displayName": "Brooklyn Fog",
-                "description": ""
+                "description": "Brooklyn Fog a smokey tope."
             },
-            "elmanordic-III": {
-                "displayName": "Elmanordic III",
-                "description": ""
+            "purple-elmanordic": {
+                "displayName": "Purple Elmanortic",
+                "description": "Elmanortic Purple a vivad blast of grape. "
             },
             "regent-modern-gray": {
                 "displayName": "Regent Modern Gray",
@@ -265,47 +265,47 @@
             },
             "casablanca-smoke": {
                 "displayName": "Casablanca Smoke",
-                "description": ""
+                "description": "Casablanca smoke a luxurious silver gray provides a soft metalic look."
             },
             "eugene-sabia": {
                 "displayName": "Eugene Sabia",
-                "description": ""
+                "description": "Eugene Sabia a dark camel."
             },
             "regent-sand": {
                 "displayName": "Regent Sand",
-                "description": ""
+                "description": "Regent Sand a Dark beige with carmel tones."
             },
             "cetus-cielo": {
                 "displayName": "Cetus Cielo",
-                "description": ""
+                "description": "Cetus Cielo a chalky light gray."
             },
             "eugene-slate": {
                 "displayName": "Eugene Slate",
-                "description": ""
+                "description": "Eugene Slate a deep dark gray that is just shy of black."
             },
             "saddle": {
                 "displayName": "Saddle",
-                "description": ""
+                "description": "Saddle a burst of warm color like a brand new baseball glove or a shiney sadle. "
             },
             "cetus-granite": {
                 "displayName": "Cetus Granite",
-                "description": ""
+                "description": "Cetus Granite a medium elephant Gray."
             },
             "holiday-lace": {
                 "displayName": "Holiday Lace",
-                "description": ""
+                "description": "Holiday Lace a neutral creamy linen tone."
             },
-            "samca-ivory": {
-                "displayName": "Samca Ivory",
-                "description": ""
+            "ivory": {
+                "displayName": "Ivory",
+                "description": "Ivory a soft neutral cream."
             },
             "cetus-nuvolo": {
                 "displayName": "Cetus Nuvolo",
-                "description": ""
+                "description": "Cetus Nuvolo a a frosty off white."
             },
             "holiday-mink": {
                 "displayName": "Holiday Mink",
-                "description": ""
+                "description": "Holiday Mink a medium brown with warm undertones."
             },
             "slate": {
                 "displayName": "Slate",
@@ -313,101 +313,101 @@
             },
             "cetus-pebble": {
                 "displayName": "Cetus Pebble",
-                "description": ""
+                "description": "Cetus Pebble an earthy tope tone."
             },
             "lipstick": {
                 "displayName": "Lipstick",
-                "description": ""
+                "description": "Lipstick a bold and fun splash of color in the ruby red tones of a 1950’s lipstick."
             },
             "tumbleweed": {
                 "displayName": "Tumbleweed",
-                "description": ""
+                "description": "Tumbleweed an earthy medium brown."
             },
             "cetus-smoke": {
                 "displayName": "Cetus Smoke",
-                "description": ""
+                "description": "Cedus Smoke a smokey brownish gray."
             },
             "maxima-coffee": {
                 "displayName": "Maxima Coffee",
-                "description": ""
+                "description": "Rich brown with the undercurrent of red coffee bean."
             },
             "chalk": {
                 "displayName": "Chalk",
-                "description": ""
+                "description": "Chalk a soft cloudy white."
             },
             "maxima-onyx": {
                 "displayName": "Maxima Onyx",
-                "description": ""
+                "description": "Maxima Onyx a sophisticated matte black."
             }
         },
         "cabinets": {
             "alabama-cherry": {
                 "displayName": "Alabama Cherry",
-                "description": ""
+                "description": "Alabama Cherry has brownish, orange hue."
             },
             "cognac": {
                 "displayName": "Cognac",
-                "description": ""
+                "description": "Cognac has a rich reddish, brown and a subtle silky grain."
             },
             "rainier-white": {
                 "displayName": "Rainier White",
-                "description": ""
+                "description": "Rainer White like the frosty snow atop a mountain."
             },
             "almond": {
                 "displayName": "Almond",
-                "description": ""
+                "description": "Almond a neutral creamy beige."
             },
-            "cordoba-pint": {
-                "displayName": "Cordoba Pint",
-                "description": ""
+            "cordoba-pine": {
+                "displayName": "Cordoba Pine",
+                "description": "Cordoba Pine a deep, rich, dark chocolate brown."
             },
             "silver-frost": {
                 "displayName": "Silver Frost",
-                "description": ""
+                "description": "Silver Frost a silver etched tone with a subtle metallic feel."
             },
             "antique-white": {
                 "displayName": "Antique White",
-                "description": ""
+                "description": "Antique White a white with a faint shadow of cream."
             },
             "dove-gray": {
                 "displayName": "Dove Gray",
-                "description": ""
+                "description": "Dove Gray is a medium value gray."
             },
             "slate": {
                 "displayName": "Slate",
-                "description": ""
+                "description": "Slate is a gray tone slightly lighter than charcoal."
             },
             "black": {
                 "displayName": "Black",
-                "description": ""
+                "description": "Black the perfect complement to create a rich, elegant feel."
             },
             "folkstone": {
                 "displayName": "Folkstone",
-                "description": ""
+                "description": "Folkstone is a light pleasing gray."
             },
             "summit": {
                 "displayName": "Summit",
-                "description": ""
+                "description": "Summit is a soothing butterscotch cabinet interior color with just a hint of brown umber glaze to dull the appearance."
             },
             "blond-echo": {
                 "displayName": "Blond Echo",
-                "description": ""
+                "description": "Blond Echo is a natural blond layered look similar to bamboo."
             },
             "hardrock-maple": {
                 "displayName": "Hardrock Maple",
-                "description": ""
+                "description": "Hardrock Maple has a light clear natural complexion with wide faint graining."
             },
             "wild-apple": {
                 "displayName": "White Apple",
-                "description": ""
+                "description": "Wild Apple has a golden blond complexion."
             },
             "charcoal": {
                 "displayName": "Charcoal",
-                "description": ""
+                "description": "Charcoal Bold but slightly more subtle than black."
             },
             "italian-walnut": {
                 "displayName": "Italian Walnut",
-                "description": ""
+                "description": "Italian Walnut has an espresso with warm undertones."
             },
             "wilsonart-designer-white": {
                 "displayName": "Wilsonart Designer White",
@@ -415,11 +415,11 @@
             },
             "chocolate-pear": {
                 "displayName": "Chocolate Pear",
-                "description": ""
+                "description": "Chocolate Pear has a warm chocolate complexion that will complement the warm tones of your cabinets."
             },
             "mahogany": {
                 "displayName": "Mahogany",
-                "description": ""
+                "description": "Mahogany is the perfect cabinet interior color to complement the warmth of your cabinet doors."
             },
             "wilsonart-shaker-cherry": {
                 "displayName": "Wilsonart Shaker Cherry",
@@ -427,19 +427,19 @@
             },
             "cinnamon-myrtle": {
                 "displayName": "Cinnamon Myrtle",
-                "description": ""
+                "description": "Cinnamon Myrtle a rich brown with an undercurrent of apricot."
             },
             "natural-maple": {
                 "displayName": "Natural Maple",
-                "description": ""
+                "description": "Natural Maple has a light natural complexion with a light hint of honey and tight graining."
             },
             "glacier-white": {
                 "displayName": "Glacier White",
-                "description": ""
+                "description": "Glacier White is our brightest white."
             },
             "norwegian": {
                 "displayName": "Norwegian",
-                "description": ""
+                "description": "Norwegian Maple has a light clear natural complexion with tight graining."
             }
         },
         "headboards": {
@@ -690,21 +690,32 @@
         }
     },
     "schemes": {
+        "aged-french-oak" : {
+            "displayName": "Aged French Oak",
+            "description": "",
+            "panel-a": "french-roast",
+            "panel-b": "glass-wenge",
+            "couch": "regent-sand",
+            "cabinet": "summit",
+            "headboard": "doeskin"
+        },
+        "bankers-gray" : {
+            "displayName": "Banker's Gray",
+            "description": "",
+            "panel-a": "bankers-gray",
+            "panel-b": "gotham-gray",
+            "couch": "maxima-pewter",
+            "cabinet": "charcoal",
+            "headboard": "charcoal"
+        },
         "serengeti" : {
             "displayName": "Serengeti",
+            "description": "",
             "panel-a": "serengeti",
             "panel-b": "sunset-brown",
             "couch": "saddle",
             "cabinet": "mahogany",
             "headboard": "camel"
-        },
-        "aged-french" : {
-            "displayName": "Aged French",
-            "panel-a": "french-roast",
-            "panel-b": "french-roast",
-            "couch": "regent-sand",
-            "cabinet": "summit",
-            "headboard": "doeskin"
         }
     }
 }

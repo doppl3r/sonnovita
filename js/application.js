@@ -123,6 +123,13 @@ function updateScheme(){
     $('.create .couch').attr('class', 'couch texture '+couch+'-couch');
     $('.create .cabinet').attr('class', 'cabinet texture '+cabinet+'-cabinet');
     $('.create .headboard').attr('class', 'headboard texture '+headboard+'-headboard');
+
+    //update captions
+    $('.create .panel-a .title').text(window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined");
+    $('.create .panel-b .title').text(window.textureData["textures"]["panels"][panel_b]["displayName"] || "undefined");
+    $('.create .couch .title').text(window.textureData["textures"]["couches"][couch]["displayName"] || "undefined");
+    $('.create .cabinet .title').text(window.textureData["textures"]["cabinets"][cabinet]["displayName"] || "undefined");
+    $('.create .headboard .title').text(window.textureData["textures"]["headboards"][headboard]["displayName"] || "undefined");
 }
 
 function addSchemes(){
