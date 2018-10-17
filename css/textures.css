@@ -34,8 +34,8 @@
 .black-on-black-panel {
   background-image: url("../img/textures/panels/black-on-black.jpg"); }
 
-.gotham-gray-panel {
-  background-image: url("../img/textures/panels/gotham-gray.jpg"); }
+.gotham-stone-panel {
+  background-image: url("../img/textures/panels/gotham-stone.jpg"); }
 
 .serengeti-panel {
   background-image: url("../img/textures/panels/serengeti.jpg"); }
@@ -142,6 +142,9 @@
 .french-roast-panel {
   background-image: url("../img/textures/panels/french-roast.jpg"); }
 
+.bubble-gum-crok-panel {
+  background-image: url("../img/textures/panels/bubble-gum-crok.jpg"); }
+
 /* headboards */
 .aubergine-headboard {
   background-image: url("../img/textures/headboards/aubergine.jpg"); }
@@ -245,8 +248,8 @@
 .pumpkin-headboard {
   background-image: url("../img/textures/headboards/pumpkin.jpg"); }
 
-.ultraviolet-headboard {
-  background-image: url("../img/textures/headboards/ultraviolet.jpg"); }
+.violet-headboard {
+  background-image: url("../img/textures/headboards/violet.jpg"); }
 
 .celery-headboard {
   background-image: url("../img/textures/headboards/celery.jpg"); }
@@ -320,8 +323,8 @@
 .godiva-headboard {
   background-image: url("../img/textures/headboards/godiva.jpg"); }
 
-.newmocha-headboard {
-  background-image: url("../img/textures/headboards/newmocha.jpg"); }
+.new-mocha-headboard {
+  background-image: url("../img/textures/headboards/new-mocha.jpg"); }
 
 .sky-headboard {
   background-image: url("../img/textures/headboards/sky.jpg"); }
@@ -366,8 +369,8 @@
 .brooklyn-creme-brulee-couch {
   background-image: url("../img/textures/couches/brooklyn-creme-brulee.jpg"); }
 
-.deer-run-couch {
-  background-image: url("../img/textures/couches/deer-run.jpg"); }
+.deer-run-lilac-couch {
+  background-image: url("../img/textures/couches/deer-run-lilac.jpg"); }
 
 .raspberry-couch {
   background-image: url("../img/textures/couches/raspberry.jpg"); }
@@ -511,5 +514,5 @@
 .glacier-white-cabinet {
   background-image: url("../img/textures/cabinets/glacier-white.jpg"); }
 
-.norwegian-cabinet {
-  background-image: url("../img/textures/cabinets/norwegian.jpg"); }
+.norwegian-maple-cabinet {
+  background-image: url("../img/textures/cabinets/norwegian-maple.jpg"); }

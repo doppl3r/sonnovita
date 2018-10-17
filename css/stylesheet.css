@@ -341,7 +341,7 @@ body {
     body .row .col-12 {
       width: 100%; }
   body .palette {
-    background-color: #55504c;
+    background-color: #433d39;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     margin-bottom: 48px;
@@ -364,6 +364,7 @@ body {
         line-height: 16px;
         padding: 16px 0 8px; }
     body .palette .grid {
+      background-color: #55504c;
       display: -ms-grid;
       display: grid;
       -ms-grid-columns: 2fr 1fr;

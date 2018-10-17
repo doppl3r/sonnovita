@@ -41,8 +41,8 @@
                 "displayName": "Black on Black",
                 "description": ""
             },
-            "gotham-gray": {
-                "displayName": "Gotham Gray",
+            "gotham-stone": {
+                "displayName": "Gotham Stone",
                 "description": "Gotham Stone has the look and feel of a chisled piece of flat textured gray stone. "
             },
             "serengeti": {
@@ -188,6 +188,10 @@
             "purple-reign": {
                 "displayName": "Purple Reign",
                 "description": "Purple Reign is a deep, rich and soothing shade of metalic purple with a high gloss finish."
+            },
+            "bubble-gum-crok": {
+                "displayName": "Bubble Gum Crok",
+                "description": "Bubble Gum Crok presentsa bright pink high gloss appearence on a textured crocadile pattern."
             }
         },
         "couches": {
@@ -243,7 +247,7 @@
                 "displayName": "Brooklyn Crème Brulee",
                 "description": "Brooklyn Crème Brulee a soft sandy beige."
             },
-            "deer-run": {
+            "deer-run-lilac": {
                 "displayName": "Deer Run Lilac",
                 "description": "Deer Run Lilac a soothing light purple shade."
             },
@@ -437,8 +441,8 @@
                 "displayName": "Glacier White",
                 "description": "Glacier White is our brightest white."
             },
-            "norwegian": {
-                "displayName": "Norwegian",
+            "norwegian-maple": {
+                "displayName": "Norwegian Maple",
                 "description": "Norwegian Maple has a light clear natural complexion with tight graining."
             }
         },
@@ -579,8 +583,8 @@
                 "displayName": "Pumpkin",
                 "description": "Pumpkin is a bright happy orange tone."
             },
-            "ultraviolet": {
-                "displayName": "Ultraviolet",
+            "violet": {
+                "displayName": "Violet",
                 "description": "Violet  a frosty purple."
             },
             "celery": {
@@ -679,7 +683,7 @@
                 "displayName": "Godiva",
                 "description": "Godiva a delicious warm brown."
             },
-            "newmocha": {
+            "new-mocha": {
                 "displayName": "New Mocha",
                 "description": "New Mocha a rich  brown where chocolate meets latte."
             },
@@ -703,7 +707,7 @@
             "displayName": "Banker's Gray",
             "description": "",
             "panel-a": "bankers-gray",
-            "panel-b": "gotham-gray",
+            "panel-b": "gotham-stone",
             "couch": "maxima-pewter",
             "cabinet": "charcoal",
             "headboard": "charcoal"
@@ -730,7 +734,7 @@
             "displayName": "Bubble Gum Crok",
             "description": "",
             "panel-a": "bubble-gum-crok",
-            "panel-b": "pure-white",
+            "panel-b": "pure-snow",
             "couch": "optical-white",
             "cabinet": "ranier-white",
             "headboard": "white"
@@ -744,6 +748,213 @@
             "cabinet": "almond",
             "headboard": "cream"
         },
+        "candy-apple" : {
+            "displayName": "Candy Apple",
+            "description": "",
+            "panel-a": "candy-apple",
+            "panel-b": "carbon",
+            "couch": "maxima-pewter",
+            "cabinet": "charcoal",
+            "headboard": "black"
+        },
+        "carbon" : {
+            "displayName": "Carbon",
+            "description": "",
+            "panel-a": "carbon",
+            "panel-b": "bankers-gray",
+            "couch": "cetus-slate",
+            "cabinet": "charcoal",
+            "headboard": "wine"
+        },
+        "cottage" : {
+            "displayName": "Cottage",
+            "description": "",
+            "panel-a": "cottage",
+            "panel-b": "silky-putty",
+            "couch": "brooklyn-fog",
+            "cabinet": "almond",
+            "headboard": "stone"
+        },
+        "drift-cloth" : {
+            "displayName": "Cottage",
+            "description": "",
+            "panel-a": "drift-cloth",
+            "panel-b": "linen-sail",
+            "couch": "cetus-pebble",
+            "cabinet": "antique",
+            "headboard": "parchment"
+        },
+        "earth" : {
+            "displayName": "Earth",
+            "description": "",
+            "panel-a": "earth",
+            "panel-b": "urban-cowboy",
+            "couch": "regent-sand",
+            "cabinet": "summit",
+            "headboard": "doeskin"
+        },
+        "french-roast" : {
+            "displayName": "French Roast",
+            "description": "",
+            "panel-a": "french-roast",
+            "panel-b": "carbon",
+            "couch": "cetus-burbon",
+            "cabinet": "cordoba-pine",
+            "headboard": "godiva"
+        },
+        "glass-drift" : {
+            "displayName": "Glass Drift",
+            "description": "",
+            "panel-a": "glass-drift",
+            "panel-b": "bankers-gray",
+            "couch": "modern-gray",
+            "cabinet": "charcoal",
+            "headboard": "platinum"
+        },
+        "gotham-stone" : {
+            "displayName": "Gotham Stone",
+            "description": "",
+            "panel-a": "gotham-stone",
+            "panel-b": "carbon",
+            "couch": "purple-elmanordic",
+            "cabinet": "charcoal",
+            "headboard": "passion-purple"
+        },
+        "graphite-reign" : {
+            "displayName": "Graphite Reign",
+            "description": "",
+            "panel-a": "graphite-reign",
+            "panel-b": "stardust",
+            "couch": "raspberry",
+            "cabinet": "charcoal",
+            "headboard": "gunmetal"
+        },
+        "gray-flannel" : {
+            "displayName": "Gray Flannel",
+            "description": "",
+            "panel-a": "gray-flannel",
+            "panel-b": "bankers-gray",
+            "couch": "black",
+            "cabinet": "charcoal",
+            "headboard": "platinum"
+        },
+        "key-lime-pie" : {
+            "displayName": "Key Lime Pie",
+            "description": "",
+            "panel-a": "key-lime-pie",
+            "panel-b": "carbon",
+            "couch": "maxima-pewter",
+            "cabinet": "charcoal",
+            "headboard": "black"
+        },
+        "melted-chocolate" : {
+            "displayName": "Melted Chocolate",
+            "description": "",
+            "panel-a": "melted-chocolate",
+            "panel-b": "glass-wenge",
+            "couch": "dante-spice",
+            "cabinet": "chocolate-pear",
+            "headboard": "godiva"
+        },
+        "midnight-crok" : {
+            "displayName": "Melted Chocolate",
+            "description": "",
+            "panel-a": "midnight-crok",
+            "panel-b": "carbon",
+            "couch": "galaleo-red",
+            "cabinet": "black",
+            "headboard": "gunmetal"
+        },
+        "orange-crush" : {
+            "displayName": "Orange Crush",
+            "description": "",
+            "panel-a": "candy-apple",
+            "panel-b": "carbon",
+            "couch": "black",
+            "cabinet": "charcoal",
+            "headboard": "black"
+        },
+        "parchment" : {
+            "displayName": "Parchment",
+            "description": "",
+            "panel-a": "parchment",
+            "panel-b": "drift-cloth",
+            "couch": "cetus-pebble",
+            "cabinet": "almond",
+            "headboard": "new-mocha"
+        },
+        "pearl-stardust" : {
+            "displayName": "Pearl Stardust",
+            "description": "",
+            "panel-a": "pearl-stardust",
+            "panel-b": "snow-white",
+            "couch": "brooklyn-fog",
+            "cabinet": "ranier-white",
+            "headboard": "platinum"
+        },
+        "pewter-rain" : {
+            "displayName": "Pewter Rain",
+            "description": "",
+            "panel-a": "pewter-rain",
+            "panel-b": "gray-mist",
+            "couch": "casablanca-smoke",
+            "cabinet": "silver-frost",
+            "headboard": "sky"
+        },
+        "pure-snow" : {
+            "displayName": "Pure Snow",
+            "description": "",
+            "panel-a": "pure-snow",
+            "panel-b": "snow-trees",
+            "couch": "optical-white",
+            "cabinet": "ranier-white",
+            "headboard": "violet"
+        },
+        "purple-reign" : {
+            "displayName": "Purple Reign",
+            "description": "",
+            "panel-a": "purple-reign",
+            "panel-b": "graphite-reign",
+            "couch": "casablanca-smoke",
+            "cabinet": "charcoal",
+            "headboard": "gunmetal"
+        },
+        "ravenwood" : {
+            "displayName": "Ravenwood",
+            "description": "",
+            "panel-a": "ravenwood",
+            "panel-b": "carbon",
+            "couch": "chalk",
+            "cabinet": "ranier-white",
+            "headboard": "white"
+        },
+        "raw-dusk" : {
+            "displayName": "Raw Dusk",
+            "description": "",
+            "panel-a": "raw-dusk",
+            "panel-b": "carbon",
+            "couch": "brooklyn-fog",
+            "cabinet": "charcoal",
+            "headboard": "doeskin"
+        },
+        "sahara" : {
+            "displayName": "Sahara",
+            "description": "",
+            "panel-a": "sahara",
+            "panel-b": "urban-cowboy",
+            "couch": "tumbleweed",
+            "cabinet": "summit",
+            "headboard": "mica"
+        },
+        "sand-dune" : {
+            "displayName": "Sand Dune",
+            "description": "",
+            "panel-a": "sand-dune",
+            "panel-b": "drift-cloth",
+            "couch": "brooklyn-creme-brulee",
+            "cabinet": "norwegian-maple",
+            "headboard": "turquoise"
+        },
         "serengeti" : {
             "displayName": "Serengeti",
             "description": "",
@@ -751,7 +962,106 @@
             "panel-b": "sunset-brown",
             "couch": "saddle",
             "cabinet": "mahogany",
-            "headboard": "camel"
+            "headboard": "mica"
+        },
+        "shades-of-gray" : {
+            "displayName": "Shades of Gray",
+            "description": "",
+            "panel-a": "shades-of-gray",
+            "panel-b": "carbon",
+            "couch": "modern-gray",
+            "cabinet": "charcoal",
+            "headboard": "cement"
+        },
+        "silky-putty" : {
+            "displayName": "Shades of Gray",
+            "description": "",
+            "panel-a": "silky-putty",
+            "panel-b": "parchment",
+            "couch": "brooklyn-fog",
+            "cabinet": "almond",
+            "headboard": "parchment"
+        },
+        "silver-mist" : {
+            "displayName": "Silver Mist",
+            "description": "",
+            "panel-a": "silver-mist",
+            "panel-b": "pewter-rain",
+            "couch": "cetus-granite",
+            "cabinet": "charcoal",
+            "headboard": "platinum"
+        },
+        "snow-crok" : {
+            "displayName": "Snow Crok",
+            "description": "",
+            "panel-a": "snow-crok",
+            "panel-b": "pure-snow",
+            "couch": "optical-white",
+            "cabinet": "ranier-white",
+            "headboard": "kiwi"
+        },
+        "snow-trees" : {
+            "displayName": "Snow Trees",
+            "description": "",
+            "panel-a": "snow-trees",
+            "panel-b": "pure-snow",
+            "couch": "modern-gray",
+            "cabinet": "ranier-white",
+            "headboard": "platinum"
+        },
+        "stainless-twist" : {
+            "displayName": "Stainless Twist",
+            "description": "",
+            "panel-a": "stainless-twist",
+            "panel-b": "pewter-rain",
+            "couch": "deer-run-lilac",
+            "cabinet": "silver-frost",
+            "headboard": "lilac"
+        },
+        "stardust" : {
+            "displayName": "Stardust",
+            "description": "",
+            "panel-a": "stardust",
+            "panel-b": "carbon",
+            "couch": "maxima-onyx",
+            "cabinet": "charcoal",
+            "headboard": "black"
+        },
+        "stealth" : {
+            "displayName": "Stealth",
+            "description": "",
+            "panel-a": "stealth",
+            "panel-b": "pewter-rain",
+            "couch": "slate",
+            "cabinet": "charcoal",
+            "headboard": "cement"
+        },
+        "sunset-brown" : {
+            "displayName": "Sunset Brown",
+            "description": "",
+            "panel-a": "sunset-brown",
+            "panel-b": "carbon",
+            "couch": "holiday-mink",
+            "cabinet": "mahogany",
+            "headboard": "copper"
+        },
+        "twisted-steel" : {
+            "displayName": "Twisted Steel",
+            "description": "",
+            "panel-a": "twisted-steel",
+            "panel-b": "pewter-rain",
+            "couch": "cetus-slate",
+            "cabinet": "silver-frost",
+            "headboard": "indigo"
+        },
+        "urban-cowboy" : {
+            "displayName": "Urban Cowboy",
+            "description": "",
+            "panel-a": "urban-cowboy",
+            "panel-b": "urban-cowboy",
+            "couch": "tumbleweed",
+            "cabinet": "summit",
+            "headboard": "mica"
         }
     }
 }

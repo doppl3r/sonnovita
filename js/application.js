@@ -104,7 +104,7 @@ function updateScheme(){
     var cabinet =   list["cabinet"]     || "undefined";
     var headboard = list["headboard"]   || "undefined";
     var scheme =    list["scheme"]      || "undefined";
-    var error =  "missing image: ";
+    var error =  "error: ";
     var scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
     var description = window.textureData["schemes"][scheme]["description"] || "undefined";
     var panel_a_text = window.textureData["textures"]["panels"][panel_a];
