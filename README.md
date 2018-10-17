@@ -1,4 +1,4 @@
-# Sonnovita Furnature
+# Sonnovita Furniture
 
 Under development
 
