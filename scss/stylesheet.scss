@@ -162,7 +162,7 @@ body {
             overflow: hidden;
 
             .owl-carousel {
-                &.palette {
+                &.color-palette {
                     margin: auto;
                     max-width: 960px;
 
@@ -177,6 +177,8 @@ body {
                     }
                     .items {
                         display: flex;
+                        text-decoration: none;
+                        color: inherit;
 
                         .item {
                             padding: 2%;
@@ -494,7 +496,7 @@ body {
                 padding: 0 10%;
                 
                 .owl-carousel {
-                    &.palette {
+                    &.color-palette {
                         .items {
                             .item {
                                 .tile {

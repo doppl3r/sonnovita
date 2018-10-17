@@ -47,7 +47,7 @@ function updateHomePage(){
             dots: false
         });
         /* palette carousel */
-        $('.owl-carousel.palette').owlCarousel({
+        $('.owl-carousel.color-palette').owlCarousel({
             items: 1,
             loop: true,
             dots: false,
@@ -127,7 +127,6 @@ function updateScheme(){
 
 function addSchemes(){
     //add all schemes from global texture JSON
-    var t = window.textureData['textures'];
     var s = window.textureData['schemes'];
     var row = $('.schemes .row.container');
     
