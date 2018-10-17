@@ -60,7 +60,7 @@ function updateCreatePage(){
     //load create page content
     $('#main-content').load('./includes/page-create.html', function(){
         //Import texture data from JSON file
-        $.getJSON('./texture-data.json', function(data){
+        $.getJSON('./textures.json', function(data){
             window.textureData = data;
             window.parsedURL = parseURL();
             updateScheme();
@@ -72,7 +72,7 @@ function updateSchemesPage(){
     //load schemes page content
     $('#main-content').load('./includes/page-schemes.html', function(){
         //Import texture data from JSON file
-        $.getJSON('./texture-data.json', function(data){
+        $.getJSON('./textures.json', function(data){
             window.textureData = data;
             addSchemes()
         });
@@ -118,11 +118,11 @@ function updateScheme(){
     $('#description').text(description);
     
     //apply classes with to unique texture ids
-    $('.create .panel-a').attr('class', 'panel-a texture '+panel_a+'-panel');
-    $('.create .panel-b').attr('class', 'panel-b texture '+panel_b+'-panel');
-    $('.create .couch').attr('class', 'couch texture '+couch+'-couch');
-    $('.create .cabinet').attr('class', 'cabinet texture '+cabinet+'-cabinet');
-    $('.create .headboard').attr('class', 'headboard texture '+headboard+'-headboard');
+    $('.create .panel-a').attr('class', 'panel-a texture panels '+panel_a);
+    $('.create .panel-b').attr('class', 'panel-b texture panels '+panel_b);
+    $('.create .couch').attr('class', 'couch texture couches '+couch);
+    $('.create .cabinet').attr('class', 'cabinet texture cabinets '+cabinet);
+    $('.create .headboard').attr('class', 'headboard texture headboards '+headboard);
 
     //update captions
     $('.create .panel-a .title').text(panel_a_text != null ? panel_a_text["displayName"] : error + panel_a);
@@ -154,11 +154,11 @@ function addSchemes(){
                     '<div class="palette small">'+
                         '<h2 class="title">'+title+'</h2>'+
                         '<div class="grid">'+
-                            '<div class="panel-a texture '+panel_a+'-panel"></div>'+
-                            '<div class="panel-b texture '+panel_b+'-panel"></div>'+
-                            '<div class="couch texture '+couch+'-couch"></div>'+
-                            '<div class="cabinet texture '+cabinet+'-cabinet"></div>'+
-                            '<div class="headboard texture '+headboard+'-headboard"></div>'+
+                            '<div class="panel-a texture panels '+panel_a+'"></div>'+
+                            '<div class="panel-b texture panels '+panel_b+'"></div>'+
+                            '<div class="couch texture couches '+couch+'"></div>'+
+                            '<div class="cabinet texture cabinets '+cabinet+'"></div>'+
+                            '<div class="headboard texture headboards '+headboard+'"></div>'+
                         '</div>'+
                         '<div class="cta">'+
                             '<a class="view" href="'+href+'"> view colors</a>'+

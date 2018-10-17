@@ -1,542 +1,181 @@
-/* panels, cabinets, leather */
-.texture {
-  background-size: cover;
-  background-position: center; }
-
-/* panels */
-.ascott-panel {
-  background-image: url("../img/textures/panels/ascott.jpg"); }
-
-.glacier-panel {
-  background-image: url("../img/textures/panels/glacier.jpg"); }
-
-.ravenwood-panel {
-  background-image: url("../img/textures/panels/ravenwood.jpg"); }
-
-.bankers-gray-panel {
-  background-image: url("../img/textures/panels/bankers-gray.jpg"); }
-
-.glass-drift-panel {
-  background-image: url("../img/textures/panels/glass-drift.jpg"); }
-
-.raw-dusk-panel {
-  background-image: url("../img/textures/panels/raw-dusk.jpg"); }
-
-.black-hole-panel {
-  background-image: url("../img/textures/panels/black-hole.jpg"); }
-
-.glass-wenge-panel {
-  background-image: url("../img/textures/panels/glass-wenge.jpg"); }
-
-.sahara-panel {
-  background-image: url("../img/textures/panels/sahara.jpg"); }
-
-.black-on-black-panel {
-  background-image: url("../img/textures/panels/black-on-black.jpg"); }
-
-.gotham-stone-panel {
-  background-image: url("../img/textures/panels/gotham-stone.jpg"); }
-
-.serengeti-panel {
-  background-image: url("../img/textures/panels/serengeti.jpg"); }
-
-.black-tie-panel {
-  background-image: url("../img/textures/panels/black-tie.jpg"); }
-
-.graphite-reign-panel {
-  background-image: url("../img/textures/panels/graphite-reign.jpg"); }
-
-.shades-of-gray-panel {
-  background-image: url("../img/textures/panels/shades-of-gray.jpg"); }
-
-.bronze-linen-panel {
-  background-image: url("../img/textures/panels/bronze-linen.jpg"); }
-
-.gray-flannel-panel {
-  background-image: url("../img/textures/panels/gray-flannel.jpg"); }
-
-.silky-putty-panel {
-  background-image: url("../img/textures/panels/silky-putty.jpg"); }
-
-.brushed-steel-panel {
-  background-image: url("../img/textures/panels/brushed-steel.jpg"); }
-
-.gray-mist-panel {
-  background-image: url("../img/textures/panels/gray-mist.jpg"); }
-
-.snow-crok-panel {
-  background-image: url("../img/textures/panels/snow-crok.jpg"); }
-
-.carbon-panel {
-  background-image: url("../img/textures/panels/carbon.jpg"); }
-
-.latte-trees-panel {
-  background-image: url("../img/textures/panels/latte-trees.jpg"); }
-
-.snow-trees-panel {
-  background-image: url("../img/textures/panels/snow-trees.jpg"); }
-
-.carbon-black-panel {
-  background-image: url("../img/textures/panels/carbon-black.jpg"); }
-
-.linen-sail-panel {
-  background-image: url("../img/textures/panels/linen-sail.jpg"); }
-
-.stainless-twist-panel {
-  background-image: url("../img/textures/panels/stainless-twist.jpg"); }
-
-.carbon-new-panel {
-  background-image: url("../img/textures/panels/carbon-new.jpg"); }
-
-.melted-chocolate-panel {
-  background-image: url("../img/textures/panels/melted-chocolate.jpg"); }
-
-.stardust-panel {
-  background-image: url("../img/textures/panels/stardust.jpg"); }
-
-.chantilly-gray-panel {
-  background-image: url("../img/textures/panels/chantilly-gray.jpg"); }
-
-.midnight-crok-panel {
-  background-image: url("../img/textures/panels/midnight-crok.jpg"); }
-
-.stealth-panel {
-  background-image: url("../img/textures/panels/stealth.jpg"); }
-
-.cottage-panel {
-  background-image: url("../img/textures/panels/cottage.jpg"); }
-
-.parchment-panel {
-  background-image: url("../img/textures/panels/parchment.jpg"); }
-
-.sunset-brown-panel {
-  background-image: url("../img/textures/panels/sunset-brown.jpg"); }
-
-.drift-cloth-panel {
-  background-image: url("../img/textures/panels/drift-cloth.jpg"); }
-
-.pearl-stardust-panel {
-  background-image: url("../img/textures/panels/pearl-stardust.jpg"); }
-
-.twisted-steel-panel {
-  background-image: url("../img/textures/panels/twisted-steel.jpg"); }
-
-.sand-dune-panel {
-  background-image: url("../img/textures/panels/sand-dune.jpg"); }
-
-.pewter-rain-panel {
-  background-image: url("../img/textures/panels/pewter-rain.jpg"); }
-
-.urban-cowboy-panel {
-  background-image: url("../img/textures/panels/urban-cowboy.jpg"); }
-
-.earth-panel {
-  background-image: url("../img/textures/panels/earth.jpg"); }
-
-.pure-snow-panel {
-  background-image: url("../img/textures/panels/pure-snow.jpg"); }
-
-.white-prism-panel {
-  background-image: url("../img/textures/panels/white-prism.jpg"); }
-
-.french-roast-panel {
-  background-image: url("../img/textures/panels/french-roast.jpg"); }
-
-.bubble-gum-crok-panel {
-  background-image: url("../img/textures/panels/bubble-gum-crok.jpg"); }
-
-.butter-cream-panel {
-  background-image: url("../img/textures/panels/butter-cream.jpg"); }
-
-.candy-apple-panel {
-  background-image: url("../img/textures/panels/candy-apple.jpg"); }
-
-.key-lime-pie-panel {
-  background-image: url("../img/textures/panels/key-lime-pie.jpg"); }
-
-/* headboards */
-.aubergine-headboard {
-  background-image: url("../img/textures/headboards/aubergine.jpg"); }
-
-.citron-headboard {
-  background-image: url("../img/textures/headboards/citron.jpg"); }
-
-.gunmetal-headboard {
-  background-image: url("../img/textures/headboards/gunmetal.jpg"); }
-
-.olive-headboard {
-  background-image: url("../img/textures/headboards/olive.jpg"); }
-
-.stone-headboard {
-  background-image: url("../img/textures/headboards/stone.jpg"); }
-
-.bittersweet-headboard {
-  background-image: url("../img/textures/headboards/bittersweet.jpg"); }
-
-.cloud-headboard {
-  background-image: url("../img/textures/headboards/cloud.jpg"); }
-
-.hunter-headboard {
-  background-image: url("../img/textures/headboards/hunter.jpg"); }
-
-.orangeade-headboard {
-  background-image: url("../img/textures/headboards/orangeade.jpg"); }
-
-.sunshine-headboard {
-  background-image: url("../img/textures/headboards/sunshine.jpg"); }
-
-.black-headboard {
-  background-image: url("../img/textures/headboards/black.jpg"); }
-
-.coffee-headboard {
-  background-image: url("../img/textures/headboards/coffee.jpg"); }
-
-.indigo-headboard {
-  background-image: url("../img/textures/headboards/indigo.jpg"); }
-
-.oyster-headboard {
-  background-image: url("../img/textures/headboards/oyster.jpg"); }
-
-.tidepool-headboard {
-  background-image: url("../img/textures/headboards/tidepool.jpg"); }
-
-.brick-headboard {
-  background-image: url("../img/textures/headboards/brick.jpg"); }
-
-.copper-headboard {
-  background-image: url("../img/textures/headboards/copper.jpg"); }
-
-.khaki-headboard {
-  background-image: url("../img/textures/headboards/khaki.jpg"); }
-
-.parchment-headboard {
-  background-image: url("../img/textures/headboards/parchment.jpg"); }
-
-.toast-headboard {
-  background-image: url("../img/textures/headboards/toast.jpg"); }
-
-.buckskin-headboard {
-  background-image: url("../img/textures/headboards/buckskin.jpg"); }
-
-.cream-headboard {
-  background-image: url("../img/textures/headboards/cream.jpg"); }
-
-.kiwi-headboard {
-  background-image: url("../img/textures/headboards/kiwi.jpg"); }
-
-.peat-headboard {
-  background-image: url("../img/textures/headboards/peat.jpg"); }
-
-.tomato-headboard {
-  background-image: url("../img/textures/headboards/tomato.jpg"); }
-
-.camel-headboard {
-  background-image: url("../img/textures/headboards/camel.jpg"); }
-
-.dandelion-headboard {
-  background-image: url("../img/textures/headboards/dandelion.jpg"); }
-
-.lichen-headboard {
-  background-image: url("../img/textures/headboards/lichen.jpg"); }
-
-.platinum-headboard {
-  background-image: url("../img/textures/headboards/platinum.jpg"); }
-
-.turquoise-headboard {
-  background-image: url("../img/textures/headboards/turquoise.jpg"); }
-
-.canary-headboard {
-  background-image: url("../img/textures/headboards/canary.jpg"); }
-
-.doeskin-headboard {
-  background-image: url("../img/textures/headboards/doeskin.jpg"); }
-
-.lilac-headboard {
-  background-image: url("../img/textures/headboards/lilac.jpg"); }
-
-.pumpkin-headboard {
-  background-image: url("../img/textures/headboards/pumpkin.jpg"); }
-
-.violet-headboard {
-  background-image: url("../img/textures/headboards/violet.jpg"); }
-
-.celery-headboard {
-  background-image: url("../img/textures/headboards/celery.jpg"); }
-
-.dove-headboard {
-  background-image: url("../img/textures/headboards/dove.jpg"); }
-
-.lipstick-headboard {
-  background-image: url("../img/textures/headboards/lipstick.jpg"); }
-
-.passion-purple-headboard {
-  background-image: url("../img/textures/headboards/passion-purple.jpg"); }
-
-.white-headboard {
-  background-image: url("../img/textures/headboards/white.jpg"); }
-
-.cement-headboard {
-  background-image: url("../img/textures/headboards/cement.jpg"); }
-
-.dustyrose-headboard {
-  background-image: url("../img/textures/headboards/dustyrose.jpg"); }
-
-.mica-headboard {
-  background-image: url("../img/textures/headboards/mica.jpg"); }
-
-.rust-headboard {
-  background-image: url("../img/textures/headboards/rust.jpg"); }
-
-.wine-headboard {
-  background-image: url("../img/textures/headboards/wine.jpg"); }
-
-.charcoal-headboard {
-  background-image: url("../img/textures/headboards/charcoal.jpg"); }
-
-.earth-headboard {
-  background-image: url("../img/textures/headboards/earth.jpg"); }
-
-.midi-headboard {
-  background-image: url("../img/textures/headboards/midi.jpg"); }
-
-.sage-headboard {
-  background-image: url("../img/textures/headboards/sage.jpg"); }
-
-.chestnut-headboard {
-  background-image: url("../img/textures/headboards/chestnut.jpg"); }
-
-.espresso-headboard {
-  background-image: url("../img/textures/headboards/espresso.jpg"); }
-
-.mustard-headboard {
-  background-image: url("../img/textures/headboards/mustard.jpg"); }
-
-.sea-headboard {
-  background-image: url("../img/textures/headboards/sea.jpg"); }
-
-.chocolate-headboard {
-  background-image: url("../img/textures/headboards/chocolate.jpg"); }
-
-.faun-headboard {
-  background-image: url("../img/textures/headboards/faun.jpg"); }
-
-.navy-headboard {
-  background-image: url("../img/textures/headboards/navy.jpg"); }
-
-.seafoam-headboard {
-  background-image: url("../img/textures/headboards/seafoam.jpg"); }
-
-.cinnabar-headboard {
-  background-image: url("../img/textures/headboards/cinnabar.jpg"); }
-
-.godiva-headboard {
-  background-image: url("../img/textures/headboards/godiva.jpg"); }
-
-.new-mocha-headboard {
-  background-image: url("../img/textures/headboards/new-mocha.jpg"); }
-
-.sky-headboard {
-  background-image: url("../img/textures/headboards/sky.jpg"); }
-
-/* couches */
-.black-couch {
-  background-image: url("../img/textures/couches/black.jpg"); }
-
-.charlott-couch {
-  background-image: url("../img/textures/couches/charlott.jpg"); }
-
-.maxima-pewter-couch {
-  background-image: url("../img/textures/couches/maxima-pewter.jpg"); }
-
-.bourbon-couch {
-  background-image: url("../img/textures/couches/bourbon.jpg"); }
-
-.chocolate-couch {
-  background-image: url("../img/textures/couches/chocolate.jpg"); }
-
-.off-the-grid-couch {
-  background-image: url("../img/textures/couches/off-the-grid.jpg"); }
-
-.brick-couch {
-  background-image: url("../img/textures/couches/brick.jpg"); }
-
-.cloud-couch {
-  background-image: url("../img/textures/couches/cloud.jpg"); }
-
-.optical-white-couch {
-  background-image: url("../img/textures/couches/optical-white.jpg"); }
-
-.bronx-moon-dust-couch {
-  background-image: url("../img/textures/couches/bronx-moon-dust.jpg"); }
-
-.dante-spice-couch {
-  background-image: url("../img/textures/couches/dante-spice.jpg"); }
-
-.pink-elmanordic-couch {
-  background-image: url("../img/textures/couches/pink-elmanordic.jpg"); }
-
-.brooklyn-creme-brulee-couch {
-  background-image: url("../img/textures/couches/brooklyn-creme-brulee.jpg"); }
-
-.deer-run-lilac-couch {
-  background-image: url("../img/textures/couches/deer-run-lilac.jpg"); }
-
-.raspberry-couch {
-  background-image: url("../img/textures/couches/raspberry.jpg"); }
-
-.brooklyn-fog-couch {
-  background-image: url("../img/textures/couches/brooklyn-fog.jpg"); }
-
-.purple-elmanordic-couch {
-  background-image: url("../img/textures/couches/purple-elmanordic.jpg"); }
-
-.regent-modern-gray-couch {
-  background-image: url("../img/textures/couches/regent-modern-gray.jpg"); }
-
-.casablanca-smoke-couch {
-  background-image: url("../img/textures/couches/casablanca-smoke.jpg"); }
-
-.eugene-sabia-couch {
-  background-image: url("../img/textures/couches/eugene-sabia.jpg"); }
-
-.regent-sand-couch {
-  background-image: url("../img/textures/couches/regent-sand.jpg"); }
-
-.cetus-cielo-couch {
-  background-image: url("../img/textures/couches/cetus-cielo.jpg"); }
-
-.eugene-slate-couch {
-  background-image: url("../img/textures/couches/eugene-slate.jpg"); }
-
-.saddle-couch {
-  background-image: url("../img/textures/couches/saddle.jpg"); }
-
-.cetus-granite-couch {
-  background-image: url("../img/textures/couches/cetus-granite.jpg"); }
-
-.holiday-lace-couch {
-  background-image: url("../img/textures/couches/holiday-lace.jpg"); }
-
-.ivory-couch {
-  background-image: url("../img/textures/couches/ivory.jpg"); }
-
-.cetus-nuvolo-couch {
-  background-image: url("../img/textures/couches/cetus-nuvolo.jpg"); }
-
-.holiday-mink-couch {
-  background-image: url("../img/textures/couches/holiday-mink.jpg"); }
-
-.slate-couch {
-  background-image: url("../img/textures/couches/slate.jpg"); }
-
-.cetus-pebble-couch {
-  background-image: url("../img/textures/couches/cetus-pebble.jpg"); }
-
-.lipstick-couch {
-  background-image: url("../img/textures/couches/lipstick.jpg"); }
-
-.tumbleweed-couch {
-  background-image: url("../img/textures/couches/tumbleweed.jpg"); }
-
-.cetus-smoke-couch {
-  background-image: url("../img/textures/couches/cetus-smoke.jpg"); }
-
-.maxima-coffee-couch {
-  background-image: url("../img/textures/couches/maxima-coffee.jpg"); }
-
-.chalk-couch {
-  background-image: url("../img/textures/couches/chalk.jpg"); }
-
-.maxima-onyx-couch {
-  background-image: url("../img/textures/couches/maxima-onyx.jpg"); }
-
-.cetus-slate-couch {
-  background-image: url("../img/textures/couches/cetus-slate.jpg"); }
-
-.cetus-bourbon-couch {
-  background-image: url("../img/textures/couches/cetus-bourbon.jpg"); }
-
-.modern-gray-couch {
-  background-image: url("../img/textures/couches/modern-gray.jpg"); }
-
-.galileo-red-couch {
-  background-image: url("../img/textures/couches/galileo-red.jpg"); }
-
-/* cabinets */
-.alabama-cherry-cabinet {
-  background-image: url("../img/textures/cabinets/alabama-cherry.jpg"); }
-
-.cognac-cabinet {
-  background-image: url("../img/textures/cabinets/cognac.jpg"); }
-
-.rainier-white-cabinet {
-  background-image: url("../img/textures/cabinets/rainier-white.jpg"); }
-
-.almond-cabinet {
-  background-image: url("../img/textures/cabinets/almond.jpg"); }
-
-.cordoba-pine-cabinet {
-  background-image: url("../img/textures/cabinets/cordoba-pine.jpg"); }
-
-.silver-frost-cabinet {
-  background-image: url("../img/textures/cabinets/silver-frost.jpg"); }
-
-.antique-white-cabinet {
-  background-image: url("../img/textures/cabinets/antique-white.jpg"); }
-
-.dove-gray-cabinet {
-  background-image: url("../img/textures/cabinets/dove-gray.jpg"); }
-
-.slate-cabinet {
-  background-image: url("../img/textures/cabinets/slate.jpg"); }
-
-.black-cabinet {
-  background-image: url("../img/textures/cabinets/black.jpg"); }
-
-.folkstone-cabinet {
-  background-image: url("../img/textures/cabinets/folkstone.jpg"); }
-
-.summit-cabinet {
-  background-image: url("../img/textures/cabinets/summit.jpg"); }
-
-.blond-echo-cabinet {
-  background-image: url("../img/textures/cabinets/blond-echo.jpg"); }
-
-.hardrock-maple-cabinet {
-  background-image: url("../img/textures/cabinets/hardrock-maple.jpg"); }
-
-.wild-apple-cabinet {
-  background-image: url("../img/textures/cabinets/wild-apple.jpg"); }
-
-.charcoal-cabinet {
-  background-image: url("../img/textures/cabinets/charcoal.jpg"); }
-
-.italian-walnut-cabinet {
-  background-image: url("../img/textures/cabinets/italian-walnut.jpg"); }
-
-.wilsonart-designer-white-cabinet {
-  background-image: url("../img/textures/cabinets/wilsonart-designer-white.jpg"); }
-
-.chocolate-pear-cabinet {
-  background-image: url("../img/textures/cabinets/chocolate-pear.jpg"); }
-
-.mahogany-cabinet {
-  background-image: url("../img/textures/cabinets/mahogany.jpg"); }
-
-.wilsonart-shaker-cherry-cabinet {
-  background-image: url("../img/textures/cabinets/wilsonart-shaker-cherry.jpg"); }
-
-.cinnamon-myrtle-cabinet {
-  background-image: url("../img/textures/cabinets/cinnamon-myrtle.jpg"); }
-
-.natural-maple-cabinet {
-  background-image: url("../img/textures/cabinets/natural-maple.jpg"); }
-
-.glacier-white-cabinet {
-  background-image: url("../img/textures/cabinets/glacier-white.jpg"); }
-
-.norwegian-maple-cabinet {
-  background-image: url("../img/textures/cabinets/norwegian-maple.jpg"); }
-
-.ranier-white-cabinet {
-  background-image: url("../img/textures/cabinets/ranier-white.jpg"); }
+.texture { background-size: cover; }
+.panels.ascott { background-image: url("../img/textures/panels/ascott.jpg"); }
+.panels.glacier { background-image: url("../img/textures/panels/glacier.jpg"); }
+.panels.ravenwood { background-image: url("../img/textures/panels/ravenwood.jpg"); }
+.panels.bankers-gray { background-image: url("../img/textures/panels/bankers-gray.jpg"); }
+.panels.glass-drift { background-image: url("../img/textures/panels/glass-drift.jpg"); }
+.panels.raw-dusk { background-image: url("../img/textures/panels/raw-dusk.jpg"); }
+.panels.black-hole { background-image: url("../img/textures/panels/black-hole.jpg"); }
+.panels.glass-wenge { background-image: url("../img/textures/panels/glass-wenge.jpg"); }
+.panels.sahara { background-image: url("../img/textures/panels/sahara.jpg"); }
+.panels.black-on-black { background-image: url("../img/textures/panels/black-on-black.jpg"); }
+.panels.gotham-stone { background-image: url("../img/textures/panels/gotham-stone.jpg"); }
+.panels.serengeti { background-image: url("../img/textures/panels/serengeti.jpg"); }
+.panels.black-tie { background-image: url("../img/textures/panels/black-tie.jpg"); }
+.panels.graphite-reign { background-image: url("../img/textures/panels/graphite-reign.jpg"); }
+.panels.shades-of-gray { background-image: url("../img/textures/panels/shades-of-gray.jpg"); }
+.panels.bronze-linen { background-image: url("../img/textures/panels/bronze-linen.jpg"); }
+.panels.gray-flannel { background-image: url("../img/textures/panels/gray-flannel.jpg"); }
+.panels.silky-putty { background-image: url("../img/textures/panels/silky-putty.jpg"); }
+.panels.brushed-steel { background-image: url("../img/textures/panels/brushed-steel.jpg"); }
+.panels.gray-mist { background-image: url("../img/textures/panels/gray-mist.jpg"); }
+.panels.snow-crok { background-image: url("../img/textures/panels/snow-crok.jpg"); }
+.panels.carbon { background-image: url("../img/textures/panels/carbon.jpg"); }
+.panels.latte-trees { background-image: url("../img/textures/panels/latte-trees.jpg"); }
+.panels.snow-trees { background-image: url("../img/textures/panels/snow-trees.jpg"); }
+.panels.carbon-black { background-image: url("../img/textures/panels/carbon-black.jpg"); }
+.panels.linen-sail { background-image: url("../img/textures/panels/linen-sail.jpg"); }
+.panels.stainless-twist { background-image: url("../img/textures/panels/stainless-twist.jpg"); }
+.panels.carbon-new { background-image: url("../img/textures/panels/carbon-new.jpg"); }
+.panels.melted-chocolate { background-image: url("../img/textures/panels/melted-chocolate.jpg"); }
+.panels.stardust { background-image: url("../img/textures/panels/stardust.jpg"); }
+.panels.chantilly-gray { background-image: url("../img/textures/panels/chantilly-gray.jpg"); }
+.panels.midnight-crok { background-image: url("../img/textures/panels/midnight-crok.jpg"); }
+.panels.stealth { background-image: url("../img/textures/panels/stealth.jpg"); }
+.panels.cottage { background-image: url("../img/textures/panels/cottage.jpg"); }
+.panels.parchment { background-image: url("../img/textures/panels/parchment.jpg"); }
+.panels.sunset-brown { background-image: url("../img/textures/panels/sunset-brown.jpg"); }
+.panels.drift-cloth { background-image: url("../img/textures/panels/drift-cloth.jpg"); }
+.panels.pearl-stardust { background-image: url("../img/textures/panels/pearl-stardust.jpg"); }
+.panels.twisted-steel { background-image: url("../img/textures/panels/twisted-steel.jpg"); }
+.panels.sand-dune { background-image: url("../img/textures/panels/sand-dune.jpg"); }
+.panels.pewter-rain { background-image: url("../img/textures/panels/pewter-rain.jpg"); }
+.panels.urban-cowboy { background-image: url("../img/textures/panels/urban-cowboy.jpg"); }
+.panels.earth { background-image: url("../img/textures/panels/earth.jpg"); }
+.panels.pure-snow { background-image: url("../img/textures/panels/pure-snow.jpg"); }
+.panels.white-prism { background-image: url("../img/textures/panels/white-prism.jpg"); }
+.panels.french-roast { background-image: url("../img/textures/panels/french-roast.jpg"); }
+.panels.purple-reign { background-image: url("../img/textures/panels/purple-reign.jpg"); }
+.panels.bubble-gum-crok { background-image: url("../img/textures/panels/bubble-gum-crok.jpg"); }
+.panels.butter-cream { background-image: url("../img/textures/panels/butter-cream.jpg"); }
+.panels.candy-apple { background-image: url("../img/textures/panels/candy-apple.jpg"); }
+.panels.key-lime-pie { background-image: url("../img/textures/panels/key-lime-pie.jpg"); }
+.panels.silver-mist { background-image: url("../img/textures/panels/silver-mist.jpg"); }
+.couches.black { background-image: url("../img/textures/couches/black.jpg"); }
+.couches.charlott { background-image: url("../img/textures/couches/charlott.jpg"); }
+.couches.maxima-pewter { background-image: url("../img/textures/couches/maxima-pewter.jpg"); }
+.couches.bourbon { background-image: url("../img/textures/couches/bourbon.jpg"); }
+.couches.chocolate { background-image: url("../img/textures/couches/chocolate.jpg"); }
+.couches.off-the-grid { background-image: url("../img/textures/couches/off-the-grid.jpg"); }
+.couches.brick { background-image: url("../img/textures/couches/brick.jpg"); }
+.couches.clowd { background-image: url("../img/textures/couches/clowd.jpg"); }
+.couches.optical-white { background-image: url("../img/textures/couches/optical-white.jpg"); }
+.couches.bronx-moon-dust { background-image: url("../img/textures/couches/bronx-moon-dust.jpg"); }
+.couches.dante-spice { background-image: url("../img/textures/couches/dante-spice.jpg"); }
+.couches.pink-elmanordic { background-image: url("../img/textures/couches/pink-elmanordic.jpg"); }
+.couches.brooklyn-creme-brulee { background-image: url("../img/textures/couches/brooklyn-creme-brulee.jpg"); }
+.couches.deer-run-lilac { background-image: url("../img/textures/couches/deer-run-lilac.jpg"); }
+.couches.raspberry { background-image: url("../img/textures/couches/raspberry.jpg"); }
+.couches.brooklyn-fog { background-image: url("../img/textures/couches/brooklyn-fog.jpg"); }
+.couches.purple-elmanordic { background-image: url("../img/textures/couches/purple-elmanordic.jpg"); }
+.couches.regent-modern-gray { background-image: url("../img/textures/couches/regent-modern-gray.jpg"); }
+.couches.casablanca-smoke { background-image: url("../img/textures/couches/casablanca-smoke.jpg"); }
+.couches.eugene-sabia { background-image: url("../img/textures/couches/eugene-sabia.jpg"); }
+.couches.regent-sand { background-image: url("../img/textures/couches/regent-sand.jpg"); }
+.couches.cetus-cielo { background-image: url("../img/textures/couches/cetus-cielo.jpg"); }
+.couches.eugene-slate { background-image: url("../img/textures/couches/eugene-slate.jpg"); }
+.couches.saddle { background-image: url("../img/textures/couches/saddle.jpg"); }
+.couches.cetus-granite { background-image: url("../img/textures/couches/cetus-granite.jpg"); }
+.couches.holiday-lace { background-image: url("../img/textures/couches/holiday-lace.jpg"); }
+.couches.ivory { background-image: url("../img/textures/couches/ivory.jpg"); }
+.couches.cetus-nuvolo { background-image: url("../img/textures/couches/cetus-nuvolo.jpg"); }
+.couches.holiday-mink { background-image: url("../img/textures/couches/holiday-mink.jpg"); }
+.couches.slate { background-image: url("../img/textures/couches/slate.jpg"); }
+.couches.cetus-pebble { background-image: url("../img/textures/couches/cetus-pebble.jpg"); }
+.couches.lipstick { background-image: url("../img/textures/couches/lipstick.jpg"); }
+.couches.tumbleweed { background-image: url("../img/textures/couches/tumbleweed.jpg"); }
+.couches.cetus-smoke { background-image: url("../img/textures/couches/cetus-smoke.jpg"); }
+.couches.maxima-coffee { background-image: url("../img/textures/couches/maxima-coffee.jpg"); }
+.couches.chalk { background-image: url("../img/textures/couches/chalk.jpg"); }
+.couches.maxima-onyx { background-image: url("../img/textures/couches/maxima-onyx.jpg"); }
+.couches.cetus-slate { background-image: url("../img/textures/couches/cetus-slate.jpg"); }
+.couches.cetus-bourbon { background-image: url("../img/textures/couches/cetus-bourbon.jpg"); }
+.couches.modern-gray { background-image: url("../img/textures/couches/modern-gray.jpg"); }
+.couches.galileo-red { background-image: url("../img/textures/couches/galileo-red.jpg"); }
+.cabinets.alabama-cherry { background-image: url("../img/textures/cabinets/alabama-cherry.jpg"); }
+.cabinets.cognac { background-image: url("../img/textures/cabinets/cognac.jpg"); }
+.cabinets.rainier-white { background-image: url("../img/textures/cabinets/rainier-white.jpg"); }
+.cabinets.almond { background-image: url("../img/textures/cabinets/almond.jpg"); }
+.cabinets.cordoba-pine { background-image: url("../img/textures/cabinets/cordoba-pine.jpg"); }
+.cabinets.silver-frost { background-image: url("../img/textures/cabinets/silver-frost.jpg"); }
+.cabinets.antique-white { background-image: url("../img/textures/cabinets/antique-white.jpg"); }
+.cabinets.dove-gray { background-image: url("../img/textures/cabinets/dove-gray.jpg"); }
+.cabinets.slate { background-image: url("../img/textures/cabinets/slate.jpg"); }
+.cabinets.black { background-image: url("../img/textures/cabinets/black.jpg"); }
+.cabinets.folkstone { background-image: url("../img/textures/cabinets/folkstone.jpg"); }
+.cabinets.summit { background-image: url("../img/textures/cabinets/summit.jpg"); }
+.cabinets.blond-echo { background-image: url("../img/textures/cabinets/blond-echo.jpg"); }
+.cabinets.hardrock-maple { background-image: url("../img/textures/cabinets/hardrock-maple.jpg"); }
+.cabinets.wild-apple { background-image: url("../img/textures/cabinets/wild-apple.jpg"); }
+.cabinets.charcoal { background-image: url("../img/textures/cabinets/charcoal.jpg"); }
+.cabinets.italian-walnut { background-image: url("../img/textures/cabinets/italian-walnut.jpg"); }
+.cabinets.wilsonart-designer-white { background-image: url("../img/textures/cabinets/wilsonart-designer-white.jpg"); }
+.cabinets.chocolate-pear { background-image: url("../img/textures/cabinets/chocolate-pear.jpg"); }
+.cabinets.mahogany { background-image: url("../img/textures/cabinets/mahogany.jpg"); }
+.cabinets.wilsonart-shaker-cherry { background-image: url("../img/textures/cabinets/wilsonart-shaker-cherry.jpg"); }
+.cabinets.cinnamon-myrtle { background-image: url("../img/textures/cabinets/cinnamon-myrtle.jpg"); }
+.cabinets.natural-maple { background-image: url("../img/textures/cabinets/natural-maple.jpg"); }
+.cabinets.glacier-white { background-image: url("../img/textures/cabinets/glacier-white.jpg"); }
+.cabinets.norwegian-maple { background-image: url("../img/textures/cabinets/norwegian-maple.jpg"); }
+.cabinets.ranier-white { background-image: url("../img/textures/cabinets/ranier-white.jpg"); }
+.headboards.aubergine { background-image: url("../img/textures/headboards/aubergine.jpg"); }
+.headboards.citron { background-image: url("../img/textures/headboards/citron.jpg"); }
+.headboards.gunmetal { background-image: url("../img/textures/headboards/gunmetal.jpg"); }
+.headboards.olive { background-image: url("../img/textures/headboards/olive.jpg"); }
+.headboards.stone { background-image: url("../img/textures/headboards/stone.jpg"); }
+.headboards.bittersweet { background-image: url("../img/textures/headboards/bittersweet.jpg"); }
+.headboards.cloud { background-image: url("../img/textures/headboards/cloud.jpg"); }
+.headboards.hunter { background-image: url("../img/textures/headboards/hunter.jpg"); }
+.headboards.orangeade { background-image: url("../img/textures/headboards/orangeade.jpg"); }
+.headboards.sunshine { background-image: url("../img/textures/headboards/sunshine.jpg"); }
+.headboards.black { background-image: url("../img/textures/headboards/black.jpg"); }
+.headboards.coffee { background-image: url("../img/textures/headboards/coffee.jpg"); }
+.headboards.indigo { background-image: url("../img/textures/headboards/indigo.jpg"); }
+.headboards.oyster { background-image: url("../img/textures/headboards/oyster.jpg"); }
+.headboards.tidepool { background-image: url("../img/textures/headboards/tidepool.jpg"); }
+.headboards.brick { background-image: url("../img/textures/headboards/brick.jpg"); }
+.headboards.copper { background-image: url("../img/textures/headboards/copper.jpg"); }
+.headboards.khaki { background-image: url("../img/textures/headboards/khaki.jpg"); }
+.headboards.parchment { background-image: url("../img/textures/headboards/parchment.jpg"); }
+.headboards.toast { background-image: url("../img/textures/headboards/toast.jpg"); }
+.headboards.buckskin { background-image: url("../img/textures/headboards/buckskin.jpg"); }
+.headboards.cream { background-image: url("../img/textures/headboards/cream.jpg"); }
+.headboards.kiwi { background-image: url("../img/textures/headboards/kiwi.jpg"); }
+.headboards.peat { background-image: url("../img/textures/headboards/peat.jpg"); }
+.headboards.tomato { background-image: url("../img/textures/headboards/tomato.jpg"); }
+.headboards.camel { background-image: url("../img/textures/headboards/camel.jpg"); }
+.headboards.dandelion { background-image: url("../img/textures/headboards/dandelion.jpg"); }
+.headboards.lichen { background-image: url("../img/textures/headboards/lichen.jpg"); }
+.headboards.platinum { background-image: url("../img/textures/headboards/platinum.jpg"); }
+.headboards.turquoise { background-image: url("../img/textures/headboards/turquoise.jpg"); }
+.headboards.canary { background-image: url("../img/textures/headboards/canary.jpg"); }
+.headboards.doeskin { background-image: url("../img/textures/headboards/doeskin.jpg"); }
+.headboards.lilac { background-image: url("../img/textures/headboards/lilac.jpg"); }
+.headboards.pumpkin { background-image: url("../img/textures/headboards/pumpkin.jpg"); }
+.headboards.violet { background-image: url("../img/textures/headboards/violet.jpg"); }
+.headboards.celery { background-image: url("../img/textures/headboards/celery.jpg"); }
+.headboards.dove { background-image: url("../img/textures/headboards/dove.jpg"); }
+.headboards.lipstick { background-image: url("../img/textures/headboards/lipstick.jpg"); }
+.headboards.passion-purple { background-image: url("../img/textures/headboards/passion-purple.jpg"); }
+.headboards.white { background-image: url("../img/textures/headboards/white.jpg"); }
+.headboards.cement { background-image: url("../img/textures/headboards/cement.jpg"); }
+.headboards.dustyrose { background-image: url("../img/textures/headboards/dustyrose.jpg"); }
+.headboards.mica { background-image: url("../img/textures/headboards/mica.jpg"); }
+.headboards.rust { background-image: url("../img/textures/headboards/rust.jpg"); }
+.headboards.wine { background-image: url("../img/textures/headboards/wine.jpg"); }
+.headboards.charcoal { background-image: url("../img/textures/headboards/charcoal.jpg"); }
+.headboards.earth { background-image: url("../img/textures/headboards/earth.jpg"); }
+.headboards.midi { background-image: url("../img/textures/headboards/midi.jpg"); }
+.headboards.sage { background-image: url("../img/textures/headboards/sage.jpg"); }
+.headboards.chestnut { background-image: url("../img/textures/headboards/chestnut.jpg"); }
+.headboards.espresso { background-image: url("../img/textures/headboards/espresso.jpg"); }
+.headboards.mustard { background-image: url("../img/textures/headboards/mustard.jpg"); }
+.headboards.sea { background-image: url("../img/textures/headboards/sea.jpg"); }
+.headboards.chocolate { background-image: url("../img/textures/headboards/chocolate.jpg"); }
+.headboards.faun { background-image: url("../img/textures/headboards/faun.jpg"); }
+.headboards.navy { background-image: url("../img/textures/headboards/navy.jpg"); }
+.headboards.seafoam { background-image: url("../img/textures/headboards/seafoam.jpg"); }
+.headboards.cinnabar { background-image: url("../img/textures/headboards/cinnabar.jpg"); }
+.headboards.godiva { background-image: url("../img/textures/headboards/godiva.jpg"); }
+.headboards.new-mocha { background-image: url("../img/textures/headboards/new-mocha.jpg"); }
+.headboards.sky { background-image: url("../img/textures/headboards/sky.jpg"); }
