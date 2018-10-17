@@ -1,3 +1,9 @@
+/*/
+ *  Generate CSS texture backgrounds from a local json file.
+ *  Uses node.js File System to read and write to CSS.
+ *  By: Jacob DeBenedetto
+/*/
+
 var fs = require('fs');
 var path = require('path');    
 var filePath = path.join(__dirname, 'textures.json');
