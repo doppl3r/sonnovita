@@ -192,6 +192,22 @@
             "bubble-gum-crok": {
                 "displayName": "Bubble Gum Crok",
                 "description": "Bubble Gum Crok presentsa bright pink high gloss appearence on a textured crocadile pattern."
+            },
+            "butter-cream": {
+                "displayName": "Butter Cream",
+                "description": "Butter Cream has a high gloss finish over a delectable creamy tone."
+            },
+            "candy-apple": {
+                "displayName": "Candy Apple",
+                "description": "Candy Apple is a bright glossy light red."
+            },
+            "key-lime-pie": {
+                "displayName": "Key Lime Pie",
+                "description": "Keylime Pie is a bright vibrant lime green with a high gloss finish."
+            },
+            "silver-mist": {
+                "displayName": "Silver Mist",
+                "description": "Silver Mist has a high gloss silver finish over faint  metalic specs and etched lines."
             }
         },
         "couches": {
@@ -209,7 +225,7 @@
             },
             "bourbon": {
                 "displayName": "Bourbon",
-                "description": "Burbon a deep brown with warm undertones."
+                "description": "bourbon a deep brown with warm undertones."
             },
             "chocolate": {
                 "displayName": "Chocolate",
@@ -342,6 +358,22 @@
             "maxima-onyx": {
                 "displayName": "Maxima Onyx",
                 "description": "Maxima Onyx a sophisticated matte black."
+            },
+            "cetus-slate": {
+                "displayName": "Cetus Slate",
+                "description": ""
+            },
+            "cetus-bourbon": {
+                "displayName": "Cetus Bourbon",
+                "description": ""
+            },
+            "modern-gray": {
+                "displayName": "Modern Gray",
+                "description": ""
+            },
+            "galileo-red": {
+                "displayName": "Galileo Red",
+                "description": "Galileo Red a bright bold candy apple red."
             }
         },
         "cabinets": {
@@ -444,6 +476,10 @@
             "norwegian-maple": {
                 "displayName": "Norwegian Maple",
                 "description": "Norwegian Maple has a light clear natural complexion with tight graining."
+            },
+            "ranier-white": {
+                "displayName": "Ranier White",
+                "description": ""
             }
         },
         "headboards": {
@@ -781,7 +817,7 @@
             "panel-a": "drift-cloth",
             "panel-b": "linen-sail",
             "couch": "cetus-pebble",
-            "cabinet": "antique",
+            "cabinet": "antique-white",
             "headboard": "parchment"
         },
         "earth" : {
@@ -798,7 +834,7 @@
             "description": "",
             "panel-a": "french-roast",
             "panel-b": "carbon",
-            "couch": "cetus-burbon",
+            "couch": "cetus-bourbon",
             "cabinet": "cordoba-pine",
             "headboard": "godiva"
         },
@@ -861,7 +897,7 @@
             "description": "",
             "panel-a": "midnight-crok",
             "panel-b": "carbon",
-            "couch": "galaleo-red",
+            "couch": "galileo-red",
             "cabinet": "black",
             "headboard": "gunmetal"
         },
@@ -887,7 +923,7 @@
             "displayName": "Pearl Stardust",
             "description": "",
             "panel-a": "pearl-stardust",
-            "panel-b": "snow-white",
+            "panel-b": "pure-snow",
             "couch": "brooklyn-fog",
             "cabinet": "ranier-white",
             "headboard": "platinum"

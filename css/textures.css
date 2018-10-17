@@ -145,6 +145,15 @@
 .bubble-gum-crok-panel {
   background-image: url("../img/textures/panels/bubble-gum-crok.jpg"); }
 
+.butter-cream-panel {
+  background-image: url("../img/textures/panels/butter-cream.jpg"); }
+
+.candy-apple-panel {
+  background-image: url("../img/textures/panels/candy-apple.jpg"); }
+
+.key-lime-pie-panel {
+  background-image: url("../img/textures/panels/key-lime-pie.jpg"); }
+
 /* headboards */
 .aubergine-headboard {
   background-image: url("../img/textures/headboards/aubergine.jpg"); }
@@ -441,6 +450,18 @@
 .maxima-onyx-couch {
   background-image: url("../img/textures/couches/maxima-onyx.jpg"); }
 
+.cetus-slate-couch {
+  background-image: url("../img/textures/couches/cetus-slate.jpg"); }
+
+.cetus-bourbon-couch {
+  background-image: url("../img/textures/couches/cetus-bourbon.jpg"); }
+
+.modern-gray-couch {
+  background-image: url("../img/textures/couches/modern-gray.jpg"); }
+
+.galileo-red-couch {
+  background-image: url("../img/textures/couches/galileo-red.jpg"); }
+
 /* cabinets */
 .alabama-cherry-cabinet {
   background-image: url("../img/textures/cabinets/alabama-cherry.jpg"); }
@@ -516,3 +537,6 @@
 
 .norwegian-maple-cabinet {
   background-image: url("../img/textures/cabinets/norwegian-maple.jpg"); }
+
+.ranier-white-cabinet {
+  background-image: url("../img/textures/cabinets/ranier-white.jpg"); }
