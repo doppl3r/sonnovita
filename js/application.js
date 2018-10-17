@@ -105,13 +105,13 @@ function updateScheme(){
     var headboard = list["headboard"]   || "undefined";
     var scheme =    list["scheme"]      || "undefined";
     var error =  "error: ";
-    var scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
-    var description = window.textureData["schemes"][scheme]["description"] || "undefined";
     var panel_a_text = window.textureData["textures"]["panels"][panel_a];
     var panel_b_text = window.textureData["textures"]["panels"][panel_b];
     var couch_text = window.textureData["textures"]["couches"][couch];
     var cabinet_text = window.textureData["textures"]["cabinets"][cabinet];
     var headboard_text = window.textureData["textures"]["headboards"][headboard];
+    var scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
+    var description = window.textureData["schemes"][scheme]["description"] || panel_a_text["description"];
 
     //update page content
     $('#scheme-title').text(scheme_title);
