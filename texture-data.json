@@ -708,6 +708,42 @@
             "cabinet": "charcoal",
             "headboard": "charcoal"
         },
+        "bronze-linen" : {
+            "displayName": "Bronze Linen",
+            "description": "",
+            "panel-a": "bronze-linen",
+            "panel-b": "urban-cowboy",
+            "couch": "tumbleweed",
+            "cabinet": "cordoba-pine",
+            "headboard": "rust"
+        },
+        "brushed-steel" : {
+            "displayName": "Brushed Steel",
+            "description": "",
+            "panel-a": "brushed-steel",
+            "panel-b": "carbon",
+            "couch": "black",
+            "cabinet": "silver-frost",
+            "headboard": "black"
+        },
+        "bubble-gum-crok" : {
+            "displayName": "Bubble Gum Crok",
+            "description": "",
+            "panel-a": "bubble-gum-crok",
+            "panel-b": "pure-white",
+            "couch": "optical-white",
+            "cabinet": "ranier-white",
+            "headboard": "white"
+        },
+        "butter-cream" : {
+            "displayName": "Butter Cream",
+            "description": "",
+            "panel-a": "butter-cream",
+            "panel-b": "parchment",
+            "couch": "cetus-pebble",
+            "cabinet": "almond",
+            "headboard": "cream"
+        },
         "serengeti" : {
             "displayName": "Serengeti",
             "description": "",

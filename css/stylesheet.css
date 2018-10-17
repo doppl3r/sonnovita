@@ -61,7 +61,7 @@ body {
         body nav .logo.animate .bar:nth-of-type(4) {
           animation: 1s ease-in anim-bar-4; }
         body nav .logo.animate .text {
-          animation: 3s ease-out anim-text; }
+          animation: 2s ease-out anim-text; }
 
 @keyframes anim-bar-1 {
   0% {
@@ -94,7 +94,7 @@ body {
 @keyframes anim-text {
   0% {
     width: 0; }
-  30% {
+  45% {
     width: 0; }
   100% {
     width: 138px; } }
@@ -344,7 +344,7 @@ body {
     background-color: #55504c;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     padding-bottom: 110%;
     /* grid ratio */
     position: relative;

@@ -98,20 +98,20 @@ function parseURL(){
 function updateScheme(){
     //use list or default value from global parsed URL
     var list = window.parsedURL;
-    var panel_a =   list["panel-a"]     || "serengeti";
-    var panel_b =   list["panel-b"]     || "sunset-brown";
-    var couch =     list["couch"]       || "saddle";
-    var cabinet =   list["cabinet"]     || "mahogany";
-    var headboard = list["headboard"]   || "camel";
-    var scheme =    list["scheme"]      || "none";
-    var scheme_title = "Custom Color Scheme";
-    var description = "The color panel you chose does not exist."
-
-    //update title & description if it matches an existing panel
-    if (window.textureData["textures"]["panels"][panel_a] != null){
-        scheme_title = window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined";
-        description = window.textureData["textures"]["panels"][panel_a]["description"] || "undefined";
-    }
+    var panel_a =   list["panel-a"]     || "undefined";
+    var panel_b =   list["panel-b"]     || "undefined";
+    var couch =     list["couch"]       || "undefined";
+    var cabinet =   list["cabinet"]     || "undefined";
+    var headboard = list["headboard"]   || "undefined";
+    var scheme =    list["scheme"]      || "undefined";
+    var error =  "missing image: ";
+    var scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
+    var description = window.textureData["schemes"][scheme]["description"] || "undefined";
+    var panel_a_text = window.textureData["textures"]["panels"][panel_a];
+    var panel_b_text = window.textureData["textures"]["panels"][panel_b];
+    var couch_text = window.textureData["textures"]["couches"][couch];
+    var cabinet_text = window.textureData["textures"]["cabinets"][cabinet];
+    var headboard_text = window.textureData["textures"]["headboards"][headboard];
 
     //update page content
     $('#scheme-title').text(scheme_title);
@@ -125,11 +125,11 @@ function updateScheme(){
     $('.create .headboard').attr('class', 'headboard texture '+headboard+'-headboard');
 
     //update captions
-    $('.create .panel-a .title').text(window.textureData["textures"]["panels"][panel_a]["displayName"] || "undefined");
-    $('.create .panel-b .title').text(window.textureData["textures"]["panels"][panel_b]["displayName"] || "undefined");
-    $('.create .couch .title').text(window.textureData["textures"]["couches"][couch]["displayName"] || "undefined");
-    $('.create .cabinet .title').text(window.textureData["textures"]["cabinets"][cabinet]["displayName"] || "undefined");
-    $('.create .headboard .title').text(window.textureData["textures"]["headboards"][headboard]["displayName"] || "undefined");
+    $('.create .panel-a .title').text(panel_a_text != null ? panel_a_text["displayName"] : error + panel_a);
+    $('.create .panel-b .title').text(panel_b_text != null ? panel_b_text["displayName"] : error + panel_b);
+    $('.create .couch .title').text(couch_text != null ? couch_text["displayName"] : error + couch);
+    $('.create .cabinet .title').text(cabinet_text != null ? cabinet_text["displayName"] : error + cabinet);
+    $('.create .headboard .title').text(headboard_text != null ? headboard_text["displayName"] : error + headboard);
 }
 
 function addSchemes(){
