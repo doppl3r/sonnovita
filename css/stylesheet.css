@@ -356,7 +356,7 @@ body {
           body aside.controls .carousels .owl-carousel .item {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            padding: 10%; }
+            padding: 5% 10%; }
             body aside.controls .carousels .owl-carousel .item .thumb {
               padding: 4%;
               color: inherit;
@@ -582,6 +582,10 @@ body {
       height: 30px;
       vertical-align: top;
       width: 30px; }
+  body .lity {
+    pointer-events: none; }
+    body .lity > * {
+      pointer-events: all; }
 
 @media (max-width: 980px) {
   body nav #toggle-menu {

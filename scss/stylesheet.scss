@@ -367,7 +367,7 @@ body {
                     .item {
                         display: grid;
                         grid-template-columns: 1fr 1fr;
-                        padding: 10%;
+                        padding: 5% 10%;
 
                         .thumb {
                             padding: 4%;
@@ -597,6 +597,14 @@ body {
             height: 30px;
             vertical-align: top;
             width: 30px;
+        }
+    }
+
+    .lity {
+        pointer-events: none;
+
+        > * {
+            pointer-events: all;
         }
     }
 }

@@ -222,14 +222,31 @@ function initControls(){
 
             //initialize carousels
             $('.controls .carousels').html(carousels).ready(function(){
+                //init each carousel
                 $('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: false, dots: false, nav: true, rewind: true });
+                //append empty popup
+                $('body').append(
+                    '<a id="popup-button" href="#popup" data-lity></a>'+
+                    '<div id="popup" class="lity">'+
+                        '<div class="grid">'+
+                            '<div class="image"></div>'+
+                            '<div class="text"></div>'+
+                        '</div>'+
+                    '</div>'
+                );
 
                 //add listeners for thumb items
                 $('.owl-carousel .thumb').on('click', function(e){
                     e.preventDefault();
-                    console.log('test');
-                });
+                    var category = $('.carousels [data-selected]').closest('.owl-carousel').attr('id').replace('-options','');
+                    var name = $(this).attr('name');
+                    var description = t[category][name]['description'];
 
+                    //update popup content
+                    $('#popup .grid .image').attr('class', 'image texture '+category+' '+name);
+                    $('#popup .grid .text').text(description);
+                    $('#popup-button').click();
+                });
             });
 
             //add listener for 'categories'
