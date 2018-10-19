@@ -281,6 +281,68 @@ body {
       font-size: 44px;
       font-weight: normal;
       margin: 0; }
+  body aside {
+    font-family: 'Roboto Condensed', sans-serif; }
+    body aside.controls .label {
+      background-color: #433d39;
+      box-sizing: border-box;
+      color: #fff;
+      font-family: 'helvetica-light';
+      font-size: 18px;
+      padding: 18px 24px;
+      line-height: 30px;
+      padding: 20px 0 0px;
+      text-align: center;
+      width: 100%; }
+      body aside.controls .label .icon {
+        background-image: url("../img/color-icon.png");
+        display: inline-block;
+        height: 30px;
+        vertical-align: top;
+        width: 30px; }
+    body aside.controls .categories a {
+      background-color: #433d39;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-bottom: 36px solid transparent;
+      border-top: 12px solid transparent;
+      color: #fff;
+      display: block;
+      font-weight: 300;
+      margin-bottom: 4px;
+      padding-bottom: 25%;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 100%; }
+      body aside.controls .categories a#panel-a-option {
+        background-image: url("../img/graphic-panel-a.png"); }
+        body aside.controls .categories a#panel-a-option:before {
+          content: 'panel a options'; }
+      body aside.controls .categories a#panel-b-option {
+        background-image: url("../img/graphic-panel-b.png"); }
+        body aside.controls .categories a#panel-b-option:before {
+          content: 'panel b options'; }
+      body aside.controls .categories a#couch-option {
+        background-image: url("../img/graphic-couch.png"); }
+        body aside.controls .categories a#couch-option:before {
+          content: 'couch options'; }
+      body aside.controls .categories a#cabinet-option {
+        background-image: url("../img/graphic-cabinet.png"); }
+        body aside.controls .categories a#cabinet-option:before {
+          content: 'cabinet options'; }
+      body aside.controls .categories a#headboard-option {
+        background-image: url("../img/graphic-headboard.png"); }
+        body aside.controls .categories a#headboard-option:before {
+          content: 'headboard options'; }
+      body aside.controls .categories a:before {
+        content: 'test';
+        position: absolute;
+        bottom: -28px;
+        left: 0;
+        right: 0; }
   body footer {
     color: #fff;
     text-align: center;
@@ -432,7 +494,6 @@ body {
         background-image: url("../img/send-icon.png"); }
     body .btn .icon {
       background-image: url("");
-      content: '';
       display: inline-block;
       height: 30px;
       vertical-align: top;

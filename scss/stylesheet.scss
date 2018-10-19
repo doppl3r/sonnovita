@@ -295,6 +295,68 @@ body {
         }
     }
 
+    aside {
+        font-family: 'Roboto Condensed', sans-serif;
+
+        &.controls {
+            .label {
+                background-color: #433d39;
+                box-sizing: border-box;
+                color: #fff;
+                font-family: 'helvetica-light';
+                font-size: 18px;
+                padding: 18px 24px;
+                line-height: 30px;
+                padding: 20px 0 0px;
+                text-align: center;
+                width: 100%;
+
+                .icon {  
+                    background-image: url('../img/color-icon.png');
+                    display: inline-block;
+                    height: 30px;
+                    vertical-align: top;
+                    width: 30px;
+                }
+            }
+
+            .categories {
+                a {
+                    background-color: #433d39;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-bottom: 36px solid transparent;
+                    border-top: 12px solid transparent;
+                    color: #fff;
+                    display: block;
+                    font-weight: 300;
+                    margin-bottom: 4px;
+                    padding-bottom: 25%;
+                    position: relative;
+                    text-align: center;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    width: 100%;
+
+                    &#panel-a-option { background-image: url('../img/graphic-panel-a.png'); &:before { content: 'panel a options'; } }
+                    &#panel-b-option { background-image: url('../img/graphic-panel-b.png'); &:before { content: 'panel b options'; } }
+                    &#couch-option { background-image: url('../img/graphic-couch.png'); &:before { content: 'couch options'; } }
+                    &#cabinet-option { background-image: url('../img/graphic-cabinet.png'); &:before { content: 'cabinet options'; } }
+                    &#headboard-option { background-image: url('../img/graphic-headboard.png'); &:before { content: 'headboard options'; }}
+
+                    &:before {
+                        content: 'test';
+                        position: absolute;
+                        bottom: -28px;
+                        left: 0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+
     footer {
         color: #fff;
         text-align: center;
@@ -438,7 +500,6 @@ body {
         }
         .icon { 
             background-image: url('');
-            content: '';
             display: inline-block;
             height: 30px;
             vertical-align: top;

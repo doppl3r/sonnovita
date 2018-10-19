@@ -64,6 +64,7 @@ function updateCreatePage(){
             window.textureData = data;
             window.parsedURL = parseURL();
             updateScheme();
+            initControls();
         });
     });
 }
@@ -180,3 +181,52 @@ function createURL(panel_a, panel_b, couch, cabinet, headboard, scheme){
         "&headboard="+headboard+
         "&scheme="+scheme;
 }
+
+function initControls(){
+    //add listener for 'customize scheme' button
+    $('#customize-scheme').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().load('./includes/page-create-controls.html', function(){
+            //initiate options carousel
+            var t = window.textureData['textures'];
+            var carousels = '';
+
+            //loop through all categories
+            for (var category in t){
+                var i = 0; //used to place 4 thumbs per item
+                var length = Object.size(t[category]);
+                carousels += '<div class="owl-carousel" id="'+category+'-options">'; //start carousel
+                //loop through all textures within category
+                for (var texture in t[category]){
+                    if (i % 4 == 0) carousels += '<div class="item">'; //start item
+                    //carousels += '<div class="thumb texture '+category+' '+texture+'"></div>';
+                    carousels += '<div class="thumb">';
+                    carousels +=    '<div class="image texture '+category+' '+texture+'"></div>';
+                    carousels +=    '<div class="text">'+t[category][texture]["displayName"]+'</div>';
+                    carousels += '</div>';
+
+                    i++;
+                    if (i % 4 == 0 || i == length) carousels += '</div>'; //close item
+                }
+                i = 0; //reset item group index
+                carousels += '</div>'; //close carousel
+            }
+
+            //insert carousel
+            $('.controls .options').html(carousels, function(){
+                //TODO: initialize carousels
+                
+            });
+
+            //add listener for 'categories'
+            $('.categories a').on('click', function(e){
+                e.preventDefault();
+                //TODO: set active category
+
+            });
+        });
+    });
+}
+
+/* tools */
+Object.size = function(obj) { var size = 0, key; for (key in obj) { if (obj.hasOwnProperty(key)) size++; } return size; };
