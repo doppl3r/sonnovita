@@ -111,8 +111,14 @@ function updateScheme(){
     var couch_text = window.textureData["textures"]["couches"][couch];
     var cabinet_text = window.textureData["textures"]["cabinets"][cabinet];
     var headboard_text = window.textureData["textures"]["headboards"][headboard];
-    var scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
-    var description = window.textureData["schemes"][scheme]["description"] || panel_a_text["description"];
+    var scheme_title = "Custom Color Scheme"
+    var description = "";
+
+    //update tile if scheme exists
+    if (window.textureData["schemes"][scheme] != null){
+        scheme_title = window.textureData["schemes"][scheme]["displayName"] || "undefined";
+        description = window.textureData["schemes"][scheme]["description"] || panel_a_text["description"];
+    }
 
     //update page content
     $('#scheme-title').text(scheme_title);
@@ -186,6 +192,8 @@ function initControls(){
     //add listener for 'customize scheme' button
     $('#customize-scheme').on('click', function(e){
         e.preventDefault();
+        //TODO: Update title and description to custom text
+
         $(this).parent().load('./includes/page-create-controls.html', function(){
             //initiate options carousel
             $('.controls').fadeIn();
@@ -235,13 +243,15 @@ function initControls(){
                 $('.options').children().fadeOut();
                 $('.options').children().fadeIn();
 
-                //TODO - set active thumb
+                //set active thumb
                 var list = window.parsedURL;
                 var carousel = $(this).attr('for');
                 var thumb = $(this).attr('id').replace('-option','');
-
                 $('#'+carousel+' [name="'+list[thumb]+'"]').attr('data-selected', true);
                 $('#'+carousel).trigger('to.owl.carousel', $('[data-selected]').closest('.owl-item').index());
+
+                //set active category
+                $('.palette .'+thumb).attr('data-selected', true);
             });
 
             //add listener for cancel button

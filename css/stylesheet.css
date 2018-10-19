@@ -235,7 +235,8 @@ body {
     body article.create h1 {
       font-size: 44px;
       font-weight: normal;
-      margin: 0; }
+      margin: 0;
+      padding: 0 0 16px; }
     body article.create .email {
       padding: 36px 0;
       text-align: center; }
@@ -512,6 +513,15 @@ body {
       width: 100%; }
       body .palette .grid > div {
         position: relative; }
+        body .palette .grid > div[data-selected="true"]:before {
+          content: '';
+          display: block;
+          background-image: url("../img/selected.png");
+          position: absolute;
+          width: 34px;
+          height: 34px;
+          top: calc(50% - 17px);
+          left: calc(50% - 17px); }
       body .palette .grid .panel-a {
         grid-column: 1 / 2;
         grid-row: 1 / 1; }
