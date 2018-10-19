@@ -370,8 +370,21 @@ body {
 
                         .thumb {
                             padding: 4%;
+                            color: inherit;
+                            text-decoration: none;
 
-                            .image { padding-bottom: 90%; }
+                            &[data-selected="true"] .image:before {
+                                content: '';
+                                display: block;
+                                background-image: url('../img/selected.png');
+                                position: absolute;
+                                width: 34px;
+                                height: 34px;
+                                top: calc(50% - 17px);
+                                left: calc(50% - 17px);
+                            }
+
+                            .image { padding-bottom: 90%; position: relative; }
                             .text { 
                                 text-align: center;
                                 padding: 8px 0 0;

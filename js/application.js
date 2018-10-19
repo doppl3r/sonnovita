@@ -201,10 +201,10 @@ function initControls(){
                 for (var texture in t[category]){
                     if (i % 4 == 0) carousels += '<div class="item">'; //start item
                     //carousels += '<div class="thumb texture '+category+' '+texture+'"></div>';
-                    carousels += '<div class="thumb">';
+                    carousels += '<a class="thumb" href="#" name="'+texture+'">';
                     carousels +=    '<div class="image texture '+category+' '+texture+'"></div>';
                     carousels +=    '<div class="text">'+t[category][texture]["displayName"]+'</div>';
-                    carousels += '</div>';
+                    carousels += '</a>';
                     i++; //increment quad counter
                     if (i % 4 == 0 || i == length) carousels += '</div>'; //close item
                 }
@@ -214,7 +214,14 @@ function initControls(){
 
             //initialize carousels
             $('.controls .carousels').html(carousels).ready(function(){
-                $('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: true, dots: false, nav: true });
+                $('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: false, dots: false, nav: true, rewind: true });
+
+                //add listeners for thumb items
+                $('.owl-carousel .thumb').on('click', function(e){
+                    e.preventDefault();
+                    console.log('test');
+                });
+
             });
 
             //add listener for 'categories'
@@ -227,6 +234,14 @@ function initControls(){
                 $('.carousels #'+$(this).attr('for')).fadeIn();
                 $('.options').children().fadeOut();
                 $('.options').children().fadeIn();
+
+                //TODO - set active thumb
+                var list = window.parsedURL;
+                var carousel = $(this).attr('for');
+                var thumb = $(this).attr('id').replace('-option','');
+
+                $('#'+carousel+' [name="'+list[thumb]+'"]').attr('data-selected', true);
+                $('#'+carousel).trigger('to.owl.carousel', $('[data-selected]').closest('.owl-item').index());
             });
 
             //add listener for cancel button
@@ -237,6 +252,7 @@ function initControls(){
                 $('.options').children().fadeOut();
                 $('.categories').children().fadeIn();
                 $('.carousels').children().fadeOut();
+                $('[data-selected]').removeAttr('data-selected');
             });
 
             //add listener for accept button
