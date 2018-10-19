@@ -283,101 +283,125 @@ body {
       margin: 0; }
   body aside {
     font-family: 'Roboto Condensed', sans-serif; }
-    body aside.controls .label {
-      background-color: #433d39;
-      box-sizing: border-box;
-      color: #fff;
-      font-family: 'helvetica-light';
-      font-size: 18px;
-      padding: 18px 24px;
-      line-height: 30px;
-      padding: 20px 0 0px;
-      text-align: center;
-      width: 100%; }
-      body aside.controls .label .icon {
-        background-image: url("../img/color-icon.png");
-        display: inline-block;
-        height: 30px;
-        vertical-align: top;
-        width: 30px; }
-    body aside.controls .categories a {
-      background-color: #433d39;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      border-bottom: 36px solid transparent;
-      border-top: 12px solid transparent;
-      color: #fff;
-      display: block;
-      font-weight: 300;
-      margin-bottom: 4px;
-      padding-bottom: 25%;
-      position: relative;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-      width: 100%; }
-      body aside.controls .categories a#panel-a-option {
-        background-image: url("../img/graphic-panel-a.png"); }
-        body aside.controls .categories a#panel-a-option:before {
-          content: 'panel a options'; }
-      body aside.controls .categories a#panel-b-option {
-        background-image: url("../img/graphic-panel-b.png"); }
-        body aside.controls .categories a#panel-b-option:before {
-          content: 'panel b options'; }
-      body aside.controls .categories a#couch-option {
-        background-image: url("../img/graphic-couch.png"); }
-        body aside.controls .categories a#couch-option:before {
-          content: 'couch options'; }
-      body aside.controls .categories a#cabinet-option {
-        background-image: url("../img/graphic-cabinet.png"); }
-        body aside.controls .categories a#cabinet-option:before {
-          content: 'cabinet options'; }
-      body aside.controls .categories a#headboard-option {
-        background-image: url("../img/graphic-headboard.png"); }
-        body aside.controls .categories a#headboard-option:before {
-          content: 'headboard options'; }
-      body aside.controls .categories a:before {
-        content: 'test';
-        position: absolute;
-        bottom: -28px;
-        left: 0;
-        right: 0; }
-    body aside.controls .carousels {
-      background-color: #433d39;
-      margin-bottom: 4px; }
-      body aside.controls .carousels .owl-carousel .item {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 10%; }
-        body aside.controls .carousels .owl-carousel .item .thumb {
-          padding: 4%; }
-          body aside.controls .carousels .owl-carousel .item .thumb .image {
-            padding-bottom: 90%; }
-          body aside.controls .carousels .owl-carousel .item .thumb .text {
-            text-align: center;
-            padding: 8px 0 0;
-            font-weight: 300; }
-      body aside.controls .carousels .owl-carousel .owl-nav {
-        position: absolute;
-        top: calc(50% - 25px);
-        width: 90%;
-        left: 5%;
-        right: 5%; }
-        body aside.controls .carousels .owl-carousel .owl-nav button {
-          width: 24px;
-          height: 24px;
-          color: transparent;
-          border: 1px solid #fff;
-          transform: rotate(45deg);
-          position: absolute; }
-          body aside.controls .carousels .owl-carousel .owl-nav button.owl-prev {
-            border-top: none;
-            border-right: none; }
-          body aside.controls .carousels .owl-carousel .owl-nav button.owl-next {
-            border-left: none;
-            border-bottom: none;
-            right: 0; }
+    body aside.controls {
+      display: none;
+      /* default hidden */ }
+      body aside.controls .label {
+        background-color: #433d39;
+        box-sizing: border-box;
+        color: #fff;
+        font-family: 'helvetica-light';
+        font-size: 18px;
+        padding: 18px 24px;
+        line-height: 30px;
+        padding: 20px 0 0px;
+        text-align: center;
+        width: 100%; }
+        body aside.controls .label .icon {
+          background-image: url("../img/color-icon.png");
+          display: inline-block;
+          height: 30px;
+          vertical-align: top;
+          width: 30px; }
+      body aside.controls .categories a {
+        background-color: #433d39;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-bottom: 36px solid transparent;
+        border-top: 12px solid transparent;
+        color: #fff;
+        display: block;
+        font-weight: 300;
+        margin-bottom: 4px;
+        padding-bottom: 25%;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%; }
+        body aside.controls .categories a#panel-a-option {
+          background-image: url("../img/graphic-panel-a.png"); }
+          body aside.controls .categories a#panel-a-option:before {
+            content: 'panel a options'; }
+        body aside.controls .categories a#panel-b-option {
+          background-image: url("../img/graphic-panel-b.png"); }
+          body aside.controls .categories a#panel-b-option:before {
+            content: 'panel b options'; }
+        body aside.controls .categories a#couch-option {
+          background-image: url("../img/graphic-couch.png"); }
+          body aside.controls .categories a#couch-option:before {
+            content: 'couch options'; }
+        body aside.controls .categories a#cabinet-option {
+          background-image: url("../img/graphic-cabinet.png"); }
+          body aside.controls .categories a#cabinet-option:before {
+            content: 'cabinet options'; }
+        body aside.controls .categories a#headboard-option {
+          background-image: url("../img/graphic-headboard.png"); }
+          body aside.controls .categories a#headboard-option:before {
+            content: 'headboard options'; }
+        body aside.controls .categories a:before {
+          content: 'test';
+          position: absolute;
+          bottom: -28px;
+          left: 0;
+          right: 0; }
+      body aside.controls .carousels {
+        background-color: #433d39;
+        margin-bottom: 4px; }
+        body aside.controls .carousels .owl-carousel {
+          display: none;
+          /* hidden by default */ }
+          body aside.controls .carousels .owl-carousel .item {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 10%; }
+            body aside.controls .carousels .owl-carousel .item .thumb {
+              padding: 4%; }
+              body aside.controls .carousels .owl-carousel .item .thumb .image {
+                padding-bottom: 90%; }
+              body aside.controls .carousels .owl-carousel .item .thumb .text {
+                text-align: center;
+                padding: 8px 0 0;
+                font-weight: 300; }
+          body aside.controls .carousels .owl-carousel .owl-nav {
+            position: absolute;
+            top: calc(50% - 25px);
+            width: 90%;
+            left: 5%;
+            right: 5%; }
+            body aside.controls .carousels .owl-carousel .owl-nav button {
+              width: 24px;
+              height: 24px;
+              color: transparent;
+              border: 1px solid #fff;
+              transform: rotate(45deg);
+              position: absolute; }
+              body aside.controls .carousels .owl-carousel .owl-nav button.owl-prev {
+                border-top: none;
+                border-right: none; }
+              body aside.controls .carousels .owl-carousel .owl-nav button.owl-next {
+                border-left: none;
+                border-bottom: none;
+                right: 0; }
+      body aside.controls .options {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body aside.controls .options a {
+          display: none;
+          /* hidden by default */ }
+        body aside.controls .options [id*="option"] {
+          background-color: #433d39;
+          padding: 12px;
+          text-align: center;
+          width: 50%; }
+          body aside.controls .options [id*="option"] img {
+            display: inline-block; }
+        body aside.controls .options #cancel-option {
+          margin-right: 2px; }
+        body aside.controls .options #accept-option {
+          margin-left: 2px; }
   body footer {
     color: #fff;
     text-align: center;

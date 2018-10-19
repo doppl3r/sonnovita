@@ -188,6 +188,7 @@ function initControls(){
         e.preventDefault();
         $(this).parent().load('./includes/page-create-controls.html', function(){
             //initiate options carousel
+            $('.controls').fadeIn();
             var t = window.textureData['textures'];
             var carousels = '';
 
@@ -213,19 +214,35 @@ function initControls(){
 
             //initialize carousels
             $('.controls .carousels').html(carousels).ready(function(){
-                $('.controls .carousels .owl-carousel').owlCarousel({
-                    items: 1,
-                    loop: true,
-                    dots: false,
-                    nav: true
-                });
+                $('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: true, dots: false, nav: true });
             });
 
             //add listener for 'categories'
             $('.categories a').on('click', function(e){
                 e.preventDefault();
-                //TODO: set active category
+                //update page content
+                $('.categories').children().fadeOut();
+                $('.categories #'+$(this).attr('id')).fadeIn();
+                $('.carousels').children().fadeOut();
+                $('.carousels #'+$(this).attr('for')).fadeIn();
+                $('.options').children().fadeOut();
+                $('.options').children().fadeIn();
+            });
 
+            //add listener for cancel button
+            $('.options #cancel-option').on('click', function(e){
+                e.preventDefault();
+                //update page content
+                $('.options').children().fadeOut();
+                $('.options').children().fadeOut();
+                $('.categories').children().fadeIn();
+                $('.carousels').children().fadeOut();
+            });
+
+            //add listener for accept button
+            $('.options #accept-option').on('click', function(e){
+                e.preventDefault();
+                
             });
         });
     });

@@ -299,6 +299,7 @@ body {
         font-family: 'Roboto Condensed', sans-serif;
 
         &.controls {
+            display: none; /* default hidden */
             .label {
                 background-color: #433d39;
                 box-sizing: border-box;
@@ -319,7 +320,7 @@ body {
                     width: 30px;
                 }
             }
-
+            
             .categories {
                 a {
                     background-color: #433d39;
@@ -360,6 +361,8 @@ body {
                 margin-bottom: 4px;
 
                 .owl-carousel {
+                    display: none; /* hidden by default */
+                    
                     .item {
                         display: grid;
                         grid-template-columns: 1fr 1fr;
@@ -396,6 +399,24 @@ body {
                         }
                     }
                 }
+            }
+
+            .options {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a { display: none; /* hidden by default */ }
+                [id*="option"] {
+                    background-color: #433d39;
+                    padding: 12px;
+                    text-align: center;
+                    width: 50%;
+
+                    img { display: inline-block; }
+                }
+                #cancel-option { margin-right: 2px; }
+                #accept-option { margin-left: 2px; }
             }
         }
     }
