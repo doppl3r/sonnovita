@@ -343,6 +343,41 @@ body {
         bottom: -28px;
         left: 0;
         right: 0; }
+    body aside.controls .carousels {
+      background-color: #433d39;
+      margin-bottom: 4px; }
+      body aside.controls .carousels .owl-carousel .item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10%; }
+        body aside.controls .carousels .owl-carousel .item .thumb {
+          padding: 4%; }
+          body aside.controls .carousels .owl-carousel .item .thumb .image {
+            padding-bottom: 90%; }
+          body aside.controls .carousels .owl-carousel .item .thumb .text {
+            text-align: center;
+            padding: 8px 0 0;
+            font-weight: 300; }
+      body aside.controls .carousels .owl-carousel .owl-nav {
+        position: absolute;
+        top: calc(50% - 25px);
+        width: 90%;
+        left: 5%;
+        right: 5%; }
+        body aside.controls .carousels .owl-carousel .owl-nav button {
+          width: 24px;
+          height: 24px;
+          color: transparent;
+          border: 1px solid #fff;
+          transform: rotate(45deg);
+          position: absolute; }
+          body aside.controls .carousels .owl-carousel .owl-nav button.owl-prev {
+            border-top: none;
+            border-right: none; }
+          body aside.controls .carousels .owl-carousel .owl-nav button.owl-next {
+            border-left: none;
+            border-bottom: none;
+            right: 0; }
   body footer {
     color: #fff;
     text-align: center;

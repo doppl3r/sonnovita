@@ -354,6 +354,49 @@ body {
                     }
                 }
             }
+
+            .carousels {
+                background-color: #433d39;
+                margin-bottom: 4px;
+
+                .owl-carousel {
+                    .item {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        padding: 10%;
+
+                        .thumb {
+                            padding: 4%;
+
+                            .image { padding-bottom: 90%; }
+                            .text { 
+                                text-align: center;
+                                padding: 8px 0 0;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                    .owl-nav {
+                        position: absolute;
+                        top: calc(50% - 25px);
+                        width: 90%;
+                        left: 5%;
+                        right: 5%;
+
+                        button {
+                            width: 24px;
+                            height: 24px;
+                            color: transparent;
+                            border: 1px solid #fff;
+                            transform: rotate(45deg);
+                            position: absolute;
+
+                            &.owl-prev { border-top: none; border-right: none; }
+                            &.owl-next { border-left: none; border-bottom: none; right: 0; }
+                        }
+                    }
+                }
+            }
         }
     }
 

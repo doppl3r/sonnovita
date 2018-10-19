@@ -191,7 +191,7 @@ function initControls(){
             var t = window.textureData['textures'];
             var carousels = '';
 
-            //loop through all categories
+            //loop through all categories and create 4-image items per carousel
             for (var category in t){
                 var i = 0; //used to place 4 thumbs per item
                 var length = Object.size(t[category]);
@@ -204,18 +204,21 @@ function initControls(){
                     carousels +=    '<div class="image texture '+category+' '+texture+'"></div>';
                     carousels +=    '<div class="text">'+t[category][texture]["displayName"]+'</div>';
                     carousels += '</div>';
-
-                    i++;
+                    i++; //increment quad counter
                     if (i % 4 == 0 || i == length) carousels += '</div>'; //close item
                 }
                 i = 0; //reset item group index
                 carousels += '</div>'; //close carousel
             }
 
-            //insert carousel
-            $('.controls .options').html(carousels, function(){
-                //TODO: initialize carousels
-                
+            //initialize carousels
+            $('.controls .carousels').html(carousels).ready(function(){
+                $('.controls .carousels .owl-carousel').owlCarousel({
+                    items: 1,
+                    loop: true,
+                    dots: false,
+                    nav: true
+                });
             });
 
             //add listener for 'categories'
