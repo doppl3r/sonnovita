@@ -406,9 +406,11 @@ body {
                             border: 1px solid #fff;
                             transform: rotate(45deg);
                             position: absolute;
+                            outline: none;
 
                             &.owl-prev { border-top: none; border-right: none; }
                             &.owl-next { border-left: none; border-bottom: none; right: 0; }
+                            &:focus { border-width: 2px; }
                         }
                     }
                 }

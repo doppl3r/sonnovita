@@ -388,7 +388,8 @@ body {
               color: transparent;
               border: 1px solid #fff;
               transform: rotate(45deg);
-              position: absolute; }
+              position: absolute;
+              outline: none; }
               body aside.controls .carousels .owl-carousel .owl-nav button.owl-prev {
                 border-top: none;
                 border-right: none; }
@@ -396,6 +397,8 @@ body {
                 border-left: none;
                 border-bottom: none;
                 right: 0; }
+              body aside.controls .carousels .owl-carousel .owl-nav button:focus {
+                border-width: 2px; }
       body aside.controls .options {
         display: flex;
         justify-content: center;
