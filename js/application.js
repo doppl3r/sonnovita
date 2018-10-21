@@ -271,12 +271,6 @@ function initControls(){
                     $('.palette [data-group="' + group + '"] .title').text(t[category][name]['displayName']);
                     $('#' + carousel + ' [name="' + name + '"]').attr('data-selected', true);
                     $(this).closest('#popup').attr('aria-hidden', true);
-                    
-                    //update create page
-                    $('#scheme-title').text('Custom Color Scheme');
-                    $('#description').text('');
-                    window.parsedURL[group] = name;
-                    window.parsedURL['scheme'] = 'custom';
                 });
             });
 
@@ -305,6 +299,14 @@ function initControls(){
             //add listener for cancel button
             $('.options #cancel-option').on('click', function(e){
                 e.preventDefault();
+                var group = $('.categories a:visible').attr('id').replace('-option','');
+                var name = window.parsedURL[group];
+                var category = $('.categories a:visible').attr('for').replace('-options','');
+
+                //revert details
+                $('.palette [data-group="' + group + '"]').attr('class', group + ' texture ' + category + ' '+name);
+                $('.palette [data-group="' + group + '"] .title').text(t[category][name]['displayName']);
+
                 //update page content
                 $('.options').children().fadeOut();
                 $('.options').children().fadeOut();
@@ -316,12 +318,21 @@ function initControls(){
             //add listener for accept button
             $('.options #accept-option').on('click', function(e){
                 e.preventDefault();
+                var group = $('.categories a:visible').attr('id').replace('-option','');
+                var name = $('#popup .image').attr('for');
+                window.parsedURL[group] = name;
+                window.parsedURL['scheme'] = "custom";
+
                 //update page content
                 $('.options').children().fadeOut();
                 $('.options').children().fadeOut();
                 $('.categories').children().fadeIn();
                 $('.carousels').children().fadeOut();
                 $('[data-selected]').removeAttr('data-selected');
+
+                //update create page
+                $('#scheme-title').text('Custom Color Scheme');
+                $('#description').text('');
             });
         });
     });
