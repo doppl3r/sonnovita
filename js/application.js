@@ -111,7 +111,7 @@ function updateScheme(){
     var couch_text = window.textureData["textures"]["couches"][couch];
     var cabinet_text = window.textureData["textures"]["cabinets"][cabinet];
     var headboard_text = window.textureData["textures"]["headboards"][headboard];
-    var scheme_title = "Custom Color Scheme"
+    var scheme_title = "Custom Color Scheme";
     var description = "";
 
     //update tile if scheme exists
@@ -245,14 +245,31 @@ function initControls(){
 
                     //update popup content
                     $('#popup .image').attr('class', 'image texture '+category+' '+name);
+                    $('#popup .image').attr('for', name);
                     $('#popup .text').text(description);
                     $('#popup').attr('aria-hidden', false);
+                });
 
-                    //cancel actions
-                    $('#popup .cancel').on('click', function(e){
-                        e.preventDefault();
-                        $(this).closest('#popup').attr('aria-hidden', true);
-                    });
+                //add listeners for popup cancel actions
+                $('#popup .cancel').on('click', function(e){
+                    e.preventDefault();
+                    $(this).closest('#popup').attr('aria-hidden', true);
+                });
+                
+                //add listeners for popup select actions
+                $('#popup .select').on('click', function(e){
+                    e.preventDefault();
+                    var name = $('#popup .image').attr('for');
+                    var group = $('.categories a:visible').attr('id').replace('-option','');
+                    var carousel = $('.categories a:visible').attr('for');
+                    var category = carousel.replace('-options','');
+                    window.parsedURL[group] = name;
+                    $('[data-selected]').removeAttr('data-selected'); //clear selected
+                    $('.palette [data-group="' + group + '"]').attr('class', group + ' texture ' + category + ' '+name);
+                    $('.palette [data-group="' + group + '"]').attr('data-selected', true);
+                    $('.palette [data-group="' + group + '"] .title').text(t[category][name]['displayName']);
+                    $('#' + carousel + ' [name="' + name + '"]').attr('data-selected', true);
+                    $(this).closest('#popup').attr('aria-hidden', true);
                 });
             });
 
@@ -261,8 +278,8 @@ function initControls(){
                 e.preventDefault();
                 //update page content
                 $('.categories').children().fadeOut();
-                $('.categories #'+$(this).attr('id')).fadeIn();
                 $('.carousels').children().fadeOut();
+                $('.categories #'+$(this).attr('id')).fadeIn();
                 $('.carousels #'+$(this).attr('for')).fadeIn();
                 $('.options').children().fadeOut();
                 $('.options').children().fadeIn();
@@ -292,7 +309,12 @@ function initControls(){
             //add listener for accept button
             $('.options #accept-option').on('click', function(e){
                 e.preventDefault();
-                
+                //update page content
+                $('.options').children().fadeOut();
+                $('.options').children().fadeOut();
+                $('.categories').children().fadeIn();
+                $('.carousels').children().fadeOut();
+                $('[data-selected]').removeAttr('data-selected');
             });
         });
     });
