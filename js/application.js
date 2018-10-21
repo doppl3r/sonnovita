@@ -226,11 +226,12 @@ function initControls(){
                 $('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: false, dots: false, nav: true, rewind: true });
                 //append empty popup
                 $('body').append(
-                    '<a id="popup-button" href="#popup" data-lity></a>'+
-                    '<div id="popup" class="lity">'+
-                        '<div class="grid">'+
+                    '<div id="popup" aria-hidden="true">'+
+                        '<div class="popup-content">'+
                             '<div class="image"></div>'+
                             '<div class="text"></div>'+
+                            '<a class="btn cancel" href="#">cancel</a>'+
+                            '<a class="btn select" href="#">select</a>'+
                         '</div>'+
                     '</div>'
                 );
@@ -243,9 +244,15 @@ function initControls(){
                     var description = t[category][name]['description'];
 
                     //update popup content
-                    $('#popup .grid .image').attr('class', 'image texture '+category+' '+name);
-                    $('#popup .grid .text').text(description);
-                    $('#popup-button').click();
+                    $('#popup .image').attr('class', 'image texture '+category+' '+name);
+                    $('#popup .text').text(description);
+                    $('#popup').attr('aria-hidden', false);
+
+                    //cancel actions
+                    $('#popup .cancel').on('click', function(e){
+                        e.preventDefault();
+                        $(this).closest('#popup').attr('aria-hidden', true);
+                    });
                 });
             });
 

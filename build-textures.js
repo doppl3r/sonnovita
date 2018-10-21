@@ -19,7 +19,7 @@ fs.readFile(filePath, function(err, data){
 });
 
 function writeFile(obj){
-    var css = ".texture { background-size: cover; }\n";
+    var css = ".texture { background-size: cover; background-position: center; }\n";
     //loop through all textures
     for (var category in obj['textures']){
         for (var texture in obj['textures'][category]){

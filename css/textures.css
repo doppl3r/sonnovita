@@ -1,4 +1,4 @@
-.texture { background-size: cover; }
+.texture { background-size: cover; background-position: center; }
 .panels.ascott { background-image: url("../img/textures/panels/ascott.jpg"); }
 .panels.glacier { background-image: url("../img/textures/panels/glacier.jpg"); }
 .panels.ravenwood { background-image: url("../img/textures/panels/ravenwood.jpg"); }
