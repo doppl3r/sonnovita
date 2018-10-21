@@ -259,17 +259,24 @@ function initControls(){
                 //add listeners for popup select actions
                 $('#popup .select').on('click', function(e){
                     e.preventDefault();
+                    
+                    //update selected textures
                     var name = $('#popup .image').attr('for');
                     var group = $('.categories a:visible').attr('id').replace('-option','');
                     var carousel = $('.categories a:visible').attr('for');
                     var category = carousel.replace('-options','');
-                    window.parsedURL[group] = name;
                     $('[data-selected]').removeAttr('data-selected'); //clear selected
                     $('.palette [data-group="' + group + '"]').attr('class', group + ' texture ' + category + ' '+name);
                     $('.palette [data-group="' + group + '"]').attr('data-selected', true);
                     $('.palette [data-group="' + group + '"] .title').text(t[category][name]['displayName']);
                     $('#' + carousel + ' [name="' + name + '"]').attr('data-selected', true);
                     $(this).closest('#popup').attr('aria-hidden', true);
+                    
+                    //update create page
+                    $('#scheme-title').text('Custom Color Scheme');
+                    $('#description').text('');
+                    window.parsedURL[group] = name;
+                    window.parsedURL['scheme'] = 'custom';
                 });
             });
 
