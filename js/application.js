@@ -192,8 +192,9 @@ function initControls(){
 	//add listener for 'customize scheme' button
 	$('#customize-scheme').on('click', function(e){
 		e.preventDefault();
+		$('.palette').addClass('editing');
 		//TODO: Update title and description to custom text
-
+		
 		$(this).parent().load('./includes/page-create-controls.html', function(){
 			//initiate options carousel
 			$('.controls').fadeIn();
@@ -284,6 +285,7 @@ function initControls(){
 				$('.carousels #'+$(this).attr('for')).fadeIn();
 				$('.options').children().fadeOut();
 				$('.options').children().fadeIn();
+				$('[data-selected]').removeAttr('data-selected');
 
 				//set active thumb
 				var list = window.parsedURL;
@@ -294,6 +296,12 @@ function initControls(){
 
 				//set active category
 				$('.palette .'+thumb).attr('data-selected', true);
+			});
+
+			//add additional listeners for 'categories' buttons
+			$('.palette [data-group]').on('click', function(e){
+				$('.options #cancel-option').click();
+				$('#'+$(this).attr('data-group') + '-option').click();
 			});
 
 			//add listener for cancel button

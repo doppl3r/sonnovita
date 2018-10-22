@@ -487,6 +487,8 @@ body {
     /* grid ratio */
     position: relative;
     width: 100%; }
+    body .palette.editing {
+      cursor: pointer; }
     body .palette.small {
       box-sizing: border-box;
       padding-left: 5%;
