@@ -63,6 +63,7 @@ function updateCreatePage(){
 		$.getJSON('./textures.json', function(data){
 			window.textureData = data;
 			window.parsedURL = parseURL();
+			updateEmailLink();
 			updateScheme();
 			initControls();
 		});
@@ -160,13 +161,13 @@ function addSchemes(){
 				'<div class="col-4">'+
 					'<div class="palette small">'+
 						'<h2 class="title">'+title+'</h2>'+
-						'<div class="grid">'+
+						'<a href="'+href+'" class="grid">'+
 							'<div class="panel-a texture panels '+panel_a+'"></div>'+
 							'<div class="panel-b texture panels '+panel_b+'"></div>'+
 							'<div class="couch texture couches '+couch+'"></div>'+
 							'<div class="cabinet texture cabinets '+cabinet+'"></div>'+
 							'<div class="headboard texture headboards '+headboard+'"></div>'+
-						'</div>'+
+						'</a>'+
 						'<div class="cta">'+
 							'<a class="view" href="'+href+'"> view colors</a>'+
 							'<a class="customize" href="'+href+'"> customize</a>'+
@@ -193,6 +194,7 @@ function initControls(){
 	$('#customize-scheme').on('click', function(e){
 		e.preventDefault();
 		$('.palette').addClass('editing');
+		$('.palette').parent().append($('#email-scheme'));
 		//TODO: Update title and description to custom text
 		
 		$(this).parent().load('./includes/page-create-controls.html', function(){
@@ -341,10 +343,25 @@ function initControls(){
 				//update create page
 				$('#scheme-title').text('Custom Color Scheme');
 				$('#description').text('');
+				updateEmailLink();
 			});
 		});
 	});
 }
 
+function updateEmailLink(){
+	var scheme = window.parsedURL['scheme'];
+	var panel_a = window.parsedURL['panel-a'];
+	var panel_b = window.parsedURL['panel-b'];
+	var couch = window.parsedURL['couch'];
+	var cabinet = window.parsedURL['cabinet'];
+	var headboard = window.parsedURL['headboard'];
+	var href = createURL(panel_a, panel_b, couch, cabinet, headboard, scheme);
+	window.history.pushState({}, null, href);
+	href = window.location.host + '/' + href;
+	$('#email-scheme').attr('href', 'mailto:?subject=Sonnovita Color Scheme&body=Sonnovita Color Scheme:%0D%0A%0D%0A'+href.replaceAll('&','%26'));
+}
+
 /* tools */
 Object.size = function(obj) { var size = 0, key; for (key in obj) { if (obj.hasOwnProperty(key)) size++; } return size; };
+String.prototype.replaceAll = function(search, replacement) { var target = this; return target.split(search).join(replacement); };
