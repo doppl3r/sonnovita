@@ -378,7 +378,8 @@ body {
 							color: inherit;
 							text-decoration: none;
 
-							&[data-selected="true"] .image:before {
+							&[data-selected="true"] .image:before,
+							.image:hover:before {
 								content: '';
 								display: block;
 								background-image: url('../img/selected.png');
