@@ -348,6 +348,8 @@ body {
           bottom: -28px;
           left: 0;
           right: 0; }
+        body aside.controls .categories a:hover {
+          background-color: #37312d; }
       body aside.controls .carousels {
         background-color: #433d39;
         margin-bottom: 4px; }
@@ -489,6 +491,15 @@ body {
     width: 100%; }
     body .palette.editing {
       cursor: pointer; }
+      body .palette.editing .grid > div:hover:before {
+        content: '';
+        display: block;
+        background-image: url("../img/selected.png");
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        top: calc(50% - 17px);
+        left: calc(50% - 17px); }
     body .palette.small {
       box-sizing: border-box;
       padding-left: 5%;

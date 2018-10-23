@@ -355,6 +355,9 @@ body {
 						left: 0;
 						right: 0;
 					}
+					&:hover {
+						background-color: #37312d;
+					}
 				}
 			}
 
@@ -498,7 +501,20 @@ body {
 		position: relative;
 		width: 100%;
 
-		&.editing { cursor: pointer; }
+		&.editing { 
+			cursor: pointer;
+
+			.grid  > div:hover:before {
+				content: '';
+				display: block;
+				background-image: url('../img/selected.png');
+				position: absolute;
+				width: 34px;
+				height: 34px;
+				top: calc(50% - 17px);
+				left: calc(50% - 17px);
+			}
+		}
 		&.small {
 			box-sizing: border-box;
 			padding-left: 5%;
