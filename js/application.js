@@ -358,7 +358,7 @@ function updateEmailLink(){
 	var headboard = window.parsedURL['headboard'];
 	var url = window.location.href;
 	var href = createURL(panel_a, panel_b, couch, cabinet, headboard, scheme);
-	var root = window.location.href.substring(0, url.indexOf(href));
+	var root = window.location.href.substring(0, url.indexOf('index.html'));
 	window.history.pushState({}, null, href);
 	href = root + href;
 	$('#email-scheme').attr('href', 'mailto:?subject=Sonnovita Color Scheme&body=Sonnovita Color Scheme:%0D%0A%0D%0A'+href.replaceAll('&','%26'));
