@@ -283,6 +283,21 @@ body {
       font-size: 44px;
       font-weight: normal;
       margin: 0; }
+  body article.solution {
+    color: #ffffff;
+    padding: 128px 0;
+    text-align: center; }
+    body article.solution h1 {
+      font-weight: normal;
+      font-size: 44px;
+      margin: 0;
+      padding: 24px 12px 0; }
+    body article.solution p {
+      font-size: 15px;
+      line-height: 25px;
+      max-width: 600px;
+      margin: auto;
+      padding: 0px 12px 24px; }
   body aside {
     font-family: 'Roboto Condensed', sans-serif; }
     body aside.controls {

@@ -29,6 +29,7 @@ function updatePage(){
 	var href = window.location.href;
 	if (href.indexOf('?create') > 0){ updateCreatePage(); }
 	else if (href.indexOf('schemes.html') > 0){ updateSchemesPage(); }
+	else if (href.indexOf('solution.html') > 0){ updateSolutionPage(); }
 	else { updateHomePage(); }
 }
 
@@ -78,6 +79,14 @@ function updateSchemesPage(){
 			window.textureData = data;
 			addSchemes()
 		});
+	});
+}
+
+function updateSolutionPage(){
+	//load schemes page content
+	$('#main-content').load('./includes/page-solution.html', function(){
+		//Import texture data from JSON file
+		
 	});
 }
 
