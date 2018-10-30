@@ -86,7 +86,17 @@ function updateSolutionPage(){
 	//load schemes page content
 	$('#main-content').load('./includes/page-solution.html', function(){
 		//Import texture data from JSON file
-		
+		$('.solution .owl-carousel').owlCarousel({
+			animateOut: 'fadeOut',
+			autoplay: false,
+			autoplayTimeout: 2000,
+			items: 1,
+			loop: true,
+			mouseDrag: false,
+			touchDrag: false,
+			dots: false,
+			nav: true
+		});
 	});
 }
 

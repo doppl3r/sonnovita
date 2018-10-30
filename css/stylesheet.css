@@ -168,6 +168,85 @@ body {
       position: absolute;
       top: 20%;
       z-index: 1; }
+  body header.solution .owl-carousel .owl-item > div {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: calc(100vh);
+    min-height: 640px; }
+    body header.solution .owl-carousel .owl-item > div.slide-1 {
+      background-image: url("../img/solution/1.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-2 {
+      background-image: url("../img/solution/2.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-2 .caption {
+        left: 62%;
+        top: 30%; }
+    body header.solution .owl-carousel .owl-item > div.slide-3 {
+      background-image: url("../img/solution/3.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-3 .caption {
+        left: 40%;
+        top: 50%; }
+    body header.solution .owl-carousel .owl-item > div.slide-4 {
+      background-image: url("../img/solution/4.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-5 {
+      background-image: url("../img/solution/5.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-5-2 {
+      background-image: url("../img/solution/5-2.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-6 {
+      background-image: url("../img/solution/6.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-6 .caption {
+        left: 45%;
+        top: 25%; }
+    body header.solution .owl-carousel .owl-item > div.slide-7 {
+      background-image: url("../img/solution/7.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-8 {
+      background-image: url("../img/solution/8.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-8 .caption {
+        left: 70%;
+        top: 20%; }
+    body header.solution .owl-carousel .owl-item > div.slide-9 {
+      background-image: url("../img/solution/9.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-9 .caption {
+        left: 40%;
+        top: 20%; }
+    body header.solution .owl-carousel .owl-item > div .caption {
+      background-color: rgba(55, 49, 45, 0.8);
+      box-sizing: border-box;
+      font-size: 32px;
+      padding: 48px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      margin-left: -180px;
+      width: 360px; }
+      body header.solution .owl-carousel .owl-item > div .caption.arrow:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-color: transparent transparent transparent rgba(55, 49, 45, 0.8);
+        border-style: solid;
+        border-width: 25px 0 25px 25px;
+        position: absolute;
+        right: -25px;
+        bottom: 25px; }
+  body header.solution .owl-carousel .owl-nav {
+    position: absolute;
+    bottom: calc(60% - 36px);
+    width: calc(100%);
+    left: 0; }
+    body header.solution .owl-carousel .owl-nav button {
+      color: transparent;
+      height: 48px;
+      opacity: 0.8;
+      position: absolute;
+      width: 16px; }
+      body header.solution .owl-carousel .owl-nav button.owl-prev {
+        left: 5%;
+        background-image: url("../img/left-arrow.svg"); }
+      body header.solution .owl-carousel .owl-nav button.owl-next {
+        right: 5%;
+        background-image: url("../img/right-arrow.svg"); }
   body article.home {
     color: #ffffff;
     text-align: center;
@@ -285,7 +364,7 @@ body {
       margin: 0; }
   body article.solution {
     color: #ffffff;
-    padding: 128px 0;
+    padding: 128px 0 48px;
     text-align: center; }
     body article.solution h1 {
       font-weight: normal;
@@ -688,6 +767,21 @@ body {
     font-size: 12px;
     left: 5%;
     max-width: 30%; }
+  body header.solution .owl-carousel .owl-item > div {
+    background-position: 50% 50%;
+    height: 60vh;
+    min-height: 320px; }
+    body header.solution .owl-carousel .owl-item > div .caption {
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      top: initial !important;
+      font-size: 16px !important;
+      margin: 0 !important;
+      padding: 24px !important;
+      width: 100% !important; }
+  body header.solution .owl-carousel .owl-nav {
+    top: calc(50% - 36px); }
   body article.home {
     padding: 0 10%; }
     body article.home .owl-carousel.color-palette .items .item .tile .name {
