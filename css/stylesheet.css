@@ -413,6 +413,30 @@ body {
         body article.solution.configurations .graphics img {
           margin: 24px 5%;
           max-width: 100%; }
+    body article.solution.customize {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0; }
+      body article.solution.customize .patterns {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%; }
+        body article.solution.customize .patterns .texture {
+          width: 33.3333%;
+          padding-bottom: 33.3333%; }
+      body article.solution.customize .text {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        box-sizing: border-box;
+        width: 50%; }
+        body article.solution.customize .text h1 {
+          max-width: 400px;
+          margin: auto; }
+        body article.solution.customize .text p {
+          max-width: 320px;
+          margin: auto; }
   body aside {
     font-family: 'Roboto Condensed', sans-serif; }
     body aside.controls {
@@ -830,6 +854,10 @@ body {
     background-attachment: fixed; }
   body article.solution.storage .left-image, body article.solution.storage .right-image {
     height: 50vh; }
+  body article.solution.customize .patterns {
+    width: 100%; }
+  body article.solution.customize .text {
+    width: 100%; }
   body .row [class*="col-"] {
     width: 100%; } }
 

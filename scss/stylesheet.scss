@@ -428,6 +428,33 @@ body {
 					}
 				}
 			}
+			&.customize {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0;
+
+				.patterns {
+					display: flex;
+					flex-wrap: wrap;
+					width: 50%;
+
+					.texture {
+						width: 33.3333%;
+						padding-bottom: 33.3333%;
+					}
+				}
+				.text {
+					align-items: center;
+					display: flex;
+					justify-content: center;
+					padding: 5%;
+					box-sizing: border-box;
+					width: 50%;
+
+					h1 { max-width: 400px; margin: auto; }
+					p { max-width: 320px; margin: auto; }
+				}
+			}
 		}
 	}
 
@@ -910,6 +937,10 @@ body {
 					.graphics {
 						img { }
 					}
+				}
+				&.customize {
+					.patterns { width: 100%; }
+					.text { width: 100%; }
 				}
 			}
 		}
