@@ -437,6 +437,19 @@ body {
         body article.solution.customize .text p {
           max-width: 320px;
           margin: auto; }
+    body article.solution.contact {
+      background-image: url("../img/solution-contact.jpg");
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 48px;
+      padding: 96px 12px; }
+      body article.solution.contact h1 {
+        padding-bottom: 12px; }
+      body article.solution.contact .btn {
+        color: #37312d;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 18px 48px;
+        margin: 12px; }
   body aside {
     font-family: 'Roboto Condensed', sans-serif; }
     body aside.controls {
