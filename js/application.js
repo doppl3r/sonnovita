@@ -88,7 +88,7 @@ function updateSolutionPage(){
 		//Import texture data from JSON file
 		$('.solution .owl-carousel').owlCarousel({
 			animateOut: 'fadeOut',
-			autoplay: false,
+			autoplay: true,
 			autoplayTimeout: 2000,
 			items: 1,
 			loop: true,
