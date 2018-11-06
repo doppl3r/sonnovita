@@ -382,6 +382,37 @@ body {
 				margin: auto;
 				padding: 0px 12px 24px;
 			}
+
+			&.storage {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0;
+
+				> * { 
+					background-position: 20% 20%; 
+					background-size: cover; 
+					height: 80vh;
+					min-height: 420px;
+				}
+				.left-image {
+					background-image: url('../img/solution/solution-storage-1.jpg');
+					width: 20%;
+				}
+				.text {
+					display: flex;
+					align-items: center;
+					width: 30%;
+					div { 
+						max-width: 360px;
+						margin: auto;
+						h1 { padding-bottom: 24px; }
+					}
+				}
+				.right-image {
+					background-image: url('../img/solution/solution-storage-2.jpg');
+					width: 50%;
+				}
+			}
 		}
 	}
 
@@ -853,6 +884,12 @@ body {
 							}
 						}
 					}
+				}
+			}
+			&.solution {
+				&.storage {
+					> * { width: 100% !important; min-height: initial; background-attachment: fixed; }
+					.left-image, .right-image { height: 50vh; }
 				}
 			}
 		}
