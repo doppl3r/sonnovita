@@ -413,6 +413,21 @@ body {
 					width: 50%;
 				}
 			}
+			&.configurations {
+				padding: 80px 12px;
+				h1 { padding-bottom: 12px; }
+				.graphics {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					align-items: flex-start;
+
+					img { 
+						margin: 24px 5%;
+						max-width: 100%;
+					}
+				}
+			}
 		}
 	}
 
@@ -890,6 +905,11 @@ body {
 				&.storage {
 					> * { width: 100% !important; min-height: initial; background-attachment: fixed; }
 					.left-image, .right-image { height: 50vh; }
+				}
+				&.configurations {
+					.graphics {
+						img { }
+					}
 				}
 			}
 		}

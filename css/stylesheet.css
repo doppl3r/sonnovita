@@ -401,6 +401,18 @@ body {
       body article.solution.storage .right-image {
         background-image: url("../img/solution/solution-storage-2.jpg");
         width: 50%; }
+    body article.solution.configurations {
+      padding: 80px 12px; }
+      body article.solution.configurations h1 {
+        padding-bottom: 12px; }
+      body article.solution.configurations .graphics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start; }
+        body article.solution.configurations .graphics img {
+          margin: 24px 5%;
+          max-width: 100%; }
   body aside {
     font-family: 'Roboto Condensed', sans-serif; }
     body aside.controls {
