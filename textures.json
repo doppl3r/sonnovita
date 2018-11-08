@@ -65,7 +65,7 @@
         },
         "carbon": {
             "cabinet": "charcoal",
-            "couch": "cetus-slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Carbon",
             "headboard": "wine",
@@ -101,7 +101,7 @@
         },
         "french-roast": {
             "cabinet": "cordoba-pine",
-            "couch": "cetus-bourbon",
+            "couch": "bourbon",
             "description": "",
             "displayName": "French Roast",
             "headboard": "godiva",
@@ -335,7 +335,7 @@
         },
         "stealth": {
             "cabinet": "charcoal",
-            "couch": "slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Stealth",
             "headboard": "cement",
@@ -353,7 +353,7 @@
         },
         "twisted-steel": {
             "cabinet": "silver-frost",
-            "couch": "cetus-slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Twisted Steel",
             "headboard": "indigo",
@@ -448,17 +448,13 @@
                 "description": "Rainer White like the frosty snow atop a mountain.",
                 "displayName": "Rainier White"
             },
-            "ranier-white": {
-                "description": "",
-                "displayName": "Ranier White"
+            "shaker-cherry": {
+                "description": "Shaker Cherry a rich warm hue of red and brown",
+                "displayName": "Shaker Cherry"
             },
             "silver-frost": {
                 "description": "Silver Frost a silver etched tone with a subtle metallic feel.",
                 "displayName": "Silver Frost"
-            },
-            "slate": {
-                "description": "Slate is a gray tone slightly lighter than charcoal.",
-                "displayName": "Slate"
             },
             "summit": {
                 "description": "Summit is a soothing butterscotch cabinet interior color with just a hint of brown umber glaze to dull the appearance.",
@@ -467,14 +463,6 @@
             "wild-apple": {
                 "description": "Wild Apple has a golden blond complexion.",
                 "displayName": "White Apple"
-            },
-            "wilsonart-designer-white": {
-                "description": "",
-                "displayName": "Wilsonart Designer White"
-            },
-            "wilsonart-shaker-cherry": {
-                "description": "",
-                "displayName": "Wilsonart Shaker Cherry"
             }
         },
         "couches": {
@@ -483,7 +471,7 @@
                 "displayName": "Black"
             },
             "bourbon": {
-                "description": "bourbon a deep brown with warm undertones.",
+                "description": "Bourbon a deep brown with warm undertones.",
                 "displayName": "Bourbon"
             },
             "brick": {
@@ -506,10 +494,6 @@
                 "description": "Casablanca smoke a luxurious silver gray provides a soft metalic look.",
                 "displayName": "Casablanca Smoke"
             },
-            "cetus-bourbon": {
-                "description": "",
-                "displayName": "Cetus Bourbon"
-            },
             "cetus-cielo": {
                 "description": "Cetus Cielo a chalky light gray.",
                 "displayName": "Cetus Cielo"
@@ -525,10 +509,6 @@
             "cetus-pebble": {
                 "description": "Cetus Pebble an earthy tope tone.",
                 "displayName": "Cetus Pebble"
-            },
-            "cetus-slate": {
-                "description": "",
-                "displayName": "Cetus Slate"
             },
             "cetus-smoke": {
                 "description": "Cedus Smoke a smokey brownish gray.",
@@ -599,7 +579,7 @@
                 "displayName": "Maxima Pewter"
             },
             "modern-gray": {
-                "description": "",
+                "description": "Modern Gray a subtle gray to soften any environment.",
                 "displayName": "Modern Gray"
             },
             "off-the-grid": {
@@ -622,10 +602,6 @@
                 "description": "A vibrant pure raspberry color.",
                 "displayName": "Raspberry"
             },
-            "regent-modern-gray": {
-                "description": "",
-                "displayName": "Regent Modern Gray"
-            },
             "regent-sand": {
                 "description": "Regent Sand a Dark beige with carmel tones.",
                 "displayName": "Regent Sand"
@@ -633,10 +609,6 @@
             "saddle": {
                 "description": "Saddle a burst of warm color like a brand new baseball glove or a shiney sadle. ",
                 "displayName": "Saddle"
-            },
-            "slate": {
-                "description": "",
-                "displayName": "Slate"
             },
             "tumbleweed": {
                 "description": "Tumbleweed an earthy medium brown.",
@@ -890,25 +862,9 @@
             }
         },
         "panels": {
-            "ascott": {
-                "description": "",
-                "displayName": "Ascott"
-            },
             "bankers-gray": {
                 "description": "Banker’s Gray is a rich textued gray color in a matte finish. This panel harkins images of the fine mens suit that grace board rooms, investment baks, and stock exchanges.",
                 "displayName": "Bankers Gray"
-            },
-            "black-hole": {
-                "description": "",
-                "displayName": "Black Hole"
-            },
-            "black-on-black": {
-                "description": "",
-                "displayName": "Black on Black"
-            },
-            "black-tie": {
-                "description": "",
-                "displayName": "Black Tie"
             },
             "bronze-linen": {
                 "description": "Bronze Linen features a textured cross hatch face that gives the appearance of a fabric delicately woven with bronze and gold strands of thread.",
@@ -934,18 +890,6 @@
                 "description": "Carbon is a rich matte black finish with subtle texturing to create depth along with highs and lows along the black spectrum.",
                 "displayName": "Carbon"
             },
-            "carbon-black": {
-                "description": "",
-                "displayName": "Carbon Black"
-            },
-            "carbon-new": {
-                "description": "",
-                "displayName": "Carbon New"
-            },
-            "chantilly-gray": {
-                "description": "",
-                "displayName": "Chantilly Gray"
-            },
             "cottage": {
                 "description": "Cottage features a super matte finish with wood grain texture. It presents as a raw, plank of rich French oak in a creamy natural blond color with white highlights in the soft grain.",
                 "displayName": "Cottage"
@@ -962,17 +906,9 @@
                 "description": "French Roast  has a high gloss brazilian walnut appearance with the rich, warm tones of Columbian coffee beans and contrasting dark espresso striations.",
                 "displayName": "French Roast"
             },
-            "glacier": {
-                "description": "",
-                "displayName": "Glacier"
-            },
             "glass-drift": {
                 "description": "Glass Drift has the feel of a weatherd piece of gray driftwood but with a formal high gloss finish. Dark, medium, and light gray tones defined by delicate black wood grain markings.",
                 "displayName": "Glass Drift"
-            },
-            "glass-wenge": {
-                "description": "",
-                "displayName": "Glass Wenge"
             },
             "gotham-stone": {
                 "description": "Gotham Stone has the look and feel of a chisled piece of flat textured gray stone. ",
@@ -993,14 +929,6 @@
             "key-lime-pie": {
                 "description": "Keylime Pie is a bright vibrant lime green with a high gloss finish.",
                 "displayName": "Key Lime Pie"
-            },
-            "latte-trees": {
-                "description": "",
-                "displayName": "Latte Trees"
-            },
-            "linen-sail": {
-                "description": "",
-                "displayName": "Linen Sail"
             },
             "melted-chocolate": {
                 "description": "Melted Chocolate is a high gloss reflection of an exotic wood. Its warm milk chocolate tones with light highlights are contrasted by dark striations of esprersso.",
@@ -1093,10 +1021,6 @@
             "urban-cowboy": {
                 "description": "Urban Cowboy is a rich high gloss finish with subtle figuring reminicent of a supple worn leather. The warm brown tones carry a light and pleasing value with a slight sparkle to provide a faint metalic feel.",
                 "displayName": "Urban Cowboy"
-            },
-            "white-prism": {
-                "description": "",
-                "displayName": "White Prism"
             }
         }
     }
