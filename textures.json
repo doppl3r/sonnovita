@@ -7,7 +7,7 @@
             "displayName": "Aged French Oak",
             "headboard": "doeskin",
             "panel-a": "french-roast",
-            "panel-b": "glass-wenge"
+            "panel-b": "sahara"
         },
         "bankers-gray": {
             "cabinet": "charcoal",
@@ -37,7 +37,7 @@
             "panel-b": "carbon"
         },
         "bubble-gum-crok": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "optical-white",
             "description": "",
             "displayName": "Bubble Gum Crok",
@@ -88,7 +88,7 @@
             "displayName": "Cottage",
             "headboard": "parchment",
             "panel-a": "drift-cloth",
-            "panel-b": "linen-sail"
+            "panel-b": "parchment"
         },
         "earth": {
             "cabinet": "summit",
@@ -160,7 +160,7 @@
             "displayName": "Melted Chocolate",
             "headboard": "godiva",
             "panel-a": "melted-chocolate",
-            "panel-b": "glass-wenge"
+            "panel-b": "sahara"
         },
         "midnight-crok": {
             "cabinet": "black",
@@ -190,7 +190,7 @@
             "panel-b": "drift-cloth"
         },
         "pearl-stardust": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "brooklyn-fog",
             "description": "",
             "displayName": "Pearl Stardust",
@@ -208,7 +208,7 @@
             "panel-b": "gray-mist"
         },
         "pure-snow": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "optical-white",
             "description": "",
             "displayName": "Pure Snow",
@@ -226,7 +226,7 @@
             "panel-b": "graphite-reign"
         },
         "ravenwood": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "chalk",
             "description": "",
             "displayName": "Ravenwood",
@@ -298,7 +298,7 @@
             "panel-b": "pewter-rain"
         },
         "snow-crok": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "optical-white",
             "description": "",
             "displayName": "Snow Crok",
@@ -307,7 +307,7 @@
             "panel-b": "pure-snow"
         },
         "snow-trees": {
-            "cabinet": "ranier-white",
+            "cabinet": "rainier-white",
             "couch": "modern-gray",
             "description": "",
             "displayName": "Snow Trees",
@@ -526,8 +526,8 @@
                 "description": "Chocolate a rich, dark chocolate brown",
                 "displayName": "Chocolate"
             },
-            "clowd": {
-                "description": "Cloud  the misty white color of a cumulus cloud.",
+            "cloud": {
+                "description": "Cloud the misty white color of a cumulus cloud.",
                 "displayName": "Cloud"
             },
             "dante-spice": {
@@ -671,10 +671,6 @@
             "citron": {
                 "description": "Citron is a light mossy green.",
                 "displayName": "Citron"
-            },
-            "cloud": {
-                "description": "Cloud is a dark pwder blue.",
-                "displayName": "Cloud"
             },
             "coffee": {
                 "description": "Coffee appears like a delicious brown with a touch of milk.",
