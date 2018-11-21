@@ -30,6 +30,7 @@ function updatePage(){
 	if (href.indexOf('?create') > 0){ updateCreatePage(); }
 	else if (href.indexOf('schemes.html') > 0){ updateSchemesPage(); }
 	else if (href.indexOf('solution.html') > 0){ updateSolutionPage(); }
+	else if (href.indexOf('contact.html') > 0){ updateContactPage(); }
 	else { updateHomePage(); }
 }
 
@@ -97,6 +98,12 @@ function updateSolutionPage(){
 			dots: false,
 			nav: true
 		});
+	});
+}
+
+function updateContactPage(){
+	$('#main-content').load('./includes/page-contact.html', function(){
+		
 	});
 }
 
