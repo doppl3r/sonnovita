@@ -126,7 +126,7 @@ body {
 							background-size: cover;
 							background-position: center;
 							color: transparent;
-							height: calc(100vh - 180px);
+							height: calc(100vh - 240px);
 							min-height: 360px;
 
 							&.slide-1 { background-image: url('../img/home/home-1.jpg'); }
@@ -294,7 +294,7 @@ body {
 				}
 			}
 			.cta {
-				padding: 32px 0 80px;
+				padding: 0 0 80px;
 			}
 		}
 		&.create {
@@ -386,7 +386,7 @@ body {
 			&.storage {
 				display: flex;
 				flex-wrap: wrap;
-				padding: 0;
+				padding: 80px 0 0;
 
 				> * { 
 					background-position: 20% 20%; 

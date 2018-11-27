@@ -65,7 +65,7 @@
         },
         "carbon": {
             "cabinet": "charcoal",
-            "couch": "eugene-slate",
+            "couch": "cetus-slate",
             "description": "",
             "displayName": "Carbon",
             "headboard": "wine",
@@ -101,7 +101,7 @@
         },
         "french-roast": {
             "cabinet": "cordoba-pine",
-            "couch": "bourbon",
+            "couch": "cetus-bourbon",
             "description": "",
             "displayName": "French Roast",
             "headboard": "godiva",
@@ -160,7 +160,7 @@
             "displayName": "Melted Chocolate",
             "headboard": "godiva",
             "panel-a": "melted-chocolate",
-            "panel-b": "sahara"
+            "panel-b": "melted-chocolate"
         },
         "midnight-crok": {
             "cabinet": "black",
@@ -205,7 +205,7 @@
             "displayName": "Pewter Rain",
             "headboard": "sky",
             "panel-a": "pewter-rain",
-            "panel-b": "gray-mist"
+            "panel-b": "stainless-twist"
         },
         "pure-snow": {
             "cabinet": "rainier-white",
@@ -335,7 +335,7 @@
         },
         "stealth": {
             "cabinet": "charcoal",
-            "couch": "eugene-slate",
+            "couch": "slate",
             "description": "",
             "displayName": "Stealth",
             "headboard": "cement",
@@ -349,11 +349,11 @@
             "displayName": "Sunset Brown",
             "headboard": "copper",
             "panel-a": "sunset-brown",
-            "panel-b": "carbon"
+            "panel-b": "sunset-brown"
         },
         "twisted-steel": {
             "cabinet": "silver-frost",
-            "couch": "eugene-slate",
+            "couch": "cetus-slate",
             "description": "",
             "displayName": "Twisted Steel",
             "headboard": "indigo",
@@ -494,6 +494,10 @@
                 "description": "Casablanca smoke a luxurious silver gray provides a soft metalic look.",
                 "displayName": "Casablanca Smoke"
             },
+            "cetus-bourbon": {
+                "description": "Cetus Bourbon a deep brown with warm undertones.",
+                "displayName": "Cetus Bourbon"
+            },
             "cetus-cielo": {
                 "description": "Cetus Cielo a chalky light gray.",
                 "displayName": "Cetus Cielo"
@@ -509,6 +513,10 @@
             "cetus-pebble": {
                 "description": "Cetus Pebble an earthy tope tone.",
                 "displayName": "Cetus Pebble"
+            },
+            "cetus-slate": {
+                "description": "Cetus Slate a deep dark gray that is just shy of black.",
+                "displayName": "Cetus Slate"
             },
             "cetus-smoke": {
                 "description": "Cedus Smoke a smokey brownish gray.",
