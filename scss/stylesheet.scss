@@ -357,6 +357,16 @@ body {
 					&.customize:before { background-image: url('../img/color-icon.png'); }
 				}
 			}
+			.last-item {
+				div {
+					align-items: center;
+					background-color: #433d39;
+					display: flex;
+					height: calc(100% - 48px);
+					justify-content: center;
+					min-height: 112px;
+				}
+			}
 
 			h1 { 
 				font-size: 44px;
@@ -387,7 +397,7 @@ body {
 			&.storage {
 				display: flex;
 				flex-wrap: wrap;
-				padding: 80px 0 0;
+				padding: 48px 0 0;
 
 				> * { 
 					background-position: 20% 20%; 
@@ -433,26 +443,28 @@ body {
 				display: flex;
 				flex-wrap: wrap;
 				padding: 0;
-
-				.patterns {
-					display: flex;
-					flex-wrap: wrap;
+				.pattern-slider {
 					width: 50%;
 
-					.texture {
-						width: 33.3333%;
-						padding-bottom: 33.3333%;
+					.patterns {
+						display: flex;
+						flex-wrap: wrap;
+	
+						.texture {
+							width: 33.3333%;
+							padding-bottom: 33.3333%;
+						}
 					}
 				}
 				.text {
 					align-items: center;
 					display: flex;
 					justify-content: center;
-					padding: 5%;
+					padding: 0 5%;
 					box-sizing: border-box;
 					width: 50%;
 
-					h1 { max-width: 400px; margin: auto; }
+					h1 { max-width: 400px; margin: auto; padding-top: 0; }
 					p { max-width: 320px; margin: auto; }
 				}
 			}
@@ -460,8 +472,21 @@ body {
 				background-image: url('../img/solution-contact.jpg');
 				background-size: cover;
 				background-position: center;
+				-webkit-filter: grayscale(50%);
 				margin-bottom: 48px;
 				padding: 96px 12px;
+				position: relative;
+
+				&:before {
+					content: '';
+					background-color: rgba(55, 49, 45, 0.5);
+					position: absolute;
+					left: 0;
+					right: 0; 
+					top: 0;
+					bottom: 0;
+				}
+				> * { position: relative; z-index: 1; }
 
 				h1 { padding-bottom: 12px; }
 				.btn {
@@ -966,11 +991,12 @@ body {
 			&.solution {
 				&.storage {
 					> * { width: 100% !important; min-height: initial; background-attachment: fixed; }
+					padding-top: 0;
 					.left-image, .right-image { height: 50vh; }
 				}
 				&.customize {
-					.patterns { width: 100%; }
-					.text { width: 100%; }
+					.pattern-slider { width: 100%; }
+					.text { width: 100%; padding: 5%; }
 				}
 			}
 		}

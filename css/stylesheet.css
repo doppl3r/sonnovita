@@ -174,19 +174,6 @@ body {
     color: #fff;
     height: calc(100vh);
     min-height: 640px;
-    /* old assets */
-    /* 
-						&.slide-1 { background-image: url('../img/solution/1.jpg'); }
-						&.slide-2 { background-image: url('../img/solution/2.jpg'); .caption { left: 62%; top: 30%; }}
-						&.slide-3 { background-image: url('../img/solution/3.jpg'); .caption { left: 40%; top: 50%; }}
-						&.slide-4 { background-image: url('../img/solution/4.jpg'); }
-						&.slide-5 { background-image: url('../img/solution/5.jpg'); }
-						&.slide-5-2 { background-image: url('../img/solution/5-2.jpg'); }
-						&.slide-6 { background-image: url('../img/solution/6.jpg'); .caption { left: 45%; top: 25%; }}
-						&.slide-7 { background-image: url('../img/solution/7.jpg'); }
-						&.slide-8 { background-image: url('../img/solution/8.jpg'); .caption { left: 70%; top: 20%; }}
-						&.slide-9 { background-image: url('../img/solution/9.jpg'); .caption { left: 40%; top: 20%; }}
-						*/
     /* new assets*/ }
     body header.solution .owl-carousel .owl-item > div.slide-1 {
       background-image: url("../img/home/home-1.jpg"); }
@@ -372,6 +359,13 @@ body {
           background-image: url("../img/view-icon.png"); }
         body article.schemes .cta a.customize:before {
           background-image: url("../img/color-icon.png"); }
+    body article.schemes .last-item div {
+      align-items: center;
+      background-color: #433d39;
+      display: flex;
+      height: calc(100% - 48px);
+      justify-content: center;
+      min-height: 112px; }
     body article.schemes h1 {
       font-size: 44px;
       font-weight: normal;
@@ -394,7 +388,7 @@ body {
     body article.solution.storage {
       display: flex;
       flex-wrap: wrap;
-      padding: 80px 0 0; }
+      padding: 48px 0 0; }
       body article.solution.storage > * {
         background-position: 20% 20%;
         background-size: cover;
@@ -431,23 +425,25 @@ body {
       display: flex;
       flex-wrap: wrap;
       padding: 0; }
-      body article.solution.customize .patterns {
-        display: flex;
-        flex-wrap: wrap;
+      body article.solution.customize .pattern-slider {
         width: 50%; }
-        body article.solution.customize .patterns .texture {
-          width: 33.3333%;
-          padding-bottom: 33.3333%; }
+        body article.solution.customize .pattern-slider .patterns {
+          display: flex;
+          flex-wrap: wrap; }
+          body article.solution.customize .pattern-slider .patterns .texture {
+            width: 33.3333%;
+            padding-bottom: 33.3333%; }
       body article.solution.customize .text {
         align-items: center;
         display: flex;
         justify-content: center;
-        padding: 5%;
+        padding: 0 5%;
         box-sizing: border-box;
         width: 50%; }
         body article.solution.customize .text h1 {
           max-width: 400px;
-          margin: auto; }
+          margin: auto;
+          padding-top: 0; }
         body article.solution.customize .text p {
           max-width: 320px;
           margin: auto; }
@@ -455,8 +451,21 @@ body {
       background-image: url("../img/solution-contact.jpg");
       background-size: cover;
       background-position: center;
+      -webkit-filter: grayscale(50%);
       margin-bottom: 48px;
-      padding: 96px 12px; }
+      padding: 96px 12px;
+      position: relative; }
+      body article.solution.contact:before {
+        content: '';
+        background-color: rgba(55, 49, 45, 0.5);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0; }
+      body article.solution.contact > * {
+        position: relative;
+        z-index: 1; }
       body article.solution.contact h1 {
         padding-bottom: 12px; }
       body article.solution.contact .btn {
@@ -890,16 +899,19 @@ body {
       display: none; }
     body article.home .owl-carousel.color-palette .items .item .category {
       display: none; }
-  body article.solution.storage > * {
-    width: 100% !important;
-    min-height: initial;
-    background-attachment: fixed; }
-  body article.solution.storage .left-image, body article.solution.storage .right-image {
-    height: 50vh; }
-  body article.solution.customize .patterns {
+  body article.solution.storage {
+    padding-top: 0; }
+    body article.solution.storage > * {
+      width: 100% !important;
+      min-height: initial;
+      background-attachment: fixed; }
+    body article.solution.storage .left-image, body article.solution.storage .right-image {
+      height: 50vh; }
+  body article.solution.customize .pattern-slider {
     width: 100%; }
   body article.solution.customize .text {
-    width: 100%; }
+    width: 100%;
+    padding: 5%; }
   body .row [class*="col-"] {
     width: 100%; } }
 

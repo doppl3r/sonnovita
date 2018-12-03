@@ -87,7 +87,7 @@ function updateSolutionPage(){
 	//load schemes page content
 	$('#main-content').load('./includes/page-solution.html', function(){
 		//Import texture data from JSON file
-		$('.solution .owl-carousel').owlCarousel({
+		$('.solution .owl-carousel.animation').owlCarousel({
 			animateOut: 'fadeOut',
 			autoplay: true,
 			autoplayTimeout: 750,
@@ -97,6 +97,16 @@ function updateSolutionPage(){
 			touchDrag: false,
 			dots: false,
 			nav: true
+		});
+		$('.solution .owl-carousel.pattern-slider').owlCarousel({
+			autoplay: true,
+			autoplayTimeout: 3000,
+			items: 1,
+			loop: true,
+			mouseDrag: true,
+			touchDrag: true,
+			dots: false,
+			nav: false
 		});
 	});
 }
@@ -203,6 +213,15 @@ function addSchemes(){
 			);
 		}
 	}
+	row.append(
+		'<div class="col-4 last-item">'+
+			'<div>'+
+				'<a class="btn" href="index.html?create&panel-a=serengeti&panel-b=sunset-brown&couch=saddle&cabinet=mahogany&headboard=mica&scheme=serengeti">'+
+					'Create Your Own Scheme'+
+				'</a>'+
+			'</div>'+
+		'</div>'
+	);
 }
 
 function createURL(panel_a, panel_b, couch, cabinet, headboard, scheme){
