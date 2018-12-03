@@ -90,7 +90,7 @@ function updateSolutionPage(){
 		$('.solution .owl-carousel').owlCarousel({
 			animateOut: 'fadeOut',
 			autoplay: true,
-			autoplayTimeout: 2000,
+			autoplayTimeout: 750,
 			items: 1,
 			loop: true,
 			mouseDrag: false,
