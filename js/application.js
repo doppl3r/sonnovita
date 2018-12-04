@@ -98,16 +98,12 @@ function updateSolutionPage(){
 			dots: false,
 			nav: true
 		});
-		$('.solution .owl-carousel.pattern-slider').owlCarousel({
-			autoplay: true,
-			autoplayTimeout: 3000,
-			items: 1,
-			loop: true,
-			mouseDrag: true,
-			touchDrag: true,
-			dots: false,
-			nav: false
-		});
+		$('.solution .owl-carousel.tile-1').owlCarousel({ autoplayTimeout: 4500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
+		$('.solution .owl-carousel.tile-2').owlCarousel({ autoplayTimeout: 7500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
+		$('.solution .owl-carousel.tile-3').owlCarousel({ autoplayTimeout: 6000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
+		$('.solution .owl-carousel.tile-4').owlCarousel({ autoplayTimeout: 5000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
+		$('.solution .owl-carousel.tile-5').owlCarousel({ autoplayTimeout: 6500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
+		$('.solution .owl-carousel.tile-6').owlCarousel({ autoplayTimeout: 7000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
 	});
 }
 

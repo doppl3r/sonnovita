@@ -361,10 +361,18 @@ body {
 				div {
 					align-items: center;
 					background-color: #433d39;
+					background-image: url(../img/solution-contact.jpg);
+					background-size: cover;
+					background-position: 0 0;
 					display: flex;
 					height: calc(100% - 48px);
 					justify-content: center;
 					min-height: 112px;
+
+					.btn {
+						background-color: rgba(255, 255, 255, 0.3);
+						color: #37312d;
+					}
 				}
 			}
 
@@ -397,7 +405,7 @@ body {
 			&.storage {
 				display: flex;
 				flex-wrap: wrap;
-				padding: 48px 0 0;
+				padding: 5px 0 0;
 
 				> * { 
 					background-position: 20% 20%; 
@@ -443,16 +451,18 @@ body {
 				display: flex;
 				flex-wrap: wrap;
 				padding: 0;
-				.pattern-slider {
+
+				.patterns {
+					display: flex;
+					flex-wrap: wrap;
 					width: 50%;
 
-					.patterns {
-						display: flex;
-						flex-wrap: wrap;
+					.owl-carousel {
+						width: 33.3333%;
 	
 						.texture {
-							width: 33.3333%;
-							padding-bottom: 33.3333%;
+							width: 100%;
+							padding-bottom: 100%;
 						}
 					}
 				}
@@ -995,7 +1005,7 @@ body {
 					.left-image, .right-image { height: 50vh; }
 				}
 				&.customize {
-					.pattern-slider { width: 100%; }
+					.patterns { width: 100%; }
 					.text { width: 100%; padding: 5%; }
 				}
 			}

@@ -362,10 +362,16 @@ body {
     body article.schemes .last-item div {
       align-items: center;
       background-color: #433d39;
+      background-image: url(../img/solution-contact.jpg);
+      background-size: cover;
+      background-position: 0 0;
       display: flex;
       height: calc(100% - 48px);
       justify-content: center;
       min-height: 112px; }
+      body article.schemes .last-item div .btn {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #37312d; }
     body article.schemes h1 {
       font-size: 44px;
       font-weight: normal;
@@ -388,7 +394,7 @@ body {
     body article.solution.storage {
       display: flex;
       flex-wrap: wrap;
-      padding: 48px 0 0; }
+      padding: 5px 0 0; }
       body article.solution.storage > * {
         background-position: 20% 20%;
         background-size: cover;
@@ -425,14 +431,15 @@ body {
       display: flex;
       flex-wrap: wrap;
       padding: 0; }
-      body article.solution.customize .pattern-slider {
+      body article.solution.customize .patterns {
+        display: flex;
+        flex-wrap: wrap;
         width: 50%; }
-        body article.solution.customize .pattern-slider .patterns {
-          display: flex;
-          flex-wrap: wrap; }
-          body article.solution.customize .pattern-slider .patterns .texture {
-            width: 33.3333%;
-            padding-bottom: 33.3333%; }
+        body article.solution.customize .patterns .owl-carousel {
+          width: 33.3333%; }
+          body article.solution.customize .patterns .owl-carousel .texture {
+            width: 100%;
+            padding-bottom: 100%; }
       body article.solution.customize .text {
         align-items: center;
         display: flex;
@@ -907,7 +914,7 @@ body {
       background-attachment: fixed; }
     body article.solution.storage .left-image, body article.solution.storage .right-image {
       height: 50vh; }
-  body article.solution.customize .pattern-slider {
+  body article.solution.customize .patterns {
     width: 100%; }
   body article.solution.customize .text {
     width: 100%;
