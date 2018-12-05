@@ -327,7 +327,11 @@ body {
     max-width: 1200px;
     padding: 96px 0; }
     body article.schemes h1 {
-      padding: 12px 0; }
+      padding: 12px 0 0;
+      margin: 0; }
+    body article.schemes p {
+      padding: 0 0 24px;
+      margin: 0; }
     body article.schemes .row [class*="col-"] {
       padding: 0 24px; }
     body article.schemes .cta {
@@ -906,6 +910,8 @@ body {
       display: none; }
     body article.home .owl-carousel.color-palette .items .item .category {
       display: none; }
+  body article.schemes h1, body article.schemes p {
+    text-align: center; }
   body article.solution.storage {
     padding-top: 0; }
     body article.solution.storage > * {
