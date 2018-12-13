@@ -139,7 +139,7 @@ body {
       background-size: cover;
       background-position: center;
       color: transparent;
-      height: calc(100vh - 240px);
+      height: calc(100vh - 180px);
       min-height: 360px; }
       body header.home .owl-carousel.home .owl-item div.slide-1 {
         background-image: url("../img/home/home-1.jpg"); }
@@ -312,7 +312,7 @@ body {
             right: 12px;
             background-image: url("../img/right-arrow.svg"); }
     body article.home .cta {
-      padding: 0 0 80px; }
+      padding: 20px 0 80px; }
   body article.create {
     color: #ffffff;
     margin: 0 auto;
