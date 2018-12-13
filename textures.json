@@ -65,7 +65,7 @@
         },
         "carbon": {
             "cabinet": "charcoal",
-            "couch": "cetus-slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Carbon",
             "headboard": "wine",
@@ -101,7 +101,7 @@
         },
         "french-roast": {
             "cabinet": "cordoba-pine",
-            "couch": "cetus-bourbon",
+            "couch": "bourbon",
             "description": "",
             "displayName": "French Roast",
             "headboard": "godiva",
@@ -166,7 +166,7 @@
             "cabinet": "black",
             "couch": "galileo-red",
             "description": "",
-            "displayName": "Melted Chocolate",
+            "displayName": "Midnight Crok",
             "headboard": "gunmetal",
             "panel-a": "midnight-crok",
             "panel-b": "carbon"
@@ -335,7 +335,7 @@
         },
         "stealth": {
             "cabinet": "charcoal",
-            "couch": "slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Stealth",
             "headboard": "cement",
@@ -353,7 +353,7 @@
         },
         "twisted-steel": {
             "cabinet": "silver-frost",
-            "couch": "cetus-slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Twisted Steel",
             "headboard": "indigo",
