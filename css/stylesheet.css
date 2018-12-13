@@ -18,6 +18,7 @@ body {
       height: 150px;
       left: 0;
       position: absolute;
+      top: 0;
       width: 100%;
       z-index: -1; }
     body nav .logo {
@@ -718,6 +719,8 @@ body {
     background-color: #433d39;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
+    height: 0px;
+    /* fix safari issue */
     margin-bottom: 48px;
     padding-bottom: 110%;
     /* grid ratio */
@@ -771,18 +774,28 @@ body {
           top: calc(50% - 17px);
           left: calc(50% - 17px); }
       body .palette .grid .panel-a {
+        -ms-grid-column: 1 / 2;
+        -ms-grid-rows: 1 / 1;
         grid-column: 1 / 2;
         grid-row: 1 / 1; }
       body .palette .grid .panel-b {
+        -ms-grid-column: 2 / 3;
+        -ms-grid-rows: 1 / 1;
         grid-column: 2 / 3;
         grid-row: 1 / 1; }
       body .palette .grid .couch {
+        -ms-grid-column: 1 / 2;
+        -ms-grid-rows: 2 / 4;
         grid-column: 1 / 2;
         grid-row: 2 / 4; }
       body .palette .grid .cabinet {
+        -ms-grid-column: 2 / 3;
+        -ms-grid-rows: 2 / 3;
         grid-column: 2 / 3;
         grid-row: 2 / 3; }
       body .palette .grid .headboard {
+        -ms-grid-column: 2 / 3;
+        -ms-grid-rows: 3 / 4;
         grid-column: 2 / 3;
         grid-row: 3 / 4; }
       body .palette .grid .caption {
