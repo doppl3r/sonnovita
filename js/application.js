@@ -41,7 +41,7 @@ function updateHomePage(){
 		$('.owl-carousel.home').owlCarousel({
 			animateOut: 'fadeOut',
 			autoplay: true,
-			autoplayTimeout: 750,
+			autoplayTimeout: 1500,
 			items: 1,
 			loop: true,
 			mouseDrag: false,
