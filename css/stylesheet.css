@@ -142,6 +142,8 @@ body {
       min-height: 360px; }
       body header.home .owl-carousel.home .owl-item div.slide-1 {
         background-image: url("../img/home/home-1.jpg"); }
+      body header.home .owl-carousel.home .owl-item div.slide-1-2 {
+        background-image: url("../img/home/home-1-2.jpg"); }
       body header.home .owl-carousel.home .owl-item div.slide-2 {
         background-image: url("../img/home/home-2.jpg"); }
       body header.home .owl-carousel.home .owl-item div.slide-3 {
@@ -198,6 +200,8 @@ body {
         top: 25%; }
     body header.solution .owl-carousel .owl-item > div.slide-7 {
       background-image: url("../img/home/home-7.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-7-2 {
+      background-image: url("../img/home/home-7-2.jpg"); }
     body header.solution .owl-carousel .owl-item > div.slide-8 {
       background-image: url("../img/home/home-8.jpg"); }
       body header.solution .owl-carousel .owl-item > div.slide-8 .caption {
@@ -417,9 +421,22 @@ body {
           body article.solution.storage .text div h1 {
             padding-bottom: 24px; }
       body article.solution.storage .right-image {
-        background-image: url("../img/solution/solution-storage-2.jpg");
         width: 50%; }
+        body article.solution.storage .right-image .owl-carousel {
+          height: inherit; }
+          body article.solution.storage .right-image .owl-carousel * {
+            height: inherit; }
+          body article.solution.storage .right-image .owl-carousel .owl-item [class*="slide-"] {
+            background-size: cover;
+            background-position: center; }
+          body article.solution.storage .right-image .owl-carousel .owl-item .slide-1 {
+            background-image: url("../img/solution/solution-storage-2.jpg"); }
+          body article.solution.storage .right-image .owl-carousel .owl-item .slide-2 {
+            background-image: url("../img/solution/solution-storage-2b.jpg"); }
+          body article.solution.storage .right-image .owl-carousel .owl-item .slide-3 {
+            background-image: url("../img/solution/solution-storage-2c.jpg"); }
     body article.solution.configurations {
+      background-color: #423d39;
       padding: 80px 12px; }
       body article.solution.configurations h1 {
         padding-bottom: 12px; }

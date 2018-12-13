@@ -98,6 +98,7 @@ function updateSolutionPage(){
 			dots: false,
 			nav: true
 		});
+		$('.solution.storage .owl-carousel').owlCarousel({ autoplayTimeout: 1000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
 		$('.solution .owl-carousel.tile-1').owlCarousel({ autoplayTimeout: 4500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
 		$('.solution .owl-carousel.tile-2').owlCarousel({ autoplayTimeout: 7500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
 		$('.solution .owl-carousel.tile-3').owlCarousel({ autoplayTimeout: 6000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });

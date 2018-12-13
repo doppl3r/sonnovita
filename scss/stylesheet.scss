@@ -130,6 +130,7 @@ body {
 							min-height: 360px;
 
 							&.slide-1 { background-image: url('../img/home/home-1.jpg'); }
+							&.slide-1-2 { background-image: url('../img/home/home-1-2.jpg'); }
 							&.slide-2 { background-image: url('../img/home/home-2.jpg'); }
 							&.slide-3 { background-image: url('../img/home/home-3.jpg'); }
 							&.slide-4 { background-image: url('../img/home/home-4.jpg'); }
@@ -172,6 +173,7 @@ body {
 						&.slide-5 { background-image: url('../img/home/home-5.jpg'); }
 						&.slide-6 { background-image: url('../img/home/home-6.jpg'); .caption { left: 45%; top: 25%; } }
 						&.slide-7 { background-image: url('../img/home/home-7.jpg'); }
+						&.slide-7-2 { background-image: url('../img/home/home-7-2.jpg'); }
 						&.slide-8 { background-image: url('../img/home/home-8.jpg'); .caption { left: 70%; top: 20%; } }
 						&.slide-9 { background-image: url('../img/home/home-9.jpg'); .caption { left: 40%; top: 20%; } }
 						&.slide-10 { background-image: url('../img/home/home-10.jpg'); }
@@ -429,12 +431,28 @@ body {
 					}
 				}
 				.right-image {
-					background-image: url('../img/solution/solution-storage-2.jpg');
+					//
 					width: 50%;
+
+					.owl-carousel { 
+						height: inherit;
+						* { height: inherit; }
+						.owl-item {
+							[class*="slide-"] { 
+								background-size: cover; 
+								background-position: center;
+							}
+							.slide-1 { background-image: url('../img/solution/solution-storage-2.jpg'); }
+							.slide-2 { background-image: url('../img/solution/solution-storage-2b.jpg'); }
+							.slide-3 { background-image: url('../img/solution/solution-storage-2c.jpg'); }
+						}
+					}
 				}
 			}
 			&.configurations {
+				background-color: #423d39;
 				padding: 80px 12px;
+
 				h1 { padding-bottom: 12px; }
 				.graphics {
 					display: flex;
