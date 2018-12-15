@@ -110,7 +110,7 @@
         },
         "glass-drift": {
             "cabinet": "charcoal",
-            "couch": "modern-gray",
+            "couch": "regent-modern-gray",
             "description": "",
             "displayName": "Glass Drift",
             "headboard": "platinum",
@@ -191,7 +191,7 @@
         },
         "pearl-stardust": {
             "cabinet": "rainier-white",
-            "couch": "modern-gray",
+            "couch": "regent-modern-gray",
             "description": "",
             "displayName": "Pearl Stardust",
             "headboard": "platinum",
@@ -272,7 +272,7 @@
         },
         "shades-of-gray": {
             "cabinet": "charcoal",
-            "couch": "modern-gray",
+            "couch": "regent-modern-gray",
             "description": "",
             "displayName": "Shades of Gray",
             "headboard": "cement",
@@ -308,7 +308,7 @@
         },
         "snow-trees": {
             "cabinet": "rainier-white",
-            "couch": "modern-gray",
+            "couch": "regent-modern-gray",
             "description": "",
             "displayName": "Snow Trees",
             "headboard": "platinum",
@@ -586,9 +586,9 @@
                 "description": "Maxima Pewter a dark matte gray.",
                 "displayName": "Maxima Pewter"
             },
-            "modern-gray": {
-                "description": "Modern Gray a subtle gray to soften any environment.",
-                "displayName": "Modern Gray"
+            "regent-modern-gray": {
+                "description": "Regent Modern Gray a subtle gray to soften any environment.",
+                "displayName": "Regent Modern Gray"
             },
             "off-the-grid": {
                 "description": "A light parchment tone that straddles tan and gray.",
