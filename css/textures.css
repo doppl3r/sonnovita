@@ -29,10 +29,12 @@
 .couches.brooklyn-creme-brulee { background-image: url("../img/textures/couches/brooklyn-creme-brulee.jpg"); }
 .couches.brooklyn-fog { background-image: url("../img/textures/couches/brooklyn-fog.jpg"); }
 .couches.casablanca-smoke { background-image: url("../img/textures/couches/casablanca-smoke.jpg"); }
+.couches.cetus-bourbon { background-image: url("../img/textures/couches/cetus-bourbon.jpg"); }
 .couches.cetus-cielo { background-image: url("../img/textures/couches/cetus-cielo.jpg"); }
 .couches.cetus-granite { background-image: url("../img/textures/couches/cetus-granite.jpg"); }
 .couches.cetus-nuvolo { background-image: url("../img/textures/couches/cetus-nuvolo.jpg"); }
 .couches.cetus-pebble { background-image: url("../img/textures/couches/cetus-pebble.jpg"); }
+.couches.cetus-slate { background-image: url("../img/textures/couches/cetus-slate.jpg"); }
 .couches.cetus-smoke { background-image: url("../img/textures/couches/cetus-smoke.jpg"); }
 .couches.chalk { background-image: url("../img/textures/couches/chalk.jpg"); }
 .couches.charlott { background-image: url("../img/textures/couches/charlott.jpg"); }
@@ -119,6 +121,7 @@
 .headboards.violet { background-image: url("../img/textures/headboards/violet.jpg"); }
 .headboards.white { background-image: url("../img/textures/headboards/white.jpg"); }
 .headboards.wine { background-image: url("../img/textures/headboards/wine.jpg"); }
+.panels.aged-french-oak { background-image: url("../img/textures/panels/aged-french-oak.jpg"); }
 .panels.bankers-gray { background-image: url("../img/textures/panels/bankers-gray.jpg"); }
 .panels.bronze-linen { background-image: url("../img/textures/panels/bronze-linen.jpg"); }
 .panels.brushed-steel { background-image: url("../img/textures/panels/brushed-steel.jpg"); }

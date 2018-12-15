@@ -6,8 +6,8 @@
             "description": "",
             "displayName": "Aged French Oak",
             "headboard": "doeskin",
-            "panel-a": "french-roast",
-            "panel-b": "sahara"
+            "panel-a": "aged-french-oak",
+            "panel-b": "aged-french-oak"
         },
         "bankers-gray": {
             "cabinet": "charcoal",
@@ -56,7 +56,7 @@
         },
         "candy-apple": {
             "cabinet": "charcoal",
-            "couch": "maxima-pewter",
+            "couch": "black",
             "description": "",
             "displayName": "Candy Apple",
             "headboard": "black",
@@ -866,6 +866,10 @@
             }
         },
         "panels": {
+            "aged-french-oak": {
+                "description": "Gives the appearance of a beautiful raw oiled plank of wood.",
+                "displayName": "Aged French Oak"
+            },
             "bankers-gray": {
                 "description": "Banker’s Gray is a rich textued gray color in a matte finish. This panel harkins images of the fine mens suit that grace board rooms, investment baks, and stock exchanges.",
                 "displayName": "Bankers Gray"
