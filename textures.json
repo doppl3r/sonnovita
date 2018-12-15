@@ -85,7 +85,7 @@
             "cabinet": "antique-white",
             "couch": "cetus-pebble",
             "description": "",
-            "displayName": "Cottage",
+            "displayName": "Driftcloth",
             "headboard": "parchment",
             "panel-a": "drift-cloth",
             "panel-b": "parchment"
@@ -160,7 +160,7 @@
             "displayName": "Melted Chocolate",
             "headboard": "godiva",
             "panel-a": "melted-chocolate",
-            "panel-b": "melted-chocolate"
+            "panel-b": "aged-french-oak"
         },
         "midnight-crok": {
             "cabinet": "black",
@@ -177,7 +177,7 @@
             "description": "",
             "displayName": "Orange Crush",
             "headboard": "black",
-            "panel-a": "candy-apple",
+            "panel-a": "orange-crush",
             "panel-b": "carbon"
         },
         "parchment": {
@@ -191,7 +191,7 @@
         },
         "pearl-stardust": {
             "cabinet": "rainier-white",
-            "couch": "brooklyn-fog",
+            "couch": "modern-gray",
             "description": "",
             "displayName": "Pearl Stardust",
             "headboard": "platinum",
@@ -205,7 +205,7 @@
             "displayName": "Pewter Rain",
             "headboard": "sky",
             "panel-a": "pewter-rain",
-            "panel-b": "stainless-twist"
+            "panel-b": "silver-mist"
         },
         "pure-snow": {
             "cabinet": "rainier-white",
@@ -349,11 +349,11 @@
             "displayName": "Sunset Brown",
             "headboard": "copper",
             "panel-a": "sunset-brown",
-            "panel-b": "sunset-brown"
+            "panel-b": "carbon"
         },
         "twisted-steel": {
             "cabinet": "silver-frost",
-            "couch": "eugene-slate",
+            "couch": "cetus-slate",
             "description": "",
             "displayName": "Twisted Steel",
             "headboard": "indigo",
@@ -927,7 +927,7 @@
                 "displayName": "Graphite Reign"
             },
             "gray-flannel": {
-                "description": "Gray Flannel is a rich smooth high gloss gray color. This panel reveals perfectly defined cross hatching similar to those found in the finest gray flanel suits.",
+                "description": "Gray Flannel is a rich smooth high gloss gray color. This panel reveals perfectly defined cross hatching similar to those found in the finest gray flannel suits.",
                 "displayName": "Gray Flannel"
             },
             "gray-mist": {
@@ -945,6 +945,10 @@
             "midnight-crok": {
                 "description": "Midnight Crok presents as a crocadile pattern with a patent leather sheen.",
                 "displayName": "Midnight Crok"
+            },
+            "orange-crush": {
+                "description": "",
+                "displayName": "Orange Crush"
             },
             "parchment": {
                 "description": "Parchment has a high gloss finish over a licht creamy white color with faint taup and grey lines that take the finish to a warmer tan feel.",
