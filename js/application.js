@@ -96,7 +96,7 @@ function updateSolutionPage(){
 			mouseDrag: false,
 			touchDrag: false,
 			dots: false,
-			nav: true
+			nav: false
 		});
 		$('.solution.storage .owl-carousel').owlCarousel({ autoplayTimeout: 1000, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
 		$('.solution .owl-carousel.tile-1').owlCarousel({ autoplayTimeout: 4500, animateOut: 'fadeOut', autoplay: true, items: 1, loop: true, mouseDrag: false, touchDrag: false, dots: false });
