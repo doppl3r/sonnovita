@@ -554,7 +554,7 @@ body {
         display: block;
         font-weight: 300;
         margin-bottom: 4px;
-        padding-bottom: 25%;
+        padding-bottom: 20%;
         position: relative;
         text-align: center;
         text-decoration: none;
@@ -838,6 +838,7 @@ body {
         background-image: url("../img/color-icon.png"); }
     body .btn#email-scheme {
       line-height: 30px;
+      margin-bottom: 4px;
       text-align: center;
       width: 100%; }
       body .btn#email-scheme .icon {
@@ -947,6 +948,8 @@ body {
       display: none; }
   body article.schemes h1, body article.schemes p {
     text-align: center; }
+  body article.create .palette {
+    margin-bottom: 4px; }
   body article.solution.storage {
     padding-top: 0; }
     body article.solution.storage > * {
