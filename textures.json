@@ -353,7 +353,7 @@
         },
         "twisted-steel": {
             "cabinet": "silver-frost",
-            "couch": "cetus-slate",
+            "couch": "eugene-slate",
             "description": "",
             "displayName": "Twisted Steel",
             "headboard": "indigo",
@@ -513,10 +513,6 @@
             "cetus-pebble": {
                 "description": "Cetus Pebble an earthy tope tone.",
                 "displayName": "Cetus Pebble"
-            },
-            "cetus-slate": {
-                "description": "Cetus Slate a deep dark gray that is just shy of black.",
-                "displayName": "Cetus Slate"
             },
             "cetus-smoke": {
                 "description": "Cedus Smoke a smokey brownish gray.",
