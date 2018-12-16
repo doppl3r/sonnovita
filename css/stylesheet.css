@@ -157,6 +157,8 @@ body {
         background-image: url("../img/home/home-6.jpg"); }
       body header.home .owl-carousel.home .owl-item div.slide-7 {
         background-image: url("../img/home/home-7.jpg"); }
+      body header.home .owl-carousel.home .owl-item div.slide-7-2 {
+        background-image: url("../img/home/home-7-2.jpg"); }
       body header.home .owl-carousel.home .owl-item div.slide-8 {
         background-image: url("../img/home/home-8.jpg"); }
       body header.home .owl-carousel.home .owl-item div.slide-9 {
@@ -180,6 +182,8 @@ body {
     /* new assets*/ }
     body header.solution .owl-carousel .owl-item > div.slide-1 {
       background-image: url("../img/home/home-1.jpg"); }
+    body header.solution .owl-carousel .owl-item > div.slide-1-2 {
+      background-image: url("../img/home/home-1-2.jpg"); }
     body header.solution .owl-carousel .owl-item > div.slide-2 {
       background-image: url("../img/home/home-2.jpg"); }
       body header.solution .owl-carousel .owl-item > div.slide-2 .caption {
