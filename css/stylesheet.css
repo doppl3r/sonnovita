@@ -428,9 +428,11 @@ body {
       body article.solution.storage .right-image {
         width: 50%; }
         body article.solution.storage .right-image .owl-carousel {
-          height: inherit; }
+          height: inherit;
+          min-height: 420px; }
           body article.solution.storage .right-image .owl-carousel * {
-            height: inherit; }
+            height: inherit;
+            min-height: inherit; }
           body article.solution.storage .right-image .owl-carousel .owl-item [class*="slide-"] {
             background-size: cover;
             background-position: center; }
@@ -957,7 +959,7 @@ body {
       min-height: initial;
       background-attachment: fixed; }
     body article.solution.storage .left-image, body article.solution.storage .right-image {
-      height: 50vh; }
+      /* height: 50vh;  */ }
   body article.solution.customize .patterns {
     width: 100%; }
   body article.solution.customize .text {
