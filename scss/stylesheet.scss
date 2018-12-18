@@ -169,16 +169,16 @@ body {
 
 						/* new assets*/
 						&.slide-1 { background-image: url('../img/home/home-1.jpg'); }
-						&.slide-1-2 { background-image: url('../img/home/home-1-2.jpg'); }
+						&.slide-1-2 { background-image: url('../img/home/home-1-2.jpg'); .caption { left: 40%; top: 50%; } }
 						&.slide-2 { background-image: url('../img/home/home-2.jpg'); .caption { left: 62%; top: 30%; } }
-						&.slide-3 { background-image: url('../img/home/home-3.jpg'); .caption { left: 40%; top: 50%; } }
+						&.slide-3 { background-image: url('../img/home/home-3.jpg'); }
 						&.slide-4 { background-image: url('../img/home/home-4.jpg'); }
 						&.slide-5 { background-image: url('../img/home/home-5.jpg'); }
 						&.slide-6 { background-image: url('../img/home/home-6.jpg'); .caption { left: 45%; top: 25%; } }
 						&.slide-7 { background-image: url('../img/home/home-7.jpg'); }
-						&.slide-7-2 { background-image: url('../img/home/home-7-2.jpg'); }
-						&.slide-8 { background-image: url('../img/home/home-8.jpg'); .caption { left: 70%; top: 20%; } }
-						&.slide-9 { background-image: url('../img/home/home-9.jpg'); .caption { left: 40%; top: 20%; } }
+						&.slide-7-2 { background-image: url('../img/home/home-7-2.jpg'); .caption { left: 45%; top: 20%; } }
+						&.slide-8 { background-image: url('../img/home/home-8.jpg'); }
+						&.slide-9 { background-image: url('../img/home/home-9.jpg'); .caption { left: 20%; top: 20%; } }
 						&.slide-10 { background-image: url('../img/home/home-10.jpg'); }
 
 						.caption {

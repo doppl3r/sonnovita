@@ -184,6 +184,9 @@ body {
       background-image: url("../img/home/home-1.jpg"); }
     body header.solution .owl-carousel .owl-item > div.slide-1-2 {
       background-image: url("../img/home/home-1-2.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-1-2 .caption {
+        left: 40%;
+        top: 50%; }
     body header.solution .owl-carousel .owl-item > div.slide-2 {
       background-image: url("../img/home/home-2.jpg"); }
       body header.solution .owl-carousel .owl-item > div.slide-2 .caption {
@@ -191,9 +194,6 @@ body {
         top: 30%; }
     body header.solution .owl-carousel .owl-item > div.slide-3 {
       background-image: url("../img/home/home-3.jpg"); }
-      body header.solution .owl-carousel .owl-item > div.slide-3 .caption {
-        left: 40%;
-        top: 50%; }
     body header.solution .owl-carousel .owl-item > div.slide-4 {
       background-image: url("../img/home/home-4.jpg"); }
     body header.solution .owl-carousel .owl-item > div.slide-5 {
@@ -207,15 +207,15 @@ body {
       background-image: url("../img/home/home-7.jpg"); }
     body header.solution .owl-carousel .owl-item > div.slide-7-2 {
       background-image: url("../img/home/home-7-2.jpg"); }
+      body header.solution .owl-carousel .owl-item > div.slide-7-2 .caption {
+        left: 45%;
+        top: 20%; }
     body header.solution .owl-carousel .owl-item > div.slide-8 {
       background-image: url("../img/home/home-8.jpg"); }
-      body header.solution .owl-carousel .owl-item > div.slide-8 .caption {
-        left: 70%;
-        top: 20%; }
     body header.solution .owl-carousel .owl-item > div.slide-9 {
       background-image: url("../img/home/home-9.jpg"); }
       body header.solution .owl-carousel .owl-item > div.slide-9 .caption {
-        left: 40%;
+        left: 20%;
         top: 20%; }
     body header.solution .owl-carousel .owl-item > div.slide-10 {
       background-image: url("../img/home/home-10.jpg"); }
