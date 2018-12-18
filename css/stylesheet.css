@@ -958,8 +958,6 @@ body {
       width: 100% !important;
       min-height: initial;
       background-attachment: fixed; }
-    body article.solution.storage .left-image, body article.solution.storage .right-image {
-      /* height: 50vh;  */ }
   body article.solution.customize .patterns {
     width: 100%; }
   body article.solution.customize .text {
