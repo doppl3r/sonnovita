@@ -411,6 +411,10 @@ body {
       max-width: 600px;
       margin: auto;
       padding: 0px 12px 24px; }
+      body article.solution p.larger {
+        font-size: 22px; }
+      body article.solution p.no-padding {
+        padding: 0; }
     body article.solution.storage {
       display: flex;
       flex-wrap: wrap;
