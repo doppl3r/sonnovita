@@ -1039,7 +1039,7 @@ body {
 			}
 			&.solution {
 				&.storage {
-					> * { width: 100% !important; min-height: initial; background-attachment: fixed; }
+					> * { width: 100% !important; background-attachment: fixed; }
 					padding-top: 0;
 				}
 				&.customize {
