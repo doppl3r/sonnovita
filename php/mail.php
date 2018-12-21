@@ -24,15 +24,15 @@
                     '<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>'.
                     '<style>'.
                         'p { color: #fff; }'.
-                        '.section { background-color: #37312d; color: #fff; margin: auto; max-width: 100%; padding: 128px 24px; text-align: center; width: 480px; }'.
+                        '.section { background-color: #37312d; color: #fff; margin: auto; max-width: 100%; padding: 128px 64px; text-align: center; width: 480px; }'.
                         '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff !important; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
                     '</style>'.
                 '</head>'.
                 '<div class="section">'.
                     '<p>Thank you for using the Sonnovita color editor. Your custom color scheme is linked below.</p>'.
-                    '<p><strong>Customer:</strong> '.$_REQUEST['name'].'</p>'.
+                    /* '<p><strong>Customer:</strong> '.$_REQUEST['name'].'</p>'.
                     '<p><strong>Phone Number:</strong> '.$_REQUEST['phone'].'</p>'.
-                    '<p><strong>Email:</strong> '.$_REQUEST['email'].'</p>'.
+                    '<p><strong>Email:</strong> '.$_REQUEST['email'].'</p>'. */
                     '<a class="btn" href="'.$_REQUEST['url'].'">View Scheme</a>'.
                 '</div>'.
                 '<head>'.
