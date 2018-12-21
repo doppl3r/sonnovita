@@ -15,7 +15,7 @@
         $mail = new PHPMailer();
         $mail->IsHTML(true);
         $mail->setFrom('matt@copperplank.com','Sonnovita');
-        $mail->addAddress($_REQUEST['email'], $_REQUEST['index']);
+        $mail->addAddress($_REQUEST['email']);
         $mail->addAddress('jacob@dopplercreative.com','Sonnovita Custom Color Palette');
         $mail->Subject = 'Sonnovita Custom Color Solution';
         $message = 
@@ -24,22 +24,20 @@
                     '<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>'.
                     '<style>'.
                         'p { color: #fff; }'.
-                        '.section { background-color: #37312d; color: #fff; margin: auto; max-width: 100%; padding: 24px; text-align: center; width: 480px; }'.
-                        '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
+                        '.section { background-color: #37312d; color: #fff; margin: auto; max-width: 100%; padding: 128px 24px; text-align: center; width: 480px; }'.
+                        '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff !important; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
                     '</style>'.
                 '</head>'.
                 '<div class="section">'.
                     '<p><strong>Customer:</strong> '.$_REQUEST['name'].'</p>'.
-                    '<p><strong>Firm Name:</strong> '.$_REQUEST['firm'].'</p>'.
-                    '<p><strong>Project Name:</strong> '.$_REQUEST['project'].'</p>'.
                     '<p><strong>Phone Number:</strong> '.$_REQUEST['phone'].'</p>'.
-                    '<p><strong>Your custom color palette:</strong> </p>'.
-                    '<a class="btn" href="'.$_REQUEST['index'].'">'.$_REQUEST['index'].'</a>'.
+                    '<p><strong>Email:</strong> '.$_REQUEST['email'].'</p>'.
+                    '<a class="btn" href="'.$_REQUEST['url'].'">View Scheme</a>'.
                 '</div>'.
                 '<head>'.
             '<html>';
         $mail->msgHTML($message);
-        $mail->AltBody = 'Unique custom palette: '+$_REQUEST['index'];
+        $mail->AltBody = 'Unique custom palette: '+$_REQUEST['url'];
 
         //send the message, check for errors
         if (!$mail->send()) {
@@ -48,7 +46,7 @@
         else {
             echo 
             '<script>
-                window.location = "../'.$_REQUEST['index'].'";
+                window.location = "'.$_REQUEST['url'].'";
                 alert("Your unique color was successfully delivered! Check your email for additional details!");
             </script>';
         }

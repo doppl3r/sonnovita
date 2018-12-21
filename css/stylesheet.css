@@ -886,13 +886,36 @@ body {
         bottom: 0;
         left: 0;
         z-index: 1; }
+    body .popup.email .popup-content {
+      background-color: #37312d;
+      box-sizing: border-box;
+      padding: 24px; }
+      body .popup.email .popup-content label {
+        display: block;
+        text-align: center; }
+      body .popup.email .popup-content input {
+        color: #fff;
+        background-color: #55504c;
+        border-radius: 999px;
+        border-width: 0;
+        box-sizing: border-box;
+        display: block;
+        line-height: 24px;
+        margin: 0 0 12px;
+        padding: 12px;
+        text-align: center;
+        width: 100%; }
+      body .popup.email .popup-content .disclaimer {
+        display: block;
+        text-align: center; }
     body .popup .popup-content {
-      width: 480px;
+      color: #fff;
       max-width: 100%;
       margin: auto;
       padding: 0 12px;
       position: relative;
       text-align: right;
+      width: 480px;
       z-index: 1; }
       body .popup .popup-content .image {
         padding-bottom: 50vh;

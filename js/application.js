@@ -421,6 +421,7 @@ function updateEmailLink(){
 	window.history.pushState({}, null, href);
 	href = root + href;
 	$('#email-scheme').attr('href', 'mailto:?subject=Sonnovita Color Scheme&body=Sonnovita Color Scheme:%0D%0A%0D%0A'+href.replaceAll('&','%26'));
+	$('.popup.email #url').attr('value', href);
 }
 
 /* tools */
