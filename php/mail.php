@@ -24,7 +24,7 @@
                     '<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>'.
                     '<style>'.
                         'p { color: #fff; }'.
-                        '.section { background-color: #37312d; color: #fff; margin: auto; max-width: 100%; padding: 128px 64px; text-align: center; width: 480px; }'.
+                        '.section { background-color: #37312d; box-sizing: border-box; color: #fff; margin: auto; max-width: 100%; padding: 128px 64px; text-align: center; width: 480px; }'.
                         '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff !important; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
                     '</style>'.
                 '</head>'.
