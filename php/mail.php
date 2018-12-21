@@ -43,12 +43,12 @@
                         '<img class="texture" src="'.$img_url.'/cabinets/'.$query['cabinet'].'.jpg" width="64px" height="64px" />'.
                         '<img class="texture" src="'.$img_url.'/headboards/'.$query['headboard'].'.jpg" width="64px" height="64px" />'.
                     '</div>'.
-                    '<a class="btn" href="'.$_REQUEST['url'].'">View Scheme</a>'.
+                    '<a class="btn" href="'.$url.'">View Scheme</a>'.
                 '</div>'.
                 '<head>'.
             '<html>';
         $mail->msgHTML($message);
-        $mail->AltBody = 'Unique custom palette: '+$_REQUEST['url'];
+        $mail->AltBody = 'Unique custom palette: '+$url;
 
         //send the message, check for errors
         if (!$mail->send()) {
@@ -57,7 +57,7 @@
         else {
             echo 
             '<script>
-                window.location = "'.$_REQUEST['url'].'";
+                window.location = "'.$url.'";
                 alert("Success! Your email will arrive shortly");
             </script>';
         }
