@@ -832,6 +832,7 @@ body {
     border-width: 0px;
     box-sizing: border-box;
     color: #fff;
+    cursor: pointer;
     display: inline-block;
     font-size: 18px;
     padding: 18px 24px;
