@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Sonnovita</title>
-    </head>
-    <body>
-    <?php
-        //initialize mailer object
-        require 'class.phpmailer.php';
+<?php
+    // Import PHPMailer classes into the global namespace
+    require("./PHPMailer/PHPMailer.php");
+    use PHPMailer\PHPMailer\PHPMailer;
+    $mail = new PHPMailer(true);
 
+    try {
         //parse url into image src urls
         $url = $_REQUEST['url'];
         $url_array = parse_url($url);
@@ -47,20 +43,17 @@
                 '</div>'.
                 '<head>'.
             '<html>';
+
         $mail->msgHTML($message);
         $mail->AltBody = 'Unique custom palette: '+$url;
+        $mail->send();
 
-        //send the message, check for errors
-        if (!$mail->send()) {
-            echo "Mailer Error: " . $mail->ErrorInfo;
-        } 
-        else {
-            echo 
+        echo 
             '<script>
                 window.location = "'.$url.'";
                 alert("Success! Your email will arrive shortly");
             </script>';
-        }
-    ?>
-    </body>
-</html>
+    }
+    catch(Exception $e){
+        echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+    }
