@@ -1,0 +1,19 @@
+<form class="popup email" name="myForm" onsubmit="return validateForm()" enctype="multipart/form-data" action="/php/mail.php" method="POST" aria-hidden="true">
+    <div class="popup-content">
+        <label for="index" style="opacity: 0; position: absolute;">url</label>
+        <input style="display: none;" id="url" type="text" name="url"/>
+        <label for="name">name</label>
+        <input type="text" name="name"/>
+        <label for="firm">firm</label>
+        <input type="text" name="firm"/>
+        <label for="project">project</label>
+        <input type="text" name="project"/>
+        <label for="phone">phone</label>
+        <input type="tel" name="phone"/>
+        <label for="email">email</label>
+        <input type="email" name="email"/>
+        <span class="disclaimer">Please note the color you chose may vary slightly on different devices but rest assured we will match your desired color.</span>
+        <a class="btn cancel" href="#">cancel</a>
+        <button id="submitbutton" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

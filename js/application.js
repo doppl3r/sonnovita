@@ -63,11 +63,13 @@ function updateCreatePage(){
 	$('#main-content').load('./includes/page-create.html', function(){
 		//Import texture data from JSON file
 		$.getJSON('./textures.json', function(data){
-			window.textureData = data;
-			window.parsedURL = parseURL();
-			updateEmailLink();
-			updateScheme();
-			initControls();
+			$('#form').load('./includes/form.html', function(){
+				window.textureData = data;
+				window.parsedURL = parseURL();
+				updateEmailLink();
+				updateScheme();
+				initControls();
+			});
 		});
 	});
 }
@@ -232,6 +234,21 @@ function createURL(panel_a, panel_b, couch, cabinet, headboard, scheme){
 }
 
 function initControls(){
+	//add listener for email button
+	$('#email-scheme').on('click', function(e){
+		e.preventDefault(); //prevent hashtag links
+		var target = '.popup.email';
+        var attr = 'aria-hidden';
+        var toggle = $(target).attr(attr) == "true" ? true : false; //switch toggle state
+		$(target).attr(attr, !toggle);
+
+		//add listeners for popup cancel actions
+		$('.popup .cancel').on('click', function(e){
+			e.preventDefault();
+			$(this).closest(target).attr('aria-hidden', true);
+		});
+	});
+	
 	//add listener for 'customize scheme' button
 	$('#customize-scheme').on('click', function(e){
 		e.preventDefault();
@@ -271,7 +288,7 @@ function initControls(){
 				$('.controls .carousels .owl-carousel').owlCarousel({ items: 1, loop: false, dots: false, nav: true, rewind: true });
 				//append empty popup
 				$('body').append(
-					'<div id="popup" aria-hidden="true">'+
+					'<div class="popup texture" aria-hidden="true">'+
 						'<div class="popup-content">'+
 							'<div class="image"></div>'+
 							'<div class="text"></div>'+
@@ -289,24 +306,24 @@ function initControls(){
 					var description = t[category][name]['description'];
 
 					//update popup content
-					$('#popup .image').attr('class', 'image texture '+category+' '+name);
-					$('#popup .image').attr('for', name);
-					$('#popup .text').text(description);
-					$('#popup').attr('aria-hidden', false);
+					$('.popup.texture .image').attr('class', 'image texture '+category+' '+name);
+					$('.popup.texture .image').attr('for', name);
+					$('.popup.texture .text').text(description);
+					$('.popup.texture').attr('aria-hidden', false);
 				});
 
 				//add listeners for popup cancel actions
-				$('#popup .cancel').on('click', function(e){
+				$('.popup .cancel').on('click', function(e){
 					e.preventDefault();
-					$(this).closest('#popup').attr('aria-hidden', true);
+					$(this).closest('.popup.texture').attr('aria-hidden', true);
 				});
 				
 				//add listeners for popup select actions
-				$('#popup .select').on('click', function(e){
+				$('.popup.texture .select').on('click', function(e){
 					e.preventDefault();
 					
 					//update selected textures
-					var name = $('#popup .image').attr('for');
+					var name = $('.popup.texture .image').attr('for');
 					var group = $('.categories a:visible').attr('id').replace('-option','');
 					var carousel = $('.categories a:visible').attr('for');
 					var category = carousel.replace('-options','');
@@ -315,7 +332,7 @@ function initControls(){
 					$('.palette [data-group="' + group + '"]').attr('data-selected', true);
 					$('.palette [data-group="' + group + '"] .title').text(t[category][name]['displayName']);
 					$('#' + carousel + ' [name="' + name + '"]').attr('data-selected', true);
-					$(this).closest('#popup').attr('aria-hidden', true);
+					$(this).closest('.popup.texture').attr('aria-hidden', true);
 				});
 			});
 
@@ -371,7 +388,7 @@ function initControls(){
 			$('.options #accept-option').on('click', function(e){
 				e.preventDefault();
 				var group = $('.categories a:visible').attr('id').replace('-option','');
-				var name = $('#popup .image').attr('for');
+				var name = $('.popup.texture .image').attr('for');
 				window.parsedURL[group] = name;
 				window.parsedURL['scheme'] = "custom";
 

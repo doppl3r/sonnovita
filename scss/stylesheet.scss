@@ -844,6 +844,7 @@ body {
 	.btn {
 		background-color: #55504c;
 		border-radius: 999px;
+		border-width: 0px;
 		box-sizing: border-box;
 		color: #fff;
 		display: inline-block;
@@ -881,16 +882,18 @@ body {
 		}
 	}
 
-	#popup {
+	.popup {
 		display: none;
 
 		&[aria-hidden="false"]{
-			display: flex;
-			position: fixed;
-			top: 0;
-			right: 0;
+			align-items: center;
 			bottom: 0;
+			display: flex;
+			justify-content: center;
 			left: 0;
+			position: fixed;
+			right: 0;
+			top: 0;
 			z-index: 1;
 
 			&:before { 
