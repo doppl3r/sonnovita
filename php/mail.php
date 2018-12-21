@@ -15,8 +15,8 @@
         $mail = new PHPMailer();
         $mail->IsHTML(true);
         $mail->setFrom('matt@copperplank.com','Sonnovita');
+        //$mail->addAddress('matt@copperplank.com');
         $mail->addAddress($_REQUEST['email']);
-        $mail->addAddress('jacob@dopplercreative.com','Sonnovita Custom Color Palette');
         $mail->Subject = 'Sonnovita Custom Color Solution';
         $message = 
             '<html>'.
@@ -29,6 +29,7 @@
                     '</style>'.
                 '</head>'.
                 '<div class="section">'.
+                    '<p>Thank you for using the Sonnovita color editor. Your custom color scheme is linked below.</p>'.
                     '<p><strong>Customer:</strong> '.$_REQUEST['name'].'</p>'.
                     '<p><strong>Phone Number:</strong> '.$_REQUEST['phone'].'</p>'.
                     '<p><strong>Email:</strong> '.$_REQUEST['email'].'</p>'.
