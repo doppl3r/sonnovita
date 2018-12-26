@@ -15,8 +15,9 @@
         $mail = new PHPMailer();
         $mail->IsHTML(true);
         $mail->setFrom('matt@copperplank.com','Sonnovita');
-        //$mail->addAddress('matt@copperplank.com');
         $mail->addAddress($_REQUEST['email']);
+        //$mail->addCC('matt@copperplank.com', 'Matt Stanton');
+        $mail->addCC('deben3@gmail.com', 'Jacob DeBenedetto');
         $mail->Subject = 'Sonnovita Custom Color #'.getdate()[0];
         $message = 
             '<html>'.
