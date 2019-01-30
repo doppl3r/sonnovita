@@ -9,6 +9,7 @@
         $url = $_REQUEST['url'];
         $url_array = parse_url($url);
         $img_url = $url_array['scheme'].'://'.$url_array['host'].'/img/textures';
+        $base_url = $url_array['host'].$url_array['path'].$url_array['query'];
         parse_str($url_array['query'], $query);
 
         //Create a new PHPMailer instance
@@ -29,20 +30,18 @@
                         '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff !important; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
                         '.grid { display: flex; max-width: 240px; margin: auto; padding: 12px 0 24px; }'.
                         '.texture { display: inline-block; width: 48px; height: 48px; background-size: cover; background-position: center; }'.
-                        '.link { font-size: 10px; padding: 36px 12px 12px; margin: 0; color: #55504c; font-style: italic; }'.
                     '</style>'.
                 '</head>'.
                 '<div class="section">'.
                     '<p>Thank you for using the Sonnovita color editor. Your custom color scheme is linked below.</p>'.
                     '<div class="grid">'.
-                        '<img class="texture" src="'.$img_url.'/panels/'.$query['panel-a'].'.jpg" width="64px" height="64px" />'.
-                        '<img class="texture" src="'.$img_url.'/panels/'.$query['panel-b'].'.jpg" width="64px" height="64px" />'.
-                        '<img class="texture" src="'.$img_url.'/couches/'.$query['couch'].'.jpg" width="64px" height="64px" />'.
-                        '<img class="texture" src="'.$img_url.'/cabinets/'.$query['cabinet'].'.jpg" width="64px" height="64px" />'.
-                        '<img class="texture" src="'.$img_url.'/headboards/'.$query['headboard'].'.jpg" width="64px" height="64px" />'.
+                        '<img alt="panels '.$query['panel-a'].'" class="texture" src="'.$img_url.'/panels/'.$query['panel-a'].'.jpg" width="64px" height="64px" />'.
+                        '<img alt="panels '.$query['panel-b'].'" class="texture" src="'.$img_url.'/panels/'.$query['panel-b'].'.jpg" width="64px" height="64px" />'.
+                        '<img alt="couches '.$query['couch'].'" class="texture" src="'.$img_url.'/couches/'.$query['couch'].'.jpg" width="64px" height="64px" />'.
+                        '<img alt="cabinets '.$query['cabinet'].'" class="texture" src="'.$img_url.'/cabinets/'.$query['cabinet'].'.jpg" width="64px" height="64px" />'.
+                        '<img alt="headboards '.$query['headboard'].'" class="texture" src="'.$img_url.'/headboards/'.$query['headboard'].'.jpg" width="64px" height="64px" />'.
                     '</div>'.
                     '<a class="btn" href="'.$url.'">View Scheme</a>'.
-                    '<p class="link">Link not working? Copy this url into your address bar:<br>'.$url.'</p>'.
                 '</div>'.
                 '<head>'.
             '<html>';
