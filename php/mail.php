@@ -29,6 +29,7 @@
                         '.btn { background-color: #55504c; border-radius: 999px; box-sizing: border-box; color: #fff !important; display: inline-block; font-size: 18px; padding: 18px 24px; text-decoration: none; }'.
                         '.grid { display: flex; max-width: 240px; margin: auto; padding: 12px 0 24px; }'.
                         '.texture { display: inline-block; width: 48px; height: 48px; background-size: cover; background-position: center; }'.
+                        '.link { font-size: 10px; padding: 36px 12px 12px; margin: 0; color: #55504c; font-style: italic; }'.
                     '</style>'.
                 '</head>'.
                 '<div class="section">'.
@@ -41,6 +42,7 @@
                         '<img class="texture" src="'.$img_url.'/headboards/'.$query['headboard'].'.jpg" width="64px" height="64px" />'.
                     '</div>'.
                     '<a class="btn" href="'.$url.'">View Scheme</a>'.
+                    '<p class="link">Link not working? Copy this url into your address bar:<br>'.$url.'</p>'.
                 '</div>'.
                 '<head>'.
             '<html>';
