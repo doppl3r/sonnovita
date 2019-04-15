@@ -1,6 +1,6 @@
 # Sonnovita Furniture
 
-Under development
+Live URL: http://www.sonnovita.com/
 
 ## Compile Texture Stylesheet
 - Open Terminal/CMD from root directory
